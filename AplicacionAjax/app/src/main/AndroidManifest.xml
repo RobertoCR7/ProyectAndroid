@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.herprogramacion.ajax">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lele"
+        android:label="@string/app"
+        android:theme="@style/Theme.RicoPaRico">
+        <activity
+            android:name=".ui.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ConNavigationDrawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ActividadConfiguracion"
+            android:label="@string/titulo_actividad_configuracion"
+            android:parentActivityName=".ui.ActividadPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.herprogramacion.ajax.ui.ActividadPrincipal" />
+        </activity>
+        <!-- Actividades del paquete ui -->
+        <activity android:name=".ui.ActividadPrincipal"></activity>
+        <activity android:name=".ui.AyudaActivity" />
+        <activity android:name=".ui.ActividadVideo"></activity>
+        <activity android:name=".ui.PrivilegiosActivity"></activity>
+        <activity android:name=".ui.CapitulosActivity"></activity>
+        <activity android:name=".ui.TabsActivity"></activity>
+        <activity android:name=".ui.ActividadMaterial"></activity>
+        <activity android:name=".ui.ActividadPromocion"></activity>
+        <activity android:name=".ui.ActividadAudio"></activity>
+        <activity android:name=".ui.ActividadCanvas"></activity>
+        <!-- Actividades del paquete ui -->
+
+        <!-- Actividades del paquete login -->
+        <activity android:name=".login.ReadComments"></activity>
+        <!-- Actividades del paquete login -->
+
+        <!-- Actividades del paquete quiz -->
+        <activity android:name=".quiz.LoginInterno"></activity>
+        <activity android:name=".quiz.FormularioInterno"></activity>
+        <activity android:name=".quiz.PreguntaActivity"></activity>
+        <activity android:name=".quiz.ResultadoActivity"></activity>
+        <!-- Actividades del paquete quiz -->
+
+        <!-- Actividades del paquete correo -->
+        <activity android:name=".correo.EnviarCorreoActivity"></activity>
+        <!-- Actividades del paquete correo -->
+
+        <!-- Actividades del paquete grafica -->
+        <activity android:name=".grafica.GraficoActivityDos"></activity>
+        <!-- Actividades del paquete cgrafica -->
+
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

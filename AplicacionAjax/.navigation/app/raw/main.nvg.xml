@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.ajax.ui.ActividadConfiguracion"/>
+      <point      
+        x = "2160"      
+        y = "88"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.ajax.LogoActivity"/>
+      <point      
+        x = "8"      
+        y = "28"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.ajax.database.Display"/>
+      <point      
+        x = "-140"      
+        y = "320"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.ajax.database.Ingresar"/>
+      <point      
+        x = "1540"      
+        y = "348"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.ajax.login.Login"/>
+      <point      
+        x = "692"      
+        y = "332"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.ajax.ui.ActividadPrincipal"/>
+      <point      
+        x = "988"      
+        y = "-28"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.ajax.ui.AyudaActivity"/>
+      <point      
+        x = "3268"      
+        y = "32"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

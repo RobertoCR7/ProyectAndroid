@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_header_seccion_inicio">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:background="@drawable/ajaxx"
+        android:layout_below="@+id/txv_usuario"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Bienvenida"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/btn_inicio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_usuario"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_inicio"
+        android:text="Ir a inicio"
+        android:background="@color/accentColor"
+        android:textColor="@color/background_footer_item_grid_categorias"
+        android:onClick="inicio"
+        android:layout_marginBottom="92dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

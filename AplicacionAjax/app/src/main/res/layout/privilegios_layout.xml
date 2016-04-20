@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_header_seccion_inicio">
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@drawable/ajaxx"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Privilegios_introduccion"
+        android:id="@+id/textView5"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privilegios"
+        android:id="@+id/textView4"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/accentColor"
+        android:textColor="@color/background_footer_item_grid_categorias"
+        android:text="Registrarte"
+        android:id="@+id/btn_privilegios"
+        android:gravity="end"
+        android:onClick="introduccionPrivilegios"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_izquierdo_cabecera"
+    android:background="@drawable/chido"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!-- Logo AJAX -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:rowCount="2">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etiqueta_carrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/etiqueta_universidad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/texto_total_carrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Diviertete y Aprende"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
