@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro2"
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imv_help"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ayuda"
+        android:textAlignment="center"
+        android:id="@+id/txv_ayuda"
+        android:textSize="20pt"
+        android:layout_below="@id/imv_help"
+        android:textColor="@color/claro"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduccion"
+        android:id="@+id/txv_desc"
+        android:textSize="18sp"
+        android:textColor="@color/azul"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/btn_link1"
+        android:text="Juego de XML"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/btn_infor"
+        android:text="Informacion del desarrollador"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/btn_conf"
+        android:text="Configuracion"
+        />
+
+</LinearLayout>

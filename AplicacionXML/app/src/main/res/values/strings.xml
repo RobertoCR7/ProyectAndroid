@@ -1,0 +1,422 @@
+<resources>
+    <string name="app_name">Learn XML</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="acceder">Acceder</string>
+    <string name="cancelar">cancelar</string>
+
+    <string name="cuenta">Tu cuenta</string>
+    <string name="error_autenticar">Usuario y/o contrasenia incorrecto(s)</string>
+    <string name="login_valido">roberto</string>
+    <string name="clave_valida">123</string>
+    <string name="tab_info">Información</string>
+    <string name="tab_video">Vídeo</string>
+    <string name="tab_examen">Examen</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="introduccion">En este apartado te brindamos ayuda \n Recordandote que puedes navegar por \n la aplicacion con tan solo dar clic \n en las pestañas y asi dar con el \n contenido que se te puede mostrar, \n en la parte donde se te muestran los \n subtemas, te mostramos un menu donde \n aparece un video de introduccion al \n curso para que quede mas entendida \n la navegacion por el curso, recuerda \n -Debes de contar con tu cuenta para asi \n poder acceder.\n -Dar clic en los botones o immagenes para\n que te lleven a otra ventana\n -Los menus que se presentan cuenta con \n informacion importante.</string>
+    <string name="Audio">Audios</string>
+
+    <string name="intro">Introduccion: XML</string>
+    <string name="uno">Temario2:Estudiando XML</string>
+    <string name="dos">Temario3:Manipulacion XML</string>
+
+
+    <string name="cuatro">Temario 4: Esquemas XML</string>
+    <string name="Cinco">:Practicas de codigo</string>
+    <string name="Desarrollador">Desarrollador"</string>
+
+    <string name="Introduccion">XML se está convirtiendo en el formato de representación estándar para intercambio y verificación de datos, configuración, interacción RDBMS, invocación de procedimientos remotos y representación de procesos de transformación. En todos estos campos el lenguaje Java proporciona las interfaces y herramientas de programación necesarias para gobernar los mecanismos subyacentes. Proporciona la referencia de las API estándar y muestra ejemplos y técnicas que necesitan los programadores de Java con relativa experiencia para conocer y desarrollar las aplicaciones XML.</string>
+    <string name="login">Login</string>
+    <string name="cuestionario">Entrar Cuestionario del Curso</string>
+    <string name="informacion">Información XML</string>
+    <string name="manual">Login Manual-XML</string>
+    <string name="registrar">Registrate!</string>
+    <string name="accede">Ya tienes cuenta! Accede!</string>
+    <string name="stop">Stop</string>
+    <string name="sonido_stop">Start</string>
+    <string name="examen">Examen</string>
+    <string name="temas_xml">Temas XML</string>
+    <string name="registro">Registro</string>
+    <string name="menu_settings">kuisDos</string>
+    <string name="menu_uno">Menu item uno</string>
+    <string name="menu_dos">Menu item dos</string>
+    <string name="menu_3">Menu item tres</string>
+    <string name="abrir">Abri</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="next">Next</string>
+
+    <string name="unoss">Informacionsdtr;lejgdgjtdfgsfgdio</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="info_desarrollador">•UNIVERSIDAD TECNOLOGICA DEL NORTE DE GUANAJUATO\n\n+
+        •Roberto Efrain Nuñez Estrada\n
+        •Dolores Hidalgo Guanajuato\n
+        •Facebook: Roberto Nuñzz Estrada \n
+        •Calle: Galeana 1 A Rio Laja \n
+        •Tecnico en Sistemas Informaticos\n
+        •Grupo:GSI-1151 \n\n
+        •Visión \n
+        Informar Acerca de la utlizacion de XML para implementar tu conocimiento acerca de informacion relebante e importante\n\n
+        https://es.wikipedia.org/wiki/JAXB cueva@lsi.uniovi.es www.di.uniovi.es/~cueva Juan Manuel Cueva Lovelle\n\n
+
+        http://relaxng.org/ http://www.w3.org/XML/Schema</string>
+
+    <string name="subtemaUno">
+                                        "XML se está convirtiendo en el\n"
+                                        "formato de representación está-\n"
+                                        "ndar para intercambio y verifi-\n"
+                                        "cación de datos, configuración,\n"
+                                        "interacción RDBMS,invocación de\n"
+                                        "procedimientos remotos y repre-\n"
+                                        "sentación de procesos de\n"
+                                        "transformación.\n"
+                                        "    En todos estos campos el lenguaje\n"
+                                        "    Java proporciona las interfaces y\n"
+                                        "    herramientas de programación\n"
+                                        "    necesarias para gobernar los\n"
+                                        "    mecanismos subyacentes.\n"
+                                        "    Proporciona la referencia de las API\n"
+                                        "    estándar y muestra ejemplos\n"
+                                        "    y técnicas que necesitan los programadores\n"
+                                        "    de Java con relativa experiencia para conocer\n"
+                                        "    y desarrollar las aplicaciones XML.\n"
+                                        "    El objetivo de Java y XML es proporcionar\n"
+                                        "    una herramienta de referencia rápida a los\n"
+                                        "    programadores de Java que\n"
+                                        "    trabajen con XML sobre las interfaces,\n"
+                                        "    herramientas y técnicas de programación que\n"
+                                        "    precisan utilizar en el curso\n"
+                                        "    de la escritura de aplicaciones adaptadas al XML";
+    </string>
+    
+    <string name="subtemaDos">
+                                *Lenguaje de marcas,\"+\n" +
+                                *Extensible: Etiquetas no predefinidas,\"+\n" +
+                                *Diseñado para describir datos,\"+\n" +
+                                *Puede ser estructurado si se usan DTOs para  validar contenido y sintaxis\",\n" +
+                                "\n" +
+                                XML es un metalenguage\"+\n" +
+                                Ojo, XML no es un lenguaje de etiquetas,\"\n" +
+                                sino un conjunto de reglas para definir\"\n" +
+                                lenguajes de etiquetas (como XHTML).\"\n" +
+                                XML me dice como crear mis propias\"\n" +
+                                etiquetas.\","
+
+    </string>
+    <string name="subtemaTres">
+                                 "XML   trabaja en lo que son " +
+                                "Frameworks de desarrollo (Struts, Spring,\n" +
+                                "etc..)\n" +
+                                "OpenOffice.\n" +
+                                "Configuración de aplicaciones: Tomcat.\n" +
+                                "Estándares de contenidos en e-Learning.\n" +
+                                "Servicios web.\n" +
+                                "Definición de interfaces gráficas (XUL).\n" +
+                                "Sistemas de publicación de contenidos.\n" +
+                                "Bases de datos.\n"+
+                                "Xml lo trabajan lo que son los programadores.\n";
+    </string>
+    <string name="subtemaCuatro">
+                               6 Reglas sintácticas para los terminos en xml\n\n" +
+                                Una raiz.\n" +
+                                Anidación de las etiquetas.\n" +
+                                Sensible a mayúsculas.\n" +
+                                Atributos no vacíos y entrecomillados.\n" +
+                                Reglas para los nombres de etiquetas y\n" +
+                                atributos."
+    </string>
+    <string name="subtemaCinco">
+                                Diferencias entre una BBDD y
+                                "XML.\n" +
+                                "Una BBDD es binaria, XML es texto plano.\n" +
+                                "Una BBDD, por ejemplo una tabla, es muy\n" +
+                                "dependiente de SGBD, un XML no.\n" +
+                                "En una tabla no importa el orden, en XML\n" +
+                                "sí.\n" +
+                                "BBDD estructura relacional, XML\n" +
+                                "estructura jerárquica.
+    </string>
+    <string name="subtemaSeis">
+                                Caracteres no permitidos
+                                limitaciones \n"
+                                CDATA\n"
+                                &quot; \n
+                                &apos; \n"
+                                &gt; \n
+                                &lt;  \n
+                                &amp;
+    </string>
+    <string name="subtemaSiete">
+                                Tecnologías para trabajar con
+                                "XML." +
+                                "API SAX.\n" +
+                                "API DOM.\n" +
+                                "Otros APIs\n" +
+                                "Bindings.\n" +
+                                "Serializadores.\n" +
+                                "XSL y XSLT.\n" +
+                                "XPath\n" +
+                                "XQuery.\n\n" +
+
+                                "Ventajas de XML\n\n" +
+                                "• Es un formato estructurado\n" +
+                                "• Contiene información y meta-información\n" +
+                                "• Ha sido diseñado específicamente para Internet"
+    </string>
+    <string name="subtemaOcho">
+                                 "Simple API for XML\n\n" +
+                                "Orientado a eventos.\n" +
+                                "Muy detallado.\n" +
+                                "No construye nada en memoria.\n" +
+                                "En tiempo real.\n\n" +
+
+                                "Sin estado\n" +
+                                "Simple API for XML. Ventajas\n" +
+                                "Sencillo.\n" +
+                                "Consume poca memoria."
+    </string>
+    <string name="subtemaNueve">
+                                Simple API for XML Inconvenientes
+                                "Complejo para documentos complejos.\n" +
+                                "Más lento.\n" +
+                                "No hay vuelta atrás.\n" +
+                                "Poco reutilizable.\n\n"+
+
+                                "Document Object Model\n" +
+                                "Construye un árbol en memoria.\n" +
+                                "Ofrece una interfaz para recorrer el árbol
+    </string>
+    <string name="subtemaDiez">
+                                  XML Binding
+                                "¿Qué es?.\n" +
+                                " -Vincular un conjunto de clases con un\n" +
+                                "conjunto de estructuras XML.\n" +
+                                "- Crear objetos a partir del contenido de las\n" +
+                                "estructuras.\n" +
+                                " Y viceversa\n\n"+
+
+                                "XML Binding\n" +
+                                "Herramientas (en java).\n" +
+                                " JAXB http://java.sun.com/xml/jaxb/\n" +
+                                " Castor http://castor.exolab.org\n" +
+                                " XMLBeans http://xmlbeans.apache.org/\n" +
+                                " Una buena comparativa:\n" +
+                                "https://bindmark.dev.java.net/current-results.html\n" +
+                                " La mejor: http://www.manageability.org/polls/tool-for-xml-binding
+    </string>
+
+    <string name="subtemaOnce">
+         JAXB proporciona dos características principales: la capacidad de serializar las referencias de objetos Java a XML " +
+                                "y la inversa, es decir, deserializar XML en objetos Java. " +
+                                "En otras palabras, JAXB permite almacenar y recuperar datos en memoria en cualquier formato XML, sin la necesidad " +
+                                "de implementar un conjunto específico de rutinas de carga y guardado " +
+                                "de XML para la estructura de clases del programa. Es similar a xsd.exe y XmlSerializer en .NET Framework.\n\n"+
+                                "Serializadores\n" +
+                                "Hay quien los incluye dentro de las\n" +
+                                "herramientas de Binding.\n" +
+                                "Su objetivo es el mismo pero sin vínculos\n" +
+                                "con Schemas.\n" +
+                                "No generan el código.\n" +
+                                "Son más rápidos de aplicar pero menos\n" +
+                                "potentes.
+    </string>
+    <string name="subtemaDoce">
+                            s   Familia de recomendaciones para la
+                                "definición de transformaciones y\n" +
+                                "presentaciones de documentos XML.\n" +
+                                "- XSLT. Transformaciones.\n" +
+                                "- XPath. Lenguage de expresiones.\n" +
+                                "- XSL-FO. Presentaciones.\n\n"+
+                                "Aplicaciones\n" +
+                                "Generar páginas web.\n" +
+                                "Convertir unas estructuras XML en otras\n" +
+                                "(compatibilidad).\n" +
+                                "Crear PDFs.\n" +
+                                "Crear código.
+    </string>
+    <string name="subtemaTrece">
+                                 Lenguaje de expresión utilizado para
+                                "referenciar nodos de información en un\n" +
+                                "conjunto de datos XML.\n" +
+                                "También es un estándar del W3C.\n" +
+                                "Similar a expresiones regulares para\n" +
+                                "nodos XML.
+    </string>
+    <string name="subtemaCatorce">
+                                 Una evolución de XPath.
+                                "Podemos considerar a XQuery como el\n" +
+                                "SQL para XML.
+    </string>
+    <string name="subtemaQuince">
+                                 Herramientas para el trabajo con XML.-
+                                "\n" +
+                                "1.XML\n" +
+                                "\n" +
+                                "-Apache Xerces (Java) \n" +
+                                "-4Suite (Python) \n" +
+                                "-Sablotron (C y PHP)\n" +
+                                "\n" +
+                                "2.XSL
+    </string>
+    <string name="subtemaDieciséis">
+                                • Problemas de los DTDs
+                                "• Difíciles de manipular (no son XML)\n" +
+                                "• No son extensibles (una vez definido, no es posible añadir nuevos\n" +
+                                "vocabularios a un DTD)\n" +
+                                "• No soportan tipos de datos (ej. enteros, flotantes, etc.)\n" +
+                                "• XML Schema = Permite definir esquemas de documentos\n" +
+                                "• La sintaxis utilizada es XML (La sintaxis de los DTD no era XML!)\n" +
+                                "• Soporta la especificación de tipos de datos y tipos definidos por el\n" +
+                                "usuario\n" +
+                                "• Soporta comprobación de restricciones numéricas
+    </string>
+    <string name="subtemaDiecisiete">
+                                 • Esquema = definición de estructura de un conjunto de
+                                "documentos XML\n" +
+                                "• Validar = Comprobar que un documento sigue un\n" +
+                                "esquema\n" +
+                                "• Principal Ventaja: Protección de errores\n" +
+                                "• Otras aplicaciones: Edición, comprensión, enlaces de\n" +
+                                "programación, etc.\n" +
+                                "• Originalmente se utilizaron los DTDs\n" +
+                                "• Posteriormente a los DTDs se ha desarrollado XML\n" +
+                                "Schema\n" +
+                                "• Existen Otros:\n" +
+                                "• RELAX-NG, Schematron, etc.
+    </string>
+    <string name="subtemaDieciocho">
+                                    Sintaxis XML
+                                "• Soporte para Espacios de Nombres\n" +
+                                "• Mayor expresividad\n" +
+                                "• Restricciones numéricas\n" +
+                                "• Integridad dependientes del contexto\n" +
+                                "• Tipos de datos\n" +
+                                "• Gran cantidad de tipos de datos predefinidos\n" +
+                                "• Creación de tipos de datos por el usuario\n" +
+                                "• Extensibilidad\n" +
+                                "• Inclusión/Redefinición de esquemas\n" +
+                                "• Herencia de tipos de datos\n" +
+                                "• Soporte a Documentación
+    </string>
+    <string name="subtemaDiecinueve">
+                                 • XML Schemas permiten:
+                                "•1- Describir estructura\n" +
+                                "•2- Anidación\n" +
+                                "•3- Multiplicidad\n" +
+                                "•4- Ordenamiento\n" +
+                                "•5- Describir tipos\n" +
+                                "•6- Para velocidad operatoria\n" +
+                                "•7- Para mejor almacenamiento\n" +
+                                "•8- Para búsquedas\n" +
+                                "•9- Para ingreso de datos\n" +
+                                "•10-Para detectar errores\n" +
+                                "•11-Se almacenan en archivos .xsd
+    </string>
+    <string name="subtemaVeinte">
+                                   Mecanismo que permite a los documentos XML
+                                "contener instrucciones específicas para las\n" +
+                                "aplicaciones que los van a usar, sin que éstas\n" +
+                                "formen parte de los datos del propio documento\n\n" +
+                                "• Ejemplos:\n" +
+                                "• xml version= 1.0 ?>\n" +
+                                "• <?xml-stylesheet type= “text/xsl” href= “MiHojaDeEstilo.xsl”?>\n" +
+                                "• <?php ... ?>
+    </string>
+    <string name="subtemaVeintiuno">
+                                • Sólo puede contener texto (cualquier tipo de dato) pero no otros
+                                "elementos ni atributos\n" +
+                                "• Se define como\n"
+                                "xs:element name=\"nombre\" type=\"tipo\" />\n"
+                                "donde\n" +
+                                "• nombre es el nombre del elemento\n" +
+                                "• Los valores más comunes de tipos de datos (tipo) son\n" +
+                                "xs:boolean xs:integer\n" +
+                                "xs:date xs:string\n" +
+                                "xs:decimal xs:time\n" +
+                                "• Otros atributos:\n" +
+                                "• default=\"default value\" Valor por defecto de un atributo. Podría\n" +
+                                "definirse otro valor.\n" +
+                                "• fixed=\"value“ Valor fijo de un atributo. Si no se define, se utiliza\n" +
+                                "ése. Si se define, debe coincidir.\n" +
+                                "• Ejemplo: xs:element name="apellido" type="xs:string"/>
+    </string>
+    <string name="subtemaVeintidos">
+                                • Los atributos se declaran:
+                                "xs:attribute name=\"nombre\" type=\"tipo\" />\n" +
+                                "Donde:\n" +
+                                "• nombre y tipo es igual que en xs:element\n" +
+                                "• Otros atributos:\n" +
+                                "• default=\"default value\" si no se especifica otro valor\n" +
+                                "• fixed=\"value“ no se puede especificar otro valor\n" +
+                                "• use=\"optional\" el atributo no es obligatorio (por defecto)\n" +
+                                "• use=\"required\" el atributo debe estar presente\n" +
+                                "• Ejemplo: xs:attribute name=“idioma\" type=\"xs:string\"/>\n\n" +
+                                "Un atributo es el símbolo que sirve para reconocer a una persona o cosa
+    </string>
+
+
+    <string name="subtemaVeintitres">
+        A realizado todos los temas con exito realize el ultimo examen para terminar el curso XML gracias
+
+    </string>
+
+
+
+</resources>

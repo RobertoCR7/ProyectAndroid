@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="utng.edu.mx.login.Display"
+    android:orientation="vertical"
+    android:background="@drawable/bien"
+
+    >
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@drawable/grandioso"
+        android:layout_gravity="center"
+
+
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hola "
+    android:textSize="30pt"
+    android:layout_gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/medio"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+android:background="@color/medio"
+        android:id="@+id/TVusername"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:gravity="center"
+        android:textSize="20pt"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguente"
+        android:id="@+id/btnSiguiente"
+        android:layout_gravity="center"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:textSize="10pt"
+        android:layout_marginTop="30pt"
+        android:background="@drawable/sign_in_button_focus"
+
+        />
+</LinearLayout>

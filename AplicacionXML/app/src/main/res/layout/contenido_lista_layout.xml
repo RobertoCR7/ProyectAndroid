@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:background="@color/rojo"
+    >
+
+<RelativeLayout
+    android:orientation="vertical"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SeleccionActividad">
+
+<ImageView
+    android:layout_width="360dp"
+    android:layout_height="150dp"
+    android:id="@+id/imv_opcionima"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/btn_listaBoton"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/txv_descripcion"
+    android:layout_below="@+id/imv_opcionima"
+    android:textColor="#fff"
+    android:textSize="20dp"
+
+    />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_listaBoton"
+        android:text="@string/cuestionario"
+        android:fontFamily="@android:string/untitled"
+        android:shadowRadius="20"
+        android:background="@drawable/sign_in_button"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="6dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+</ScrollView>

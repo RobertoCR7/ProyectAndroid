@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.AplicacionXML">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/xmluno"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PrecentacionImagenTouchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntroduccionActivity" />
+        <activity android:name=".ContenidoListaActivity" />
+        <activity android:name=".ListaPrincipalActividad" />
+        <activity android:name=".ContentTabsActividad" />
+        <activity android:name=".SegundaListaActivity" />
+        <activity android:name=".AyudaActividad" />
+        <activity android:name=".SonidoActivity" />
+        <activity android:name=".Display" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistroActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".EjemploEmailActivity" />
+        <activity android:name=".InformacionDesarrolladorActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".GraficoActivityDos"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+    </application>
+
+</manifest>

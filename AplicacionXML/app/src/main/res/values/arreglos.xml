@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Cuestionarios">
+        <item>Introduccion XML</item>
+        <item>Estudiando XML</item>
+        <item>Manipulacion XML</item>
+        <item>DTDs y Schemas</item>
+        <item>Esquemas XML</item>
+        <item>Vincular DTDs a ducumentos XML</item>
+
+    </string-array>
+    <string-array name="Videos">
+        <item>Introduccion XML</item>
+        <item>Estudiando XML</item>
+        <item>Manipulacion XML</item>
+        <item>DTDs y Schemas</item>
+        <item>Esquemas XML</item>
+        <item>Vincular DTDs a ducumentos XML</item>
+    </string-array>
+
+
+
+    <string-array name="DesgloseIntro">
+<item>Introduccion XML </item>
+
+    </string-array>
+<string-array name="TemaUno">
+    <item>XML es un metalenguage</item>
+    <item>XML en el mundo real</item>
+    <item>Términos en XML</item>
+    <item>Diferencias entre una BBDD y XML.</item>
+    <item>Caracteres no permitidos</item>
+
+</string-array>
+    <string-array name="TemaDos">
+        <item>Tecnologías para trabajar con XML.</item>
+        <item>Simple API for XML</item>
+        <item>Simple API for XML Inconvenientes</item>
+        <item>XML Binding </item>
+        <item>Serializadores de Binding XML - JAXB</item>
+        <item>eXtensible Stylesheet Language</item>
+        <item>XPath</item>
+        <item>XQuery</item>
+    </string-array>
+
+
+    <string-array name="TemaCuatro">
+        <item>Esquemas XML</item>
+        <item>XML Schema Lenguajes de Esquemas</item>
+        <item>XML Schema Objetivos de Diseño</item>
+        <item>Características de los XML Schemas</item>
+        <item>Cuerpo: Instrucciones de proceso</item>
+        <item>XML Schema: Definir un elemento simple</item>
+        <item>XML Schema: Definir un atributo</item>
+
+    </string-array>
+
+    <string-array name="TemaCinco">
+        <item>1.-Practiaca de codigo</item>
+        <item>2.-Practiaca de codigo</item>
+        <item>3.-Practiaca de codigo</item>
+        <item>4.-Practiaca de codigo</item>
+        <item>5.-Practiaca de codigo</item>
+        <item>6.-Examen Final XML</item>
+
+    </string-array>
+    <string-array name="TemarioList">
+        <item>1-Introducción a XML</item>
+        <item>2-Estudiando XML</item>
+        <item>3-Manipulacion XML</item>
+        <item>4-Esquemas XML</item>
+        <item>5-Practicas de codigo</item>
+
+    </string-array>
+    <string-array name="DesgloseTemarioList">
+        <item>
+            •  XML(eXtensible Markup Language)
+            •  Lenguaje de marcas
+            •  Extensible: Etiquetas no predefinidas
+            •  Diseñado para describir datos
+            •  Puede ser estructurado si se usan DTOs para
+            validar contenido y sintaxis</item>
+        <item>XML es un metalenguage
+            Ojo, XML no es un lenguaje de etiquetas,
+            sino un conjunto de reglas para definir
+            lenguajes de etiquetas (como XHTML)
+            XML me dice como crear mis propias
+            etiquetas</item>
+        <item>Manipulacion XML
+            API SAX
+            API DOM
+            Otros APIs
+            Bindings
+            Serializadores
+            XSL y XSLT
+            XPath
+            XQuery
+            Otras
+            Vinclular un conjunto de clases
+            con un conjunto de estructura
+            XML Crear objetos apartir del
+            contenido de las estructuras </item>
+
+        <item>"Esquemas XML
+            • Problemas de los DTDs
+            • Difíciles de manipular (no son XML)
+            • No son extensibles (una vez definido, no es posible añadir nuevos
+            vocabularios a un DTD)
+            • No soportan tipos de datos (ej. enteros, flotantes, etc.)
+            • XML Schema = Permite definir esquemas de documentos
+            • La sintaxis utilizada es XML (La sintaxis de los DTD no era XML!)
+            • Soporta la especificación de tipos de datos y tipos definidos por el
+            usuario
+            • Soporta comprobación de restricciones numéricas
+        </item>
+        <item> • Conjunto de reglas estándar que deben cumplir un documento XML de
+                 un determinado tipo
+               • Pueden ser vistos como “plantillas” o como gramáticas
+               • Representados en archivos .dtd
+               • Determinan:
+               • Qué elementos están permitidos en un tipo de documento
+               • Relaciones entre los elementos
+               • Ejemplo: Un artículo de revista puede ser definido así:
+               • Título
+               • Autores
+               • Resumen
+               • Palabras clave
+               • Nombre de la revista
+               • Número de la revista
+               • Página inicio-Página final
+               • Fecha</item>
+
+
+    </string-array>
+    <string-array name="lista_frecuencia">
+        <item>Frecuencia</item>
+
+    </string-array>
+
+    <string-array name="lista_valores_frecuencia">
+        <item> valores Frecuencia</item>
+    </string-array>
+</resources>
