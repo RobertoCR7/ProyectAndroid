@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mi_etiqueta_barbas="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_configuracion"
+        android:orderInCategory="100"
+        android:title="@string/configuracion_menu"
+        mi_etiqueta_barbas:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menu_principal"
+        android:orderInCategory="100"
+        android:title="@string/menuPrincipal_menu"
+        mi_etiqueta_barbas:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        mi_etiqueta_barbas:showAsAction="never"/>
+
+    <item
+        android:id="@+id/salir"
+        android:orderInCategory="100"
+        android:title="@string/salir"
+        mi_etiqueta_barbas:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ayuda"
+        android:orderInCategory="100"
+        android:title="@string/progress"
+        mi_etiqueta_barbas:showAsAction="never"/>
+
+    <item
+        android:id="@+id/promocionar"
+        android:orderInCategory="100"
+        android:title="Visita nuestra institución"
+        mi_etiqueta_barbas:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itm_musica_fondo"
+        android:orderInCategory="100"
+        android:title="Musica Fondo"
+        mi_etiqueta_barbas:showAsAction="never"/>
+</menu>

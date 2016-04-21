@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorFondo"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toca la imagen para graficar."
+        android:textColor="@color/colorBlanco"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        android:paddingTop="17dp"/>
+
+
+    <ImageView
+        android:id="@+id/PieGraph"
+        android:layout_height="wrap_content"
+        android:src="@drawable/graficas"
+        android:onClick="pieGraphHandler"
+        android:layout_width="fill_parent"/>
+
+</LinearLayout>

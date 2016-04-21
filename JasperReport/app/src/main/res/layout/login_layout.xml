@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorFondo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imv_login"
+        android:src="@drawable/login"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario_login"
+        android:id="@+id/edt_usuario"
+        android:layout_below="@id/imv_login"
+        android:textColor="@color/colorBlanco"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:id="@+id/edt_contrasenia"
+        android:inputType="textPassword"
+        android:layout_below="@id/edt_usuario"
+        android:textColor="@color/colorBlanco"
+        />
+
+    <Button
+        android:layout_width="85pt"
+        android:layout_height="wrap_content"
+        android:text="@string/acceder"
+        android:layout_below="@id/edt_contrasenia"
+        android:id="@+id/btn_acceder"
+        android:onClick="onButtonClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:id="@+id/btn_cancelar"
+        android:layout_toRightOf="@id/btn_acceder"
+        android:layout_below="@id/edt_contrasenia"
+        android:onClick="onButtonClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_acceder"
+        android:text="@string/agregarUsuario"
+        android:id="@+id/btn_nuevo_usuario"
+        android:onClick="onButtonClick"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preview"
+            android:id="@+id/btn_previo"
+            android:layout_below="@id/btn_nuevo_usuario"
+            android:onClick="onButtonClick"
+            />
+    </RelativeLayout>
+</ScrollView>

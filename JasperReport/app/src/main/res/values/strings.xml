@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">Jasper Report</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="que_es">¿QUE ES JASPERREPORTS?</string>
+    <string name="intro">\n\nJasperReports es una librería de creación de informes que tiene la habilidad de entregar contenido enriquecido al monitor, a la impresora o a ficheros PDF, HTML, XLS, CSV y XML. \n\nEstá escrito completamente en Java y puede ser usado en gran variedad de aplicaciones de Java, incluyendo J2EE o aplicaciones web, para generar contenido dinámico. \n\nSe ha desarrollado un subproyecto que es un servidor integrado para informes: JasperReports Server. \n\nSu propósito principal es ayudar a crear documentos de tipo páginas, preparados para imprimir en una forma simple y flexible. \n\nJasperReports se usa comúnmente con iReport, un front-end gráfico de código abierto para la edición de informes, si bien a partir de la versión 5.5.0 iReport ha sido sustituido por Jaspersoft Studio, un front-end gráfico de código abierto basado en Eclipse. \n\nSe encuentra bajo licencia libre GNU, por lo que es Software libre. Forma parte de la iniciativa apilada open source Lisog.</string>
+    <string name="usuario_login">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_autenticar">Usuario y/o contraseña incorrecto(s)</string>
+    <string name="usuario_valido">erick</string>
+    <string name="clave_valida">123</string>
+    <string name="nuevo_usuario">Nombre Usuario</string>
+    <string name="email">Correo Electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="add_user">Agregar Usuario</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="modificar">Modificar</string>
+    <string name="agregarUsuario">Nuevo Usuario</string>
+    <string name="tocar_imagen">Toque La Imagen Para Continuar</string>
+    <string name="desarrollador">Desarrollador: Erick Eduardo Castañon Anaya \n\nUniveridad Tecnológica Del Norte De Guanajuato \n\nGSI-1151</string>
+    <string name="id_login">ID</string>
+    <string name="nombre_login">Nombre</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Pass</string>
+    <string name="emptyString" />
+    <string name="name_ingresar">Nombre</string>
+    <string name="email_ingresar">Correo Electronico</string>
+    <string name="usuario_ingresar">Usuario</string>
+    <string name="pass_ingresar">Contraseña</string>
+    <string name="pass_confirmar">Confirmar Contraseña</string>
+    <string name="registrase">Registrarse</string>
+    <string name="te_da_la_bienvenida">Te Da La Bienvenida</string>
+    <string name="configuracion_menu">Configuracion</string>
+    <string name="menuPrincipal_menu">Menu Principal</string>
+    <string name="logout">Logout</string>
+    <string name="salir">Salir</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="acceder">Acceder</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="slogan">La Manera Mas Fácil De Crear Reportes</string>
+
+    <string name="caracteristicas">Caracteristicas De JasperReport \n\n Está escrito completamente en Java y puede ser usado en gran variedad de aplicaciones de este tipo, incluyendo J2EE o aplicaciones web, para generar contenido dinámico.
+Es una biblioteca que puede ser embebida en cualquier aplicación Java.\n\n
+
+Sus funciones incluyen:\n\n
+•	Scriptlets, que pueden acompañar a la definición del informe, y pueden ser invocados en cualquier momento para realizar un procesamiento adicional. El scriptlet se basa en Java, y tiene muchos hooks (ganchos) que se pueden invocar antes o después de las etapas de la generación de informes, como el Informe, Página, Columna o Grupo.\n
+•	Sub-informes para usuarios con requisitos más sofisticados de gestión, los informes diseñados para JasperReports pueden ser fácilmente importados a JasperServer que es el servidor de informes interactivos.
+</string>
+    <string name="entorno">Ciclo vital de JasperReport \n\n
+Los reportes se generan basados en un diseño (xml), armado y compilado antes de la puesta en marcha del motor generador del reporte. Una vez listo el diseño, el motor realiza la carga de datos a través de una conexión JDBC a una base de datos relacional, respetando los campos y las consultas predefinidas.\n\n
+Cumplidos estos pasos, entran en juego las clases que permiten exportar, imprimir o visualizar el reporte, para darle fin a su ciclo de vida.
+</string>
+    <string name="ciclo_vital">Compilación de diseño de reportes en JasperReport\n\n
+Una vez que el diseño esta listo, es necesario compilarlo antes de poder iniciar el proceso de llenado. La compilación se lleva acabo a través del método compileReport() expuesto en la clase net.sf.jasperreports.engine.JasperManager.\n\n
+En este proceso, el diseño es transformado en un objeto serializable del tipo net.sf.jasperreports.engine.JasperReport, que luego se guarda en disco. Este archivo es utilizado cuando la aplicación completa el reporte con información.\n\n
+Para previsualizar un diseño puede utilizarse la clase net.sf.jasperreports.engine.view.JasperDesignViewer, a cuyo método main() es posible entregarle el archivo xml o el archivo compilado a fin de visualizarlo.
+</string>
+    <string name="diseños">A continuación presento de forma detallada los métodos utilizados para exportar los reportes en los formatos anteriormente mencionados.\n\n
+import net.sf.jasperreports.engine.JRExporter;\n
+import net.sf.jasperreports.engine.JRExporterParameter;\n
+import net.sf.jasperreports.engine.JasperFillManager;\n
+import net.sf.jasperreports.engine.JasperReport;\n
+import net.sf.jasperreports.engine.JasperPrint;\n
+import net.sf.jasperreports.engine.JasperExportManager;\n
+import net.sf.jasperreports.engine.JasperCompileManager;\n
+import net.sf.jasperreports.engine.JasperManager;\n
+import net.sf.jasperreports.engine.export.JRHtmlExporter;\n
+import net.sf.jasperreports.engine.export.JRHtmlExporterParameter;\n
+import net.sf.jasperreports.engine.export.JRPdfExporter;\n
+import net.sf.jasperreports.engine.export.JRXlsExporter;\n
+import net.sf.jasperreports.engine.export.JRXlsExporterParameter;\n
+import net.sf.jasperreports.j2ee.servlets.ImageServlet;\n
+import net.sf.jasperreports.engine.JRException;\n\n
+
+public class Reportes extends HttpServlet {    //usamos un Servlet para generar los reportes\n
+private String rutaRep;\n\n
+
+public void init(ServeletConfig fgc)\n
+{\n
+   rutaRep = fgc.getServletContext().getRealPath("Directorio_de_los_Reportes");\n
+}\n\n
+
+//Método que exporta el reporte en pdf\n
+private void exportPdf( HttpServletResponse response,String narchivo,HashMap param) throws IOException\n
+{\n
+response.setContentType("application/pdf");\n
+JasperReport js;\n
+JasperPrint jp;\n
+JRExporter exporter=null;\n
+OutputStream op=response.getOutputStream();\n
+try{\n
+ js = JasperManager.compileReport(rutaRep+"\\"+narchivo);\n
+ jp = JasperManager.fillReport(js,param,Motor.getConexion());\n
+ byte[] bites = JasperExportManager.exportReportToPdf(jp);\n
+ response.setHeader("Content-disposition", "attachment; filename=Informe.pdf");\n
+ response.setContentLength(bites.length);\n
+ op.write(bites);\n
+ op.close();\n
+ }\n
+ catch(Exception e)\n
+ {\n
+  JOptionPane.showMessageDialog(null,e);\n
+ }\n
+}\n\n
+
+//exporta en html\n
+private void exportHtml(HttpServletResponse response,String narchivo,HashMap param) throws IOException\n
+{\n
+ response.setContentType("text/html");\n
+ JasperReport js;\n
+ JasperPrint jp;\n
+ JRExporter exporter=null;\n
+ try{\n
+ js = JasperManager.compileReport(rutaRep+"\\"+narchivo);\n
+ jp = JasperManager.fillReport(js,param,Motor.getConexion());\n
+ exporter = new JRHtmlExporter();\n
+ exporter.setParameter(JRExporterParameter.JASPER_PRINT,jp);\n
+ exporter.setParameter(JRExporterParameter.OUTPUT_WRITER,response.getWriter());\n
+ exporter.setParameter(JRHtmlExporterParameter.IMAGES_URI, request.getContextPath() + "/image?image=");\n\n
+
+ if(exporter!=null)\n
+ exporter.exportReport();\n
+ }\n
+ catch(Exception e)\n
+ {\n
+ JOptionPane.showMessageDialog(null,e);\n
+ }\n
+}\n\n
+
+//exporta a xls\n
+private void exportXls(HttpServletResponse response,String narchivo,HashMap param) throws IOException\n
+ {\n
+ try{\n\n
+
+ JasperReport report = JasperCompileManager.compileReport(rutaRep+"\\"+narchivo);\n
+ JasperPrint print = JasperFillManager.fillReport(report,param,Motor.getConexion());\n
+ OutputStream out = response.getOutputStream();\n\n
+
+ ByteArrayOutputStream arrayOutputStream = new ByteArrayOutputStream();\n
+ JRXlsExporter exporterXLS = new JRXlsExporter();\n\n
+
+ exporterXLS.setParameter(JRXlsExporterParameter.JASPER_PRINT, print);\n
+ exporterXLS.setParameter(JRXlsExporterParameter.OUTPUT_STREAM, arrayOutputStream);\n
+ exporterXLS.setParameter(JRXlsExporterParameter.IS_ONE_PAGE_PER_SHEET, Boolean.FALSE);\n
+ exporterXLS.setParameter(JRXlsExporterParameter.IS_DETECT_CELL_TYPE, Boolean.TRUE);\n
+ exporterXLS.setParameter(JRXlsExporterParameter.IS_WHITE_PAGE_BACKGROUND, Boolean.FALSE);\n
+ exporterXLS.setParameter(JRXlsExporterParameter.IS_REMOVE_EMPTY_SPACE_BETWEEN_ROWS, Boolean.TRUE);\n
+ exporterXLS.exportReport();\n\n
+
+ response.setHeader("Content-disposition", "attachment; filename=ListadoPDF");\n
+ response.setContentType("application/vnd.ms-excel");\n
+ response.setContentLength(arrayOutputStream.toByteArray().length);\n\
+ out.write(arrayOutputStream.toByteArray());\n
+ out.flush();\n
+ out.close();\n\n
+
+ }catch(JRException e)\n
+ {\n
+ JOptionPane.showMessageDialog(null,e);;\n
+ }\n\n
+
+ }\n\n
+
+}\n
+En los 3 metodos mostrados anteriormente son comunes estas dos lineas de codigo:\n
+1) js = JasperManager.compileReport(rutaRep+”\\”+narchivo);\n
+2) jp = JasperManager.fillReport(js,param,Motor.getConexion());\n\n
+La primera linea se encarga de compilar el reporte, invocando el metodo JasperManager.compileReport(), el cual recibe como parametro la direccion o ruta donde se encuentra el archivo fuente del reporte. En mi caso la variable rutaRep, que se inicializa en el metodo init del servlet, almacena la direccion de la carpeta donde se encuentran alojados los fuentes de los reportes y el parametro narchivo indica el nombre del archivo a seleccionar.
+La segunda linea se encarga de llenar el reporte. El metodo invocado recibe tres parametros: el primero de ellos es una referencia al reporte a llenar; el segundo contiene los parametros necesario para llenar el reporte (si no son necesarios se pasa null); y el tercero es una referencia a la conexion con la base de datos, en mi caso utilizo una clase llamada Motor, encargada de gestionar la conexion e invoco su metodo getConexion(), que devuelve precisamente la referencia a la bd.
+Ahora solo queda invocar al metodo del servlet correspondiente dependiendo del tipo de formato que selecciona el usuario en la interfaz grafica.  A continuacion muestro un pequeño ejemplo de como invocar los metodos.
+protected void doGet(HttpServletRequest request, HttpServletResponse response)\n
+ throws ServletException, IOException {\n\n
+
+ String tipo = request.getParameter("tipo");\n
+ if (tipo.equals("pdf")) {\n
+     this.exportPdf(response, "ejemplo.jrxml",null}else if (tipo.equals("xls")) {\n
+    this.exportXls(response, "ejemplo.jrxml",null}\n\n
+
+}
+</string>
+    <string name="compilacion">En este tema tratarémos de explicar cómo pasar parámetros a un TextField de un reporte Jasper.
+Para este uso práctico se asume que la fuente de datos no es consumida en el reporte sino que antes de compilar el reporte mediante el Java.
+Por cada campo de parámetro a utilizar, se debe declarar en el reporte como un parámetro. El tipo $P de Jasper. En el XML debería quedar de la siguiente manera (asumiendo que será un String):\n\n
+	<parameter name="variable" class="java.lang.String" />\n\n
+En el campo textField se le debe indicar que debe tomar el parámetro ya declarado como $P\n\n
+        <textFieldExpression>\n
+        $P{variable}\n
+        </textFieldExpression>\n\n
+Con esta configuración el archivo .jasper queda listo para recibir parámetros.\n
+Por parte del Java cuando se está preparando el reporte se debe crear un Map de subtipo  String,Object> (en específico un HashMap) en donde se deben crear los parámetros a pasar con sus respectivos resultados.\n\n
+
+        public static void execute()  {\n\n
+try {\n\n
+//Crear el mapa de parametros\n
+Map-String,Object> parameters = new HashMap-String,Object>();\n
+parameters.put("variable",new String("Este es un String para pasar por parametro"));\n
+InputStream reportStream = new FileInputStream("reporte.jrxml");\n\n
+
+//Iniciar reporte\n
+JasperReport report = JasperCompileManager.compileReport(reportStream);\n
+JasperPrint jasperPrint = new JasperPrint();\n\n
+
+//Llenar el reporte donde se le pasa en el tercer argumento el mapa ya creado\n
+JasperFillManager.fillReportToFile(report, "reporte.jrprint", (Map-String,Object>)parameters,new JREmptyDataSource());\n
+reportStream.close();\n\n
+
+//Generar PDF\n
+List listJasper = new ArrayList();\n
+listJasper.add(JRLoader.loadObjectFromFile("reporte.jrprint"));\n
+JRPdfExporter exp = new JRPdfExporter();\n
+exp.setParameter(JRExporterParameter.JASPER_PRINT_LIST, listJasper);\n
+exp.setParameter(JRPdfExporterParameter.IS_CREATING_BATCH_MODE_BOOKMARKS, Boolean.TRUE);\n
+exp.setParameter(JRExporterParameter.OUTPUT_FILE_NAME, "reporte.pdf");\n
+exp.exportReport();\n\n
+
+} catch (Exception e) {\n
+e.printStackTrace();\n
+}\n
+}\n
+
+    </string>
+    <string name="llamado_reportes">Agregaremos una variable y para esto agregamos una nueva variable en el nodo "Variables" de la ventana "Report Inspector" haciendo clic derecho sobre este nodo y seleccionando la opción "Add Variable" del menú contextual que se abre.
+Modificamos sus propiedades en la ventana "Properties" cambiando su nombre a "sumaPuntos", su "Variable Class" a "java.lang.Integer", y "Calculation" a "Sum" (con esto indicamos que la variable mantendrá la suma de los valores que indicaremos más adelante, otras opciones incluyen un contador, el promedio, el valor más alto, etc.).\n\n
+
+Ahora indicaremos la suma de cuáles valores son los que queremos que se almacene en este variable. Para eso hacemos clic en el botón "..." de la propiedad "Variable Expression", con lo que se abrirá una nueva ventana. Es esta nueva ventana indicaremos de dónde se tomarán los valores para la suma. Podemos usar una expresión tan compleja como necesitemos. Como en este caso solo queremos realizar la suma de los puntos escribimos "F{puntos}". Y presionamos el botón "OK" para confirmar.\n\n
+
+Despues solo arrastramos nuestra variable "sumaPuntos" desde el "Report Inspector" hasta la banda "Summary". Esta banda se muestra cuando ya se han mostrado todos los datos de la banda "Details 1" y se muestra justo abajo de ella.\n
+
+Agregarémo un texto estático y una línea en esta banda solo para que se vea un poco mejor.
+</string>
+    <string name="parametros">Como podemos ver también hay una plantilla de estilos específica para gráficas, pero eso mejor lo dejamos para otro tutorial.\n
+Una vez seleccionado el tipo de fichero nos pedirá el nombre y la ubicación de éste.\n\n
+Tras crear nuestra plantilla de estilos, ahora tenemos que añadir los diferentes estilos que queremos definir. Para ello, dentro del cajón de “Template inspector” hacemos clic en el botón derecho del ratón sobre “Styles” y vamos añadiendo estilos.\n
+Para nuestro ejemplo sólo hemos añadido tres estilos: “titulo”, “subtitulo” y “detalle”. Para cada uno de ellos se han establecido una serie de características disponibles dentro del cajón de “Propiedades”, a la derecha de la pantalla.\n\n
+Como se puede ver en la imagen anterior, para el estilo “titulo” se ha establecido una fuente Arial, tamaño 26, tipo negrita (Bold), color azulado, etc. Se ha hecho lo mismo para los otros dos estilos restantes.
+Una vez definidos todos nuestros estilos guardamos el fichero y ahora tenemos que incorporarlo a nuestro informe de ejemplo.\n\n
+Insertar plantilla de estilos en un informe\n\n
+Para insertar una plantilla de estilos en un informe lo que se tiene que hacer es ir al cajón de “Report inspector“, hacer clic en el botón derecho sobre “Styles” y añadir un “Style reference”. Al pulsarlo nos aparecerá una ventana donde tendremos que seleccionar nuestro fichero jrtx que hemos creado anteriormente.\n\n
+Una vez hecho esto vemos que se nos ha incorporado a nuestro elemento “Styles” una referencia a la plantilla de estilos que hemos creado antes. Se pueden añadir tantas plantillas de estilos se quiera. Además existe la posibilidad de establecer herencia entre diferentes plantillas dentro de un mismo informe lo que nos ayudará mucho cuando estemos usando informes o plantillas más complejas.
+Después de insertar nuestra plantilla de estilos tenemos que diseñar nuestro informe de ejemplo que nos servirá para probar todo lo que hemos hecho anteriormente. Para el problema del ejemplo éste es el diseño que se ha elegido. Como se puede ver en la imagen de abajo no hay ningún estilo aplicado sobre ningún elemento del informe.\n\n
+Aplicar estilos sobre elementos de un informe.\n\n
+Para aplicar un determinado estilo sobre un elemento de un informe (texto fijo, campo, imagen, línea, etc.) hay que hacer clic sobre dicho elemento e irse al cajón de “Propiedades” a la derecha de la pantalla. Una vez allí se tiene que ir a la entrada de “Style“, en la que habrá una lista desplegable con todos los estilos disponibles para el informe. Elegimos uno de ellos y ya tenemos un estilo aplicado sobre un determinado elemento. Dentro de la lista desplegable aparecerán dos tipos de estilos, los estilos propios definidos en el informe y los estilos definidos en la plantilla de estilos insertada. Estos últimos aparecen junto con el texto “(reference)“. En la imagen inferior se puede ver como se le ha añadido al texto fijo “Listado de tutoriales” el estilo “título” de la plantilla de estilos insertada en el informe.\n\n
+Hacemos lo mismo para los restantes elementos de nuestro informe y el resultado final tras su ejecución es el siguiente.
+Ahora vamos a crear otra plantilla de estilos para los jefes definiendo en ella unos estilos diferentes, con otro tipo de letra, tamaño y color. A continuación vamos a nuestro informe de ejemplo, eliminamos la plantilla de estilos para empleados e insertamos la nueva plantilla para jefes. Después lanzamos el informe y vemos como cambia su forma de presentación.\n\n
+De esta forma podemos ver como hemos dotado a nuestro informe básico sin estilos la capacidad de visualizarse con estilos diferentes según la plantilla insertada en él.
+Para terminar este ejemplo lo que vamos a hacer es montar un sistema por el que por un parámetro de entrada al informe se le diga que plantilla de estilos se debe aplicar, y en caso que no se le diga aplicar una por defecto. Para hacer esto tenemos que crear un parámetro de entrada tipo “String” en el que por defecto tendrá la ubicación de la plantilla de estilos para los jefes (por ejemplo).\n\n
+Además de esto, se tendrá que modificar el código XML del informe para enganchar este nuevo parámetro a las plantillas de estilos del informe. El resultado final debe ser algo como esto.
+</string>
+    <string name="fuentes_datos">Reportes scriptlets en JasperReport\n\n
+        Un scriptlet es un java clase que se debe extender cualquiera de las siguientes clases:\n\n
+•	net.sf.jasperreports.engine.JRAbstractScriptlet : Esta clase contiene una serie de métodos abstractos que deben suprimirse en cada aplicación. Estos métodos se llaman automáticamente por JasperReports en el momento apropiado. Desarrollador debe implementar todos los métodos abstractos.\n
+•	net.sf.jasperreports.engine.JRDefaultScriptlet : Esta clase contiene las implementaciones vacías por defecto de cada método en el JRAbstractScriptlet. Un desarrollador sólo es necesario para aplicar los métodos que él / ella necesita para su proyecto.</string>
+    <string name="visualizar">Hay varias maneras de agregar un subreporte, nosotros utilizaremos un reporte desde otro archivo *.jasper.\n\n
+1. Crea un nuevo archivo vacío y llámalo como HIJO.\n
+2. Debes quitar los margenes del reporte para que no nos estorben cuando lo insertemos en el reporte padre. Para hacer esto ve a menú FORMATO -> REMOVER MARGENES DE REPORTE.\n
+3. Crea un parámetro de entrada que llamaras dni.\n
+4. La instrucción SQL que utilizaremos es:\n\n
+SELECT codigo ,  nombre ,  curso ,  horario
+FROM matricula INNER JOIN materia ON idmateria=codigo
+WHERE dni=$P{dni}\n\n
+5. Crea el reporte como si se tratara de cualquier otro reporte. Añade los TextField y dale formato.\n
+6. Compila el reporte y comprueba que este todo bien.\n\n
+UNIENDO TODO\n\n
+1. Ve al reporte PADRE y en la paleta busca SUBREPORT, en versiones actuales el icono es distinto, no importa, la cosa es que diga SUBREPORT  \n
+2. arrastra este objeto al diseñador de reporte, aparece una nueva ventana, debes elegir la opción “USAR UN REPORTE EXISTENTE”, busca y selecciona el archivo  “hijo.jasper” , presiona siguiente.\n
+3. En la siguiente ventana te muestra diferentes opciones de conexión, elige la primera, “USAR LA MISMA CONEXIÓN…” . siguiente.\n
+4. En en esta ventana te pregunta por los parámetros que se utilizan en el subreporte, nosotros solo utilizamos un parámetro de entrada llamado DNI, este parámetro debemos asignarle un valor del reporte padre que  lógicamente es el DNI del estudiante, entonces lo buscamos y seleccionamos.\n
+5. En el último paso, te pregunta de donde buscara el archivo JASPER. Nosotros colocaremos el archivo JASPER PADRE y el archivo JASPER HIJO, en la misma carpeta, entonces seleccionamos la opción “USE A STATIC ABSOLUTE PATH REFERENCE” . Presiona el botón Terminar.\n
+6. Acomoda el subreporte en el diseñador de reporte.
+</string>
+    <string name="var">Para crear una grafica pulsamos en el botón de Chart Tool, y a continuación seleccionamos el área dentro de nuestro informes (summary band por ejemplo) donde vamos a insertar nuestra gráfica.\n
+Una vez hecho esto nos saltará una ventana donde elegiremos el tipo de gráfica que queremos insertar en el informe.\n\n
+Básicamente existen dos tipos de gráficas. Las gráficas de tipo “queso” en las que se comparan los valores de cada elemento de una misma y única serie (pie y pie 3D) y el resto de gráficas en las que podemos comparar los valores de cada elemento para varias series de valores (barras, barras 3D, lineal, área, etc..).
+A continuación vamos a ver y explicar dos ejemplos de gráficas de los diferentes tipos de gráficas. Vamos a empezar por el ejemplo de gráfica de “queso”\n\n
+Ejemplo 1: gráfica de “queso”\n\n
+Una vez seleccionado el tipo de gráfico de queso (Pie o Pie 3D) vamos a configurarla…
+Sobre el área seleccionada para la gráfica pulsamos el botón derecho de nuestro
+Una vez que estamos en la ventana de edición de nuestra gráfica vemos que tenemos dos pestañas: Chart Properties (relativa el aspecto de nuestra gráfica) y Chart Data (relativa a los valores y datos).
+En la pestaña Chart Properties podemos configurar el título, subtítulo, fuentes, colores, leyendas, y muchas otras cosas más de manera muy intuitiva y sencilla.\n\n
+En la pestaña Chart Data nos encontramos con otras dos nuevas pestañas. Pulsamos en Details.
+Aquí es donde debemos configurar que datos van a ser representados en nuestra gráfica. En la sección Key Expression debemos insertar el campo identificativo de cada una de las tuplas generadas por nuestra consulta. En nuestro ejemplo será el campo nombre $F{nombre}. En la sección Value Expression vamos a introducir el campo que contenga los datos a representar en nuestra gráfica, en el ejemplo será el campo valor $F{valor}. Como se puede ver vamos a representar los valores de la columna “valor1“, si queremos representar también los valores de “valor2” tendremos que utilizar otra gráfica distinta. Por último tenemos una sección opcional Label Expressiondonde podremos insertar una expresión, que es la que aparecerá en las etiquetas al lado de cada porción del “queso” en el ejemplo será $F{nombre} + ” – ” + $F{valor}. Si no ponemos nada por defecto aparecerá $F{nombre} + ” = ” + $F{valor}\n\n
+
+Ahora ya tenemos configurada nuestra gráfica y sólo nos quedará ejecutar el informe
+y ver el resultado.
+
+</string>
+
+
+    <string name="tab_foro">Video Ayuda</string>
+    <string name="tab_examen">TabExamen</string>
+    <string name="pestaña_pulsada">"Pestaña Pulsada: "</string>
+    <string name="app_name_quiz">Trivia</string>
+    <string name="menu_settings">Menu</string>
+    <string name="str_next">Siguiente</string>
+    <string name="replace">Estamos trabajando para que puedas mandar tus quejas o aportaciones a la app.</string>
+    <string name="action">Action</string>
+    <string name="position">posicion</string>
+    <string name="uno">Características De JasperReport</string>
+    <string name="dos">Configuración Del Entorno</string>
+    <string name="tres">Ciclo Vital De JasperReports</string>
+    <string name="cuatro">Diseños</string>
+    <string name="cinco">Compilación De Diseño De Reportes</string>
+    <string name="seis">Llenado De Reportes</string>
+    <string name="siete">Exportando Reportes</string>
+    <string name="ocho">Parámetros De Reportes</string>
+    <string name="nueve">Reportes De Fuentes De Datos</string>
+    <string name="diez">Visualizar E Imprimir Los Informes</string>
+    <string name="once">Variables De Reportes</string>
+    <string name="doce">Secciones De Reportes</string>
+    <string name="trece">Grupos De Reporte</string>
+    <string name="catorce">Fuentes De Reporte</string>
+    <string name="quince">Soporte Unicode</string>
+    <string name="diezyseis">Estilos De Reporte</string>
+    <string name="diezysiete">Reportes Scriptlets</string>
+    <string name="diezyocho">Crear Subreportes</string>
+    <string name="diezynueve">Creación De Gráficos</string>
+    <string name="veinte">Crosstabs</string>
+    <string name="veintiuno">Expresión De Reporte</string>
+    <string name="veintidos">Campos De Reportes</string>
+    <string name="veintitres">Internacionalización</string>
+    <string name="succeful">Datos Guardados Correctamente</string>
+    <string name="incorrect_pass">Las Contrasenias No Coinciden</string>
+    <string name="invalid_pass">Contrasenia Invalida</string>
+    <string name="username">Username</string>
+    <string name="username_display">Username</string>
+    <string name="preview">Previo</string>
+    <string name="register">Registrarse</string>
+    <string name="ver_contenido">Si quieres ver todo el contenido de esta Aplicacion registrate</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="historia">La búsqueda de una alternativa a la inteligencia de negocio compleja y pesada</string>
+    <string name="historia_intro">El antiguo proverbio según el cual “la necesidad agudiza el ingenio” describe bien la siguiente historia que comenzó en el año 2001 en Rumania con Teodor Danciu como protagonista. Teodor, desarrollador de Java y posterior cofundador de Jaspersoft, necesitaba embeber funciones de informes en una aplicación.\n\n Su primera opción fue utilizar soluciones propietarias, como Crystal Reports. No obstante, éstas o bien planteaban dificultades técnicas a la hora de integrarlas con la plataforma Java, o bien eran demasiado caras.\n\n Teodor decidió crear su propio motor y su propia librería de informes basados en Java. Publicó sus resultados iniciales en SourceForge, donde no solo fueron recibidos con entusiasmo, sino también perfeccionados. El resultado fue JasperReports Library: quería un nombre que empezara con la letra J por el lenguaje de programación Java, y se decidió por la palabra inglesa Jasper, que significa Jaspe, un cristal que, según dicen, aporta estabilidad, seguridad y equilibrio.\n\n Sin embargo, para ser eficaces, las herramientas de informes necesitan un buen editor visual para crear informes y plantillas de informes de gran sofisticación. Teodor pronto descubrió que ello le llevaría demasiado trabajo. En 2002, el usuario de JasperReports y miembro de la comunidad de código abierto Giulio Toffoli, en su esfuerzo por hallar una forma más eficaz de diseñar informes, creó Jaspersoft iReport Designer, una herramienta de diseño visual de informes para JasperReports. Los desarrolladores que necesitaban informes fácilmente embebibles acogieron de inmediato ambos proyectos.\n\n Por aquel entonces, el mercado de la inteligencia de negocio había adquirido la madurez suficiente como para poder soportar un producto alternativo e innovador de código abierto con soporte comercial. En 2004 Teodor, Giulio y sus principales desarrolladores se unieron a una empresa basada en San Francisco para crear Jaspersoft. Al poco tiempo, Jaspersoft añadió a su línea de productos la herramienta de informes basada en servidor JasperReports Server, que ampliaba enormemente las funciones de JasperReports Library e iReport. Más adelante, con Jaspersoft OLAP se añadieron prestaciones completamente multidimensionales. Finalmente, en 2006 se consolidaron todas las funciones en una única solución integrada: La Suite de Inteligencia de negocio de Jaspersoft.\n\n Jaspersoft ofrece la suite de BI más flexible, económica y extendida del mundo. Gracias a sus informes, paneles y análisis Web altamente interactivos, la suite de BI de Jaspersoft permite optimizar la toma de decisiones. Jaspersoft se basa en un modelo de negocio comercial de código abierto para proporcionar funciones de BI integrales por un precio muy inferior al de otros proveedores. La suite de BI incluye informes de negocio perfectamente diseñados, consultas ad hoc, paneles, análisis OLAP y en memoria, así como integración de datos. Jaspersoft es el único proveedor de BI que permite a las empresas adaptarse al nuevo mundo virtualizado ofreciéndoles un amplio abanico de opciones de implementación locales, SaaS multiempresa y en nube, tanto para implementaciones de BI embebidas como independientes. A diferencia de los proveedores de BI tradicionales, Jaspersoft cuenta con una moderna arquitectura ligera basada en estándares y ofrece un mayor nivel de independencia del proveedor gracias a su modelo de código abierto. En comparación con los proveedores de nicho, Jaspersoft constituye una opción segura que cuenta con decenas de millares de implementaciones de producción en numerosas industrias.\n\n El software de BI de código abierto de Jaspersoft cuenta con más de 14 millones de descargas de productos en todo el mundo, 175.000 implementaciones de producción y más de 14.000 clientes comerciales en 100 países. La suite de BI es actualizada regularmente por una comunidad de desarrollo compuesta por más de 225.000 miembros registrados.</string>
+    <string name="progress">Ver Progreso De Curso</string>
+</resources>
