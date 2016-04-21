@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:menu_app="http://schemas.android.com/apk/res-auto"
+    tools:context="mx.edu.utng.aplicaccion_android.List"
+    >
+
+    <item
+        android:id="@+id/itm_menu_ayuda_sugerencia"
+        android:title="@string/menu_main"
+        menu_app:showAsAction="never"></item>
+    <item
+        android:id="@+id/itm_salir"
+        android:title="@string/sal"
+        menu_app:showAsAction="never"
+
+        ></item>
+
+
+
+    <item android:id="@+id/itm_ayuda"
+        android:title="@string/help"
+        menu_app:showAsAction="never"></item>
+
+    <item android:id="@+id/itm_desar"
+        android:title="Creador"
+        menu_app:showAsAction="never"></item>
+
+    <item android:id="@+id/itm_conf"
+        android:title="Configuraciones"
+        menu_app:showAsAction="never"></item>
+
+
+
+
+</menu>

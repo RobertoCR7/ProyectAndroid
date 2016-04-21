@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imv_funi"
+        android:src="@drawable/help"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ve a los links y refuerza el aprendizaje"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="@color/negro"
+        />
+
+        <Button
+            android:id="@+id/ref1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Games 1"
+            />
+    <Button
+        android:id="@+id/ref2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Games 2"/>
+    <Button
+        android:id="@+id/ref3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Games 3"/>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descripTitulo">
+        <item>Bienvenido a Android 4 Juegos avanzada. Este libro le ayudará a crear grandes juegos para la plataforma Android. Tenga en cuenta que antes de excavar en este libro, se necesita una base sólida en Java y ANSI C. El código fuente proporcionado para cada
+        capítulo le ayudará a entender los conceptos en detalle y sacar el máximo provecho de su tiempo como un juego para móviles desarrollador.
+        </item>
+        <item>
+            En este capítulo se proporciona el primer paso para establecer  la compilación de un juego híbrido, Incluyendo ir a buscar la fuente de Android, la extracción de las bibliotecas del sistema del dispositivo, la creación de una costumbre Cadena de recopilación de herramientas, scripts de compilación personalizada , y los detalles sobre cómo configurar el IDE.
+        </item>
+        <item>
+
+            Aprenderá cómo combinar código Java y C de una manera elegante mediante la construcción de una sencilla aplicación Java en la parte superior de una biblioteca nativa. Aprenderá conceptos interesantes sobre el Java  (JNI ) y el API utilizado para combinar Java y C en una sola unidad ,  así como firmas de los métodos invocando los métodos de Java.
+        </item>
+        <item>
+            Este capítulo trata de gráficos 3D con OpenGL . Presenta un buen truco que permite mezclar llamadas a la API de OpenGL en Java y C. Esto podría truco abrir una nueva frontera del desarrollo 3D para Android , con el potencial de generar un gran número de PC 3D juegos a la plataforma con un enorme ahorro de costes y tiempo de desarrollo .
+
+        </item>
+        <item>
+El capítulo 4 aborda gráficos eficientes con OpenGL ES 2.0. Se inicia con una breve descripción de la la mayoría de las características importantes que OpenGL ES 2 puede ofrecer, incluyendo, Shaders GLSL , y cómo afectar a la plataforma Android . Entonces, se necesita una mirada más profunda en GLSL mediante la creación de un androide ordenada proyecto dicte el icosaedro usando OpenGL ES 2.0 . Como beneficio adicional, se le mostrará cómo se puede utilizar la funcionalidad única y multi- táctil para alterar la velocidad de rotación del icosaedro, además de pellizcar para acercarse o alejarse.</item>
+
+
+    </string-array>
+
+    <string-array name="titulos">
+
+        <item>Introducción</item>
+        <item>Bienvenido a Android Games</item>
+        <item>Trucos para móvil</item>
+        <item>OpenGL y JNI</item>
+        <item>Gráficos con openGL</item>
+    </string-array>
+
+    <string-array name="introducción">
+
+        <item>Comencemos con Android</item>
+    </string-array>
+
+    <string-array name="number1">
+        <item>Instalación del equipo</item>
+        <item>Descargar e instalar el SDK</item>
+        <item>Configurar el Eclipse</item>
+        <item>Creación de un emulador de Android</item>
+        <item>Creación de una AVD</item>
+        <item>Configuración de un dispositivo real</item>
+    </string-array>
+
+    <string-array name="number2">
+        <item>La compilación de código nativo en Android</item>
+        <item>Crear el proyecto Android con soporte nativo</item>
+        <item>Arquitectura de la aplicación</item>
+        <item>Actividad principal</item>
+        <item>Interface Nativa</item>
+        <item>Biblioteca nativa</item>
+        <item>La conversión de una matriz de cadenas de Java</item>
+        <item>La compilación de la biblioteca compartida</item>
+        <item>Los controladores Bluetooth (Zeemote)</item>
+
+    </string-array>
+
+    <string-array name="number3">
+        <item>La energía de los dispositivos móviles</item>
+        <item>OpenGL el Camino de Java</item>
+        <item>Creación de un proyecto</item>
+        <item>Java Actividad Principal</item>
+        <item>superficie Vista</item>
+        <item>Tema GL</item>
+        <item>OpenGL nativo del Camino</item>
+
+    </string-array>
+
+    <string-array name="number4">
+
+        <item>OpenGL ES 2.0 y Android</item>
+        <item>shaders</item>
+        <item>GLSL</item>
+        <item>Fragmento Lenguaje de sombreado (FSL)</item>
+        <item>Anatomía de un Shader</item>
+        <item>Crear el programa de sombreado</item>
+        <item>Carga del Shader</item>
+        <item>Opcional: Programa de Validación y Estado</item>
+        <item>Manifest</item>
+    </string-array>
+
+
+
+
+</resources>

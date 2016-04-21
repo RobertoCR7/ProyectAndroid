@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imv_previo"
+        android:layout_gravity="center"
+        android:src="@drawable/bien"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txv_texto_bie"
+        android:text="Bienvenido a Android 4 Juegos avanzada . Este libro le ayudará a crear grandes juegos para el plataforma Android . Hay un montón de libros por ahí que abordan este tema, pero sólo este libro le da una perspectiva única al mostrar lo fácil que es llevar los juegos de PC nativas a la plataforma con el mínimo esfuerzo . Esto se hace usando ejemplos del mundo real y el código fuente de cada capítulo. Tenga en cuenta que antes de excavar en este libro, se necesita una base sólida en Java y ANSI C. He tratado de forma clara y sencilla de explicar los conceptos más complicados con una combinación de gráficos y código de ejemplo. El código fuente proporcionado para cada capítulo le ayudará a entender los conceptos en detalle y sacar el máximo provecho de su tiempo como un juego para móviles desarrollador.
+
+"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_prev"
+        android:layout_gravity="center"
+        android:text="Registrarse"
+
+        />
+
+</LinearLayout>
+    </ScrollView>

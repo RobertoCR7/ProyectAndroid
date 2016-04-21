@@ -1,0 +1,309 @@
+<resources>
+    <string name="app_name">AndroidJuegos</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="acceder">Acceder</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cuenta">Tu cuenta</string>
+    <string name="error_autenticar">Usuario y/o contraseña incorrecto(s)</string>
+    <string name="login_valido">Gabriel</string>
+    <string name="clave_valida">1234</string>
+    <string name="registrar">Registrar</string>
+    <string name="entrar">Entrar</string>
+    <string name="actividad">Actividad</string>
+    <string name="curso">Empezar Curso</string>
+    <string-array name="contenido_menu_dos">
+        <item>OOOOOO</item>
+
+    </string-array>
+
+    <string name="tab_info">Información</string>
+    <string name="tab_video">Vídeo</string>
+    <string name="tab_examen">Examen</string>
+    <string name="video">Video</string>
+    <string name="registro">Registro</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="ayuda_info">En este apartado te brindamos ayuda \n Recordandote que puedes navegar por \n la aplicacion con tan solo dar clic \n en las pestañas y asi dar con el \n contenido que se te puede mostrar, \n en la parte donde se te muestran los \n subtemas, te mostramos un menu donde \n aparece un video de introduccion al \n curso para que quede mas entendida \n la navegacion por el curso, recuerda \n -Debes de contar con tu cuenta para asi \n poder acceder.\n -Dar clic en los botones o immagenes para\n que te lleven a otra ventana\n -Los menus que se presentan cuenta con \n informacion importante.</string>
+    <string name="bienvenida_curso">Bienvenido al curso Android Games</string>
+    <string name="nombre">Nombre</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="introduccion">Introducción</string>
+    <string name="tem1">Tema 1</string>
+    <string name="tem2">Tema 2</string>
+    <string name="tem3">Tema 3</string>
+    <string name="tem4">Tema 4</string>
+
+    <string name="temIntro">Temario: Introducción</string>
+    <string name="tm1">Temario: Bienvenido a Android Games</string>
+    <string name="tm2">Temario: Trucos para móvil</string>
+    <string name="tm3">Temario: OpenGL y JNI</string>
+    <string name="tm4">Temario: Gráficos con openGL</string>
+
+
+    <string name="modulo1">Modulo 1</string>
+    <string name="modtema1">Estos tutoriales de juegos android le guiará a través de la creación de un juego y muchas teorías e ideas detrás de estas técnicas. Han sido creados como módulos semanales para que cada día que ganar un poco de conocimiento. Al final de la semana va a ser capaz de ponerse a prueba al completar el cuestionario semanal.
+Los módulos semanales son también un código de colores que van desde los verdes, que es para los módulos fáciles, de color amarillo que es un poco duro, de color naranja, que es todavía más difícil rojo que requiere algunas cuestiones más técnicas, pero nada que no se puede superar sin un poco de ayuda.
+</string>
+
+    <string name="modulo2">Modulo 2</string>
+    <string name="mod2tm1">Hay algunos pasos que deben completarse antes de que podamos conseguir a la materia esencial y básico de los juegos de construcción para Android Descarga la versión actual de Android Configurar tu Eclipse Crear un emulador para las pruebas.</string>
+    <string name="mod2tm2">Descargar el SDK de Android Starter Package ( R14 ) para las ventanas de http://developer.android.com/sdk/index.html y descomprimirlo en una carpeta de trabajo como eclipse - SDK .</string>
+    <string name="mod2tm3">Usted está listo para obtener su IDE en funcionamiento con el kit de desarrollo de Android. Vamonos a través de la instalación del SDK de Android 4 (disponible en http://developer.android.com/sdk/index.html ) sobre Eclipse 3.7 ( Indigo , disponible en http://www.eclipse.org</string>
+    <string name="mod2tm4">El primer paso en la creación de nuestra aplicación nativa es crear un dispositivo virtual Android ( AVD ) nos Con la versión 1.5 y posteriores del SDK , Google introdujo el concepto de dispositivos virtuales ( AVDs ) . Un AVD es simplemente un conjunto de atributos de configuración aplicado a una imagen emulador que permite al desarrollador para apuntar una versión específica del SDK . Vamos a echar un vistazo a la barra de herramientas de Android en Eclipse</string>
+    <string name="mod2tm5">Con la versión 1.5 y posteriores del SDK , Google introdujo el concepto de dispositivos virtuales ( AVDs ) . Un AVD es simplemente un conjunto de atributos de configuración aplicado a una imagen emulador que permite al desarrollador para apuntar una versión específica del SDK . Vamos a echar un vistazo a la barra de herramientas de Android en Eclipse</string>
+    <string name="mod2tm6">En lo personal , creo que esta es la mejor manera de desarrollar juegos y aplicaciones que utilizan OpenGL . UN dispositivo real da muchas ventajas del emulador no , es decir , la velocidad y la API confiabilidad. La única salvedad es que el emulador le da la oportunidad de probar múltiples tamaños de pantalla y versiones del API . Antes de Eclipse puede reconocer el dispositivo , es necesario instalar un controlador USB necesario para las comunicaciones .</string>
+
+    <string name="modulo3">Modulo 3</string>
+    <string name="mod3tm1">Para el desarrollador Java puro, escribir aplicaciones que hablan con el código C puede ser desalentador en el
+comenzando. Me sentí así la primera vez que trataba de escribir un híbrido de Java / C (con dolorosa
+éxito debo añadir). Resulta ser sorprendentemente simple si usted entiende el camino
+estos idiomas de interfaz juntos. Mi objetivo en esta sección es mostrar lo fácil que
+puede ser una llamada a una función C de Java.</string>
+    <string name="mod3tm2">Ahora, vamos a crear el proyecto:
+1. En Eclipse, haga clic en el icono del nuevo proyecto de Android en la barra de herramientas principal.
+2. En el cuadro de diálogo, introduzca un nombre de proyecto .
+3. Introduzca un nombre de aplicación . \n
+4. Introduzca un nombre de paquete . \n
+5. Introduzca un nombre de actividad . \n
+6. Especifique una versión mínima del SDK API. \n
+7. Haga clic en Finalizar.
+</string>
+    <string name="mod3tm3">Arquitectura de la aplicación: \n
+Vamos a considerar lo que queremos conseguir con esta aplicación: \n
+•	Cuando se ejecuta en el emulador, da el mensaje “Hola”. \n
+•	Dentro del proyecto, vamos a crear una carpeta con archivos nativos a
+lograr lo siguiente: \n
+•	Crear una biblioteca nativa con una subrutina principal que se llama
+de la actividad principal de Android utilizando JNI. \n
+•	La subrutina biblioteca principal invocará un método Java (usando JNI) \n
+•	La biblioteca se carga en tiempo de ejecución en Java.
+</string>
+    <string name="mod3tm4">Como usted debe saber, cuando se inicia la aplicación, el método onCreate (Bundle
+savedInstanceState) será invocado por Android. Este método realiza estos críticos pasos:  \n
+•	Se carga la biblioteca nativa utilizando System.loadLibrary (nombre). \n
+•	Se ejecuta el subsistema principal de la biblioteca mediante la invocación del método nativo Natives.LibMain (String [] argv) . \n
+La principal actividad es la primera pieza de nuestro rompecabezas. Tenga en cuenta que la inclusión de 2-3 hace una llamada a Natives.LibMain. Esto es lo que llamo una interfaz nativa (la segunda pieza). Natives.LibMain se define en la clase Natives.java describe en la siguiente sección.
+</string>
+    <string name="mod3tm5">La interfaz nativa se define en jni.Natives.java tiene dos métodos importantes que tienen que ver
+con la biblioteca C (ver el Listado 2-4):  \n
+•	static int nativo LibMain (String [] argv): Esta es la biblioteca nativa
+subrutina principal. Se va a llamar dentro de la actividad principal de Android con
+una matriz de cadenas como argumentos. Note la palabra clave native, que
+le dice al compilador de Java que se ejecuta de forma nativa. \n
+privado static void OnMessage (cadena de texto, int level): Este
+método está destinado a ser llamado desde la biblioteca C, con un mensaje de cadena
+y el valor entero (nivel). Este método simplemente imprimir el mensaje a
+la consola.
+</string>
+    <string name="mod3tm6">Aquí es donde todo el trabajo se lleva a cabo. La aplicación se proporciona en lib.c (ver
+Listado 2-5). Este archivo reside en la carpeta JNI dentro del proyecto.</string>
+    <string name="mod3tm7">La conversión de una matriz de cadenas de Java a una matriz C char es una herramienta muy útil para enviar argumento a una biblioteca nativa.
+•	Obtener el tamaño de la matriz de Java, y para cada elemento de la matriz:  \n
+•	Obtener el elemento String de Java. \n
+•	Convertir el elemento recuperado en una cadena C (char *). \n
+•	Asignar espacio para la matriz mediante malloc C (longitud de cadena + 1).
+</string>
+    <string name="mod3tm8">Antes de poder ejecutar nuestra aplicación nativa de Android que necesitamos para compilar la biblioteca nativa. Porque, el archivo Android.mk se debe crear en la carpeta JNI del proyecto.  \n
+Este archivo describe el nombre del módulo y los archivos de origen de la biblioteca como se muestra en El listado 2-8.  \n
+NOTA: La ruta de acceso al directorio de instalación NDK debe incluirse en que la variable Path del sistema de lo contrario cygwin no será capaz de localizar el comando NDK-construcción.
+
+</string>
+    <string name="mod3tm9">Zeemote ONU Controlador de la palanca de mando Muy Bluetooth populares en los Teléfonos Nokia. Con La Creciente de La Popularidad de Otros Teléfonos Inteligentes, Creadores del SUS lanzaron Plataformas Otras ONU SDK para Como Android y iPhone.</string>
+
+
+    <string name="modulo4">Modulo 4</string>
+    <string name="mod4tm1">Para hacer un buen uso de la GPU, Google ha incluido el Sistema Integrado de OpenGL (ES) dentro de Android. OpenGL ES proporciona la API de software para hacer de alto rendimiento, juegos acelerados por hardware posible. Esta es una API de Java, que es una buena noticia para Java los desarrolladores que deseen crear juegos en 3D a partir de cero, pero malas noticias para los desarrolladores de C que desean volver a utilizar motores 3D escritos en motores de juego C. 3D son muy complejos y grande, y están escritos en su mayoría en C reescritura de estos motores en Java sería una muy difícil tarea, el consumo de recursos de desarrollo y tiempo significativos.</string>
+    <string name="mod4tm2">Veamos cómo se hacen los gráficos de OpenGL en Java. Vamos a empezar por la creación de un proyecto para nuestra aplicación de ejemplo. A continuación, vamos a ver las clases que componen el proyecto: El actividad utiliza para iniciar la aplicación, la vista de la superficie utilizada para representar gráficos, el GL hilo utilizado para realizar operaciones en el fondo dibujo, el procesador utiliza el cubo para dibujar el cubo real, y la clase de cubo que tiene información tal como las dimensiones, color, y etc.</string>
+    <string name="mod4tm3">Aquí es cómo: \n
+1. Haga clic en el botón Nuevo proyecto Android. \n
+2. En el cuadro de diálogo Nuevo proyecto Android, introduzca un nombre de proyecto, tales como
+ch03.OpenGL. Haga clic en Siguiente. \n
+3. Especificar el destino de generación (Android 4 en este caso). Haga clic en Siguiente. \n
+4. Introduzca un nombre de aplicación, tales como Ch03.OpenGL. \n
+5. Introduzca un nombre de paquete, como opengl.test. \n
+6. Seleccione Crear actividad y entrar Javagal actividad. \n
+7. Especifique la versión mínima del SDK para Android como 14 4. Figura 3-1
+muestra todos los diálogos del asistente para este ejemplo. \n
+8. Haga clic en Finalizar.
+o</string>
+    <string name="mod4tm4">Cuando el usuario inicia la aplicación, la JavaGLActivity.onCreate () método será llamado
+ Aquí es donde se inicializa la vista de la superficie (GLSurfaceView) y se establece como
+el contenido de la aplicación: GLSurfaceView = new GLSurfaceView (este); \n
+mGLSurfaceView.setRenderer (nueva CubeRenderer (true)); ‘n
+setContentView (mGLSurfaceView); \n
+Tenga en cuenta que la vista de la superficie GL debe utilizar un procesador (CubeRenderer en este caso), que implementa la interfaz Procesador y toma un argumento booleano que indica si un fondo translúcido se debe utilizar.
+</string>
+    <string name="mod4tm5">El GLSurfaceView clase (ver el Listado 3-3) define la superficie donde los cubos que caen animación se llevará a cabo. El constructor de la clase comienza inicializando una devolución de llamada para recibir notificaciones cuando se cambia la superficie, crea, ni se destruye: \n\n
+mHolder = getHolder (); \n
+mHolder.addCallback (this); \n
+mHolder.setType (SurfaceHolder.SURFACE TIPO GPU); \n
+</string>
+    <string name="mod4tm6">El bucle principal de la animación se realiza por GLTHREAD. Cuando se inicia, este hilo realiza los siguientes pasos:\n
+1. Se crea un semáforo: Segal Semaphore.acquire (); \n
+custodiar Run (); // Sólo 1 hilo puede tener acceso a este código Segal Semaphore.release (); \n
+2. Se ejecuta el bucle de animación crítico. Dentro del bucle, el dibujo real se delega a la CubeRenderer. \n
+3. Cuando se le preguntó a dejar de fumar, los bucles termina, y los recursos son OpenGL liberado.
+</string>
+    <string name="mod4tm7">
+En la sección anterior , que vio cómo una aplicación Java puro OpenGL funciona desde el
+molidas . Esto se aplica si usted escribe una aplicación desde cero en Java. Sin embargo, si
+ya tiene un procesador de C OpenGL y el deseo de interactuar con Android , es probable
+no quieren reescribir su aplicación ( sobre todo si se tiene miles de líneas de código) .
+Este consumiría mucho tiempo y recursos , y más que probable , que dan
+terrible dolor de cabeza.</string>
+
+    <string name="modulo5">Modulo 5</string>
+    <string name="mod5tm1">OpenGL ES 2.0 es un conjunto de mejoras para OpenGL ES 1.0. Se hace hincapié en una programable de canal de gráficos 3D con la capacidad de crear y el programa de sombreado objetos y la capacidad de escribir vértices y sombreadores de fragmentos en GLSL. OpenGL ES 2.0 ofrece las siguientes cualidades deseables para los gráficos actuales programación: \n
+•	Una gama más amplia de opciones de precisión para su uso en dispositivos embebidos utilizando el lenguaje de sombreado similar al escritorio de OpenGL 2.0. \n
+•	Frame Buffer objetos para simplificar la gestión de la superficie y ofrecen una subconjunto de la funcionalidad de la FBO escritorio. \n
+•	El cien por ciento compatible con OpenGL ES 1.x y construido con las últimas normas y las ideas más avanzadas disponibles para desarrollo de gráficos.
+</string>
+    <string name="mod5tm2">Un shader es un sencillo programa que describe los rasgos ya sea de un vértice o un píxel. En elbajo nivel, un sombreado define un conjunto de instrucciones de software utilizado para el cálculo de la prestación efectos con un alto grado de flexibilidad. Shaders fueron creados para reemplazar al tradicional OpenGL de escritorio de función fija que permite sólo la geometría común de transformación y de sombreado de píxeles funciones. Se proporcionan las siguientes ventajas sobre la tubería tradicional OpenGL escritorio: \n
+•	efectos personalizados pueden ser aplicados para la representación \n
+•	un mayor grado de flexibilidad \n
+•	simplicidad, y más alto grado de reutilización \n
+Hay tres tipos básicos de shaders implementados en OpenGL ES 2.0: vértice, fragmento, y la geometría.
+o</string>
+    <string name="mod5tm3">GLSL es el OpenGL ES 2.0 Lenguaje de sombreado de vértices y el fragmento de programación shaders que ha sido adaptado para plataformas integradas. Tiene el propósito de trabajar juntos con OpenGL ES 1.1 para minimizar el coste y consumo de energía de los dispositivos embebidosal igual que los teléfonos inteligentes. \n
+OpenGL ES funcionalidad de punto fijo 2.0 elimina utiliza comúnmente en OpenGL y escritorio lo reemplaza con shader para el ahorro de energía crítica en los teléfonos inteligentes y otros sistemas embebidos.
+</string>
+    <string name="mod5tm4">La FSL se usa para cambiar los atributos de color (RGBA) del píxel actual. Por ejemplo, el siguiente fragmento define el color del píxel actual a RGB rojo (1, 0, 0, 0). Ahora vamos a echar un vistazo a cómo podemos aplicar un sombreado y utilizarlo en un Android programa.</string>
+    <string name="mod5tm5">La anatomía de un sombreado está definido por las siguientes etapas: \n
+1. Crear un programa. El primer paso es crear un programa de sombreado para ser ejecutar dentro de su programa principal, un programa dentro de un programa, si se quiere. \n
+2. Cargar el sombreado. Una vez creado el shader, debe cargarlo desde una variable de cadena o archivo. \n
+3. Adjuntar. A continuación, debe adjuntar el shader al programa principal. \n
+4. Enlace. Este paso compila el código de sombreado y comprueba si hay errores de sintaxis. \n
+5. validación opcional. Siempre es una buena idea para validar el estado del enlace y controlar los errores apropiadamente. \n
+6. Activar y usar. Por último, se puede habilitar y usarlo en contra de un conjunto de vértices.
+</string>
+    <string name="mod5tm6">Para crear un objeto de sombreado o programa, usamos la llamada a la API glCreateShader. Se toma como una parámetro un tipo de sombreado: o GL_VERTEX_SHADER o GL_FRAGMENT_SHADER de vértice o fragmento respectivamente. glCreateShader devuelve un valor distinto de cero mediante el cual puede ser se hace referencia. El siguiente fragmento crea dos shaders para cargar un vértice, y el fragmento shaders para dibujar un icosaedro (que se describe más adelante en este capítulo).</string>
+    <string name="mod5tm7">Un objeto de sombreado se utiliza para mantener las cadenas de código fuente que definen un shader. Por Con este fin, se puede crear una función de la carga que invoca: glShaderSource y glCompileShader. glShaderSource toma como argumentos el ID del shader, el número de elementos, una cadena que contiene el código fuente para ser cargado, y un array de cadenas longitudes (NULL en este caso). glCompileShader compila el shader descrito por su Identificación de referencia. El siguiente fragmento describe la función de carga que se utiliza para dibujar el icosaedro para un próximo proyecto.</string>
+    <string name="mod5tm8">Siempre debe validar los objetos de programa. Ayuda a ver si tiene errores de sintaxis en su código de sombreado. Para validar un programa, utilice el glValidateProgram llamada a la API con el ID de referencia del programa. A continuación, llamar glGetProgramiv con el programa de validación GL_VALIDATE_STATUS constante. El resultado de la validación será devuelto en el último argumento (ShaderStatus en este caso). Luego, basta con comprobar el estado y controlar el error en consecuencia, como se muestra en el siguiente fragmento.</string>
+    <string name="mod5tm9">Listado 4-1 es el archivo XML creado por el asistente. Lo más importante para recordar es utilizar la función de OpenGL ES 2.0 y establecer el atributo necesario en true.</string>
+
+
+    <string name="salir">Salir</string>
+    <string name="audio">Audio</string>
+    <string name="menu_main">Menu Principal</string>
+    <string name="sal">Salir</string>
+    <string name="video_ver">Ver video</string>
+    <string name="help">Ayuda</string>
+    <string name="start">Empezar</string>
+    <string name="prueba">Examen</string>
+    <string name="stop">Stop</string>
+    <string name="emptyString" />
+    <string name="nombre_registro">Nombre</string>
+    <string name="correo_elec">Correo Electrónico</string>
+    <string name="usuario_reg">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="confirm_contrasenia">Confirmar Contraseña</string>
+    <string name="welcome_games">Bienvenido</string>
+    <string name="usuario_logeo">Usuario</string>
+    <string name="contrasenia_log">Contraseña</string>
+    <string name="entra">Entrar</string>
+
+    <string name="menu_settings">Menu</string>
+    <string name="str_next">Siguiente</string>
+    <string name="go_exam">Ir a examen</string>
+    <string name="grafics">Gráfica</string>
+    <string name="programador">Nombre: \n
+        Juan Gabriel Carrillo Avalos \n
+        Edad: \n
+        20 años. \n
+        Carrera: \n
+        Sistemas Informaticos Universidad Tecnológica del Norte de Guanajuato</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Habilitar recomendaciones sociales</string>
+    <string name="pref_description_social_recommendations">Recomendaciones para las personas en contacto
+         basado en el historial de mensajes
+    </string>
+
+    <string name="pref_title_display_name">Mostrar nombre</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Añadir amigos a los mensajes</string>
+    <string-array name="pref_example_list_titles">
+        <item>Siempre</item>
+        <item>Cuando sea posible</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Datos &amp; sincronización</string>
+
+    <string name="pref_title_sync_frequency">Frecuencia de sincronización</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>3 hora</item>
+        <item>6 hora</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">Configuración de sincronización del sistema</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notificaciones</string>
+
+    <string name="pref_title_new_message_notifications">Nuevas notificaciones de mensajes</string>
+
+    <string name="pref_title_ringtone">Tono de llamada</string>
+    <string name="pref_ringtone_silent">Silencio</string>
+
+    <string name="pref_title_vibrate">Vibrar</string>
+
+    <string name="X">X</string>
+    <string name="O">O</string>
+    <string name="reset">Reset</string>
+
+    <string name="hello_world">Hola munddo</string>
+    <string name="menu_setting">Opciones</string>
+    <string name="title_activity_puzzle">Puzzle</string>
+    <string name="title_activity_main_menu">PuzzleGame - Menú Principal</string>
+    <string name="mainmenu_title">Juego Puzzle</string>
+    <string name="mainmenu_resume">Resumen</string>
+    <string name="mainmenu_newgame">Nuevo Juego</string>
+    <string name="title_activity_new_game_menu">NewGameMenuActivity</string>
+    <string name="newgamemenu_title">Nuevo Juego</string>
+    <string name="newgamemenu_gamesize">"Tamaño : "</string>
+    <string name="newgamemenu_image">Elegir Imagen</string>
+    <string name="newgamemenu_ok">Empezar</string>
+    <string name="newgamemenu_back">Regresar al menú</string>
+    <string name="gamesize_verysmall">Very small (2x3)</string>
+    <string-array name="gamesizes">
+        <item >Muy pequeño</item>
+        <item >Pequeño</item>
+        <item >Mediano</item>
+        <item >Largo</item>
+    </string-array>
+    <string name="newgamemenu_pickimage">Selecciona Imagen</string>
+    <string name="newgamemenu_button_pickbuiltin">Juego </string>
+    <string name="newgamemenu_button_pickfromsd">Memoria de telefono</string>
+    <string name="newgamemenu_button_shootphoto">Foto</string>
+    <string name="pausemenu_title">Pausar Juego</string>
+    <string name="pausemenu_resume">Resumen</string>
+    <string name="pausemenu_quit_to_main">Menú principal</string>
+
+
+
+
+
+
+</resources>

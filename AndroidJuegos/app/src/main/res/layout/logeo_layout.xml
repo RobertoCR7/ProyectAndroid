@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="utng.edu.mx.login.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fond"
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lg"
+        android:id="@+id/imv_lg"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_logeo"
+        android:textSize="40px"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_usuario_log"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contrasenia_log"
+        android:textSize="40px"
+       android:gravity="center"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_contrase_log"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        android:text="Login"
+        android:onClick="onButtonClick"
+        />
+
+        <Button
+         android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrase"
+            android:id="@+id/Bsignup"
+            android:onClick="onButtonClick"
+            />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vista del curso"
+        android:id="@+id/btn_vista"
+        android:onClick="onButtonClick"
+        />
+
+</LinearLayout>
