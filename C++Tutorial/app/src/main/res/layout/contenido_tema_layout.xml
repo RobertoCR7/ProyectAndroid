@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@drawable/mi_scroll">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:layout_margin="5pt"
+        android:layout_height="match_parent"
+
+        android:background="@color/gris"
+        android:id="@+id/lil_contenido">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/negro"
+            android:textSize="15pt"
+            android:gravity="center"
+            android:id="@+id/txv_titulo_tema"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/negro"
+            android:textSize="10pt"
+            android:id="@+id/txv_contenido_tema"
+            />
+    </LinearLayout>
+</ScrollView>

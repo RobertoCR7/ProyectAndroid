@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu">
+        <item>Introduccion</item>
+        <item>Basico de C++</item>
+        <item>Controles De Estructura</item>
+        <item>Componentes de tipos de datos</item>
+        <item>Programacion orientada a objetos</item>
+        <item>Conceptos abansados</item>
+        <item>Estandar de librerias</item>
+    </string-array>
+
+    <string-array name="introduction">
+        <item>Instrucciones de uso ¿A quién está dirigida esta guía? Este tutorial es para aquellas
+            personas que quieran aprender a programar en C ++ y no necesariamente tienen ingún
+            conocimiento previo de otros lenguajes de programación. Por supuesto, cualquier conocimiento de otros
+            lenguajes de programación o cualquier habilidad general de computadora puede ser útil para comprender mejor este
+            tutorial, aunque no es esencial.
+
+            También es adecuado para aquellos que necesitan una puesta al día sobre las nuevas características del
+            lenguaje ha adquirido de los últimos estándares.
+
+            Si está familiarizado con el lenguaje C, se puede tomar las 3 primeras partes de este tutorial como
+            una revisión de los conceptos, ya que explican principalmente la parte C de C ++. Existen ligeras
+            diferencias en la sintaxis de C ++ para algunas de las características de C, por lo que se recomienda
+            su lectura de todos modos.
+
+            La cuarta parte se describe la programación orientada a objetos.
+
+            La quinta parte en su mayoría se describen las nuevas características introducidas por la norma ANSI-C ++.</item>
+    </string-array>
+
+    <string-array name="number1">
+        <item>Estructura de un programa</item>
+        <item>Variables y tipos de datos</item>
+    <item>Constantes</item>
+        <item>operadores</item>
+        <item>Basico entradas/salidas</item>
+        <item>Realizar examen</item>
+    </string-array>
+
+    <string-array name="number2">
+        <item>Controles de estructura</item>
+        <item>Funciones I</item>
+        <item>Funciones II</item>
+        <item>Realizar examen</item>
+    </string-array>
+
+    <string-array name="number3">
+        <item>Arrays</item>
+        <item>Caracteres de secuencia</item>
+        <item>Pointers</item>
+        <item>Memoria dinamica</item>
+        <item>Estructura de datos</item>
+        <item>Otros tipos de datos</item>
+        <item>Realizar examen</item>
+    </string-array>
+
+    <string-array name="number4">
+        <item>Clases I</item>
+        <item>Clases II</item>
+        <item>Friendship and inheritance</item>
+<item>Polimorfismo</item>
+        <item>Realizar examen</item>
+    </string-array>
+
+    <string-array name="number5">
+        <item>Templates</item>
+        <item>Namespaces</item>
+        <item>Exception</item>
+        <item>tipos de casteo</item>
+        <item>Procesos directivos</item>
+        <item>Realizar examen</item>
+    </string-array>
+
+    <string-array name="number6">
+        <item>Templates</item>
+        <item>Namespaces</item>
+        <item>Exception</item>
+        <item>tipos de casteo</item>
+        <item>Procesos directivos</item>
+        <item>Realizar examen</item>
+    </string-array>
+
+</resources>

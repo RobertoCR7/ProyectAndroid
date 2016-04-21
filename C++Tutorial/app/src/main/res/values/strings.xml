@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">C++Tutorial</string>
+    <string name="intro">Introduccion</string>
+    <string name="basico">Basico de C++</string>
+    <string name="controles">Controles De Estructura</string>
+    <string name="datos">Componentes de tipos de datos</string>
+    <string name="poo">Programacion orientada a objetos</string>
+    <string name="conceptos">Conceptos abansados</string>
+    <string name="librerias">esyandar de librerias</string>
+    <string name="introduction">Introduccion</string>
+    <string name="tm1">Tema1</string>
+    <string name="tem1">Estructura de diagramas</string>
+    <string name="tm2">Controles de estructura</string>
+    <string name="tm3">Componentes de tipos de datos</string>
+    <string name="tm4">Programacion orientada  objetos</string>
+    <string name="tm5">Conceptos avansados</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="Registrarse">register</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="emptyString">emptyString</string>
+    <string name="start_quiz">estart quiz</string>
+    <string name="StructureOfPprogram">Por lo tanto, aquí está nuestro primer programa:</string>
+    <string name="structureOfaProgram">Probablemente la mejor manera de comenzar a aprender un lenguaje de programación es escribiendo un programa.</string>
+    <string name="datatype">tipos de datos fundamentales\n</string>
+    <string name="dataType1">Durante la programación, que almacenar las variables en la memoria del equipo, pero el equipo tiene que saber qué tipo de datos que queremos almacenar en ellos, ya que no se va a ocupar la misma cantidad de memoria para almacenar un número sencillo de lo que para almacenar una sola letra o un número grande, y ellos no van a ser interpretados de la misma manera.\n</string>
+    <string name="dataType2">A continuación tienes un resumen de los tipos de datos básicos fundamentales en C ++, así como el rango de valores que se pueden representar con cada uno:</string>
+    <string name="contants">Las constantes son expresiones con un valor fijo.\n</string>
+    <string name="contants1">Los literales\n</string>
+    <string name="contants2">Los literales se utilizan para expresar valores particulares dentro del código fuente de un programa. Ya hemos utilizado estos previamente para dar valores a las variables concretas o para expresar mensajes queríamos que nuestros programas de imprimir, por ejemplo, cuando escribimos:\n</string>
+    <string name="contants3">a = 5;\n</string>
+    <string name="contants4">el 5 de este trozo de código era una constante literal.\n</string>
+    <string name="contants5">Las constantes literales se pueden dividir en números enteros, números, caracteres, cadenas y valores booleanos de punto flotante.</string>
+    <string name="opertators">Una vez que sabemos de la existencia de variables y constantes, podemos empezar a operar con ellos. Para ese propósito, C ++ integra operadores. A diferencia de otras lenguas cuyos operadores son principalmente palabras clave, operadores en C ++ se hacen sobre todo de los signos que no son parte del alfabeto, pero están disponibles en todos los teclados. Esto hace que el código C ++ más corto y más internacional, ya que se basa menos en las palabras en inglés, pero requiere un poco de esfuerzo de aprendizaje en el principio.\n</string>
+    <string name="operators1">Por ejemplo, vamos a echar un vistazo a el siguiente código - He incluido la evolución de los contenidos almacenados en las variables como los comentarios:</string>
+    <string name="inpuot">C ++ utiliza una abstracción conveniente llamado corrientes para realizar operaciones de entrada y salida en los medios secuenciales tales como la pantalla o el teclado. Una secuencia es un objeto que un programa puede insertar o extraer caracteres a / de ella. En realidad, no hay que preocuparse por muchas especificaciones sobre el medio físico asociado con la corriente - sólo necesitamos saber que aceptará o proporcionar caracteres esencialmente.</string>
+    <string name="control">En general los programas no se limita a una secuencia lineal de instrucciones. Durante su proceso puede bifurcarse, repetir código o tomar decisiones. Para ese propósito, C ++ proporciona estructuras de control que sirven para especificar lo que se tiene que hacer por nuestro programa, cuándo y bajo qué circunstancias.</string>
+    <string name="control1">Donde la condición es la expresión que se está evaluando. Si esta condición es verdadera, se ejecuta comunicado. Si es falsa, se ignora la declaración (no ejecutado) y el programa continúa a la derecha después de esta estructura condicional. Por ejemplo, el siguiente fragmento de código imprime x es 100 sólo si el valor almacenado en la variable x es de hecho 100:</string>
+    <string name="finction1">Una función es un grupo de instrucciones que se ejecutan cuando se llama desde algún punto del programa. La siguiente es su formato:\n</string>
+    <string name="function1_1">nombre del tipo (parámetro1, parámetro2, ...) {sentencias}\n</string>
+    <string name="function1_2">dónde:\n</string>
+    <string name="function1_3">• tipo es el tipo de datos especificador de los datos devueltos por la función.\n</string>
+    <string name="function1_4">• nombre es el identificador mediante el cual será posible llamar a la función.\n</string>
+    <string name="functio1_5">• parámetros (tantos como sea necesario): Cada parámetro se compone de un especificador de tipo de datos seguido de un identificador, como cualquier declaración periódica variable (por ejemplo: int x) y que actúa dentro de la función como una variable local regular. Permiten pasar argumentos a la función cuando se le llama. Los diferentes parámetros son separados por comas.\n</string>
+    <string name="function1_6">• declaraciones es el cuerpo de la función. Es un bloque de instrucciones entre llaves {}.\n</string>
+    <string name="function1_7">Aquí tienes la primera función de ejemplo:\n</string>
+    <string name="function2">Argumentos que se pasan por valor y por referencia.\n</string>
+    <string name="function2_1">Hasta ahora, en todas las funciones que hemos visto, los argumentos pasados a las funciones se han pasado por valor. Esto significa que cuando se llama a una función con parámetros, lo que hemos pasado a la función eran copias de sus valores, pero nunca las variables mismas. Por ejemplo, supongamos que llamamos nuestra primera adición de la función usando el siguiente código:</string>
+    <string name="array">Eso significa que, por ejemplo, podemos almacenar 5 valores de tipo int en una matriz sin tener que declararse en 5 variables diferentes, cada uno con un identificador diferente. En lugar de eso, el uso de una matriz que puede almacenar 5 valores diferentes del mismo tipo, int por ejemplo, con un identificador único.\n</string>
+    <string name="array1">Por ejemplo, una matriz para contener 5 valores enteros de tipo int llamada Billy podría ser representado como esto:</string>
+    <string name="intro1">Instrucciones de uso ¿A quién está dirigida esta guía? Este tutorial es para aquellas\n</string>
+    <string name="intro2">"            personas que quieran aprender a programar en C ++ y no necesariamente tienen ingún\n"</string>
+    <string name="intro3">"            conocimiento previo de otros lenguajes de programación. Por supuesto, cualquier conocimiento de otros\n"</string>
+    <string name="quiz">hacer quiz</string>
+    <string name="menu">Menu</string>
+    <string name="next">Siguiente</string>
+    <string-array name="vvvaaa">
+        <item>Introduccion</item>
+        <item>Basico de C++</item>
+        <item>Controles De Estructura</item>
+        <item>Componentes de tipos de datos</item>
+        <item>Programacion orientada a objetos</item>
+        <item>Conceptos abansados</item>
+        <item>Esyandar de librerias</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="desarrollador">Jose Enrique Alvarez Godinez\n 1214100515\n Sistemas Informaticos UTNG\n
+        Desarrollo de aplicaciones moviles\n Acesor: Anastacio Rodrigues\n5to. cuatrimestre\n</string>
+    <string name="restart">Reiniciar</string>
+    <string name="grapiti">Grafica de Calificaciones</string>
+</resources>

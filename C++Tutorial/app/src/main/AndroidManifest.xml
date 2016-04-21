@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.ctutorial">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/portadauno"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Display" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Seleccion" />
+        <activity android:name=".VideoActiviti" />
+        <activity android:name=".ContenidoTema" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".GraficaMenuActiviry" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+        <activity android:name=".DesarrolladorActivity"></activity>
+        <activity android:name=".EnviarCorreoActivity"></activity>
+        <activity android:name=".MaterialDinamicoActivity"></activity>
+        <activity android:name=".BuscaminasActivity"></activity>
+
+    </application>
+
+</manifest>
