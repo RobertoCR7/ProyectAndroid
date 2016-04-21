@@ -1,35 +1,35 @@
 <resources>
 
     <!--Register -->
-    <string name="username">Nombre del Usuario</string>
-    <string name="password">Contraseña</string>
+    <string name="username">Nombre del usuario</string>
+    <string name="password">ContraseÃ±a</string>
     <string name="btm_login">Ingresar</string>
     <string name="title_activity_login">Login</string>
-    <string name="registration_instruction">Si no tiene un nombre y contraseña. Haga clic en el botón de abajo para registrarse</string>
+    <string name="registration_instruction">Si no tiene un nombre y contraseÃ±a. Haga clic en el botÃ³n de abajo para registrarse</string>
     <string name="register_button">Registrate Hora</string>
     <string name="title_activity_register">Registrate Ahora</string>
     <string name="welcome">Bienvenido</string>
-    <string name="is_login">Usted a iniciado session con extito</string>
-    <string name="sign_up">Registrate Ahora</string>
+    <string name="is_login">Usted a iniciado sesion con exito</string>
+    <string name="sign_up">Registrate ahora</string>
     <!--LOgin -->
 
     <string name="app">"AJAX"</string>
-    <string name="action_settings">Configuración</string>
+    <string name="action_settings">ConfiguraciÃ³n</string>
     <string name="action_buscar">Buscar</string>
-    <string name="titulo_otros_cursos">Otros Cursos</string>
+    <string name="titulo_otros_cursos">Otros cursos</string>
     <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
     <string name="etiqueta_universidad">UTNG</string>
-    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
-    <string name="etiqueta_comunicate">Enviame Un Correo</string>
+    <string name="texto_cambiar_contrasena">Cambia tu contraseÃ±a</string>
+    <string name="etiqueta_comunicate">EnvÃ­ame un correo</string>
 
     <!--ITEMS -->
     <string name="item_desarrollador">Desarrollador</string>
     <string name="item_acerca">Acerca</string>
     <string name="item_login">Login</string>
     <string name="item_inicio">Inicio</string>
-    <string name="item_cuenta">Mi Cuenta</string>
-    <string name="item_categorias">Categorías</string>
-    <string name="item_configuracion">Configuración</string>
+    <string name="item_cuenta">Mi cuenta</string>
+    <string name="item_categorias">CategorÃ­as</string>
+    <string name="item_configuracion">ConfiguraciÃ³n</string>
     <string name="item_opciones_dinamicas">Aprende Dinamicamente</string>
     <string name="item_videos">Videos</string>
     <string name="item_enciar_correo">Enviar Correo</string>
@@ -41,9 +41,9 @@
     <!--ITEMS -->
 
     <!--TABS -->
-    <string name="tab_foro">Video Ayuda</string>
-    <string name="pestaña_pulsada">"Pestaña Pulsada: "</string>
-    <string name="titulo_tab_capitulos">CAPITULOS</string>
+    <string name="tab_foro">Video ayuda</string>
+    <string name="pestaÃ±a_pulsada">"PestaÃ±a pulsada: "</string>
+    <string name="titulo_tab_capitulos">CAPÃTULOS</string>
     <string name="titulo_tab_Videos">VIDEOS</string>
     <string name="titulo_tab_Material">MATERIAL</string>
     <string name="titulo_tab_perfil">PERFIL</string>
@@ -54,8 +54,8 @@
 
     <!-- ETIQUETAS -->
     <string name="texto_envia_correo">Enviar</string>
-    <string name="etiqueta_info_usuario">usuario</string>
-    <string name="etiqueta_contrasena">contraseña</string>
+    <string name="etiqueta_info_usuario">Usuario</string>
+    <string name="etiqueta_contrasena">ContraseÃ±a</string>
     <string name="etiqueta_info_desarrollador">Desarrollador</string>
     <!-- ETIQUETAS -->
 
@@ -67,98 +67,98 @@
     <!-- LOGIN -->
     <string name="hello_blank_fragment">Fragmento vacio</string>
     <string name="nombre">Ingrese el nombre de usuario</string>
-    <string name="contraseña">Contraseña</string>
+    <string name="contraseÃ±a">ContraseÃ±a</string>
     <string name="correo">Correo</string>
-    <string name="agregar">Agregar Usuario</string>
+    <string name="agregar">Agregar usuario</string>
     <string name="nombre_info">Nombre</string>
-    <string name="contraseña_info">Ingrese una contraseña</string>
-    <string name="correo_info">Ingrese su correo electronico</string>
-    <string name="nuevo_usuario">Nuevo Usuario</string>
+    <string name="contraseÃ±a_info">Ingrese una contraseÃ±a</string>
+    <string name="correo_info">Ingrese su correo electrÃ³nico</string>
+    <string name="nuevo_usuario">Nuevo usuario</string>
     <string name="actualizar">Actualizar</string>
     <string name="eliminar">Eliminar</string>
     <string name="emptyString" />
     <!-- LOGIN -->
 
     <!-- Ayuda -->
-    <string name="Ayuda">En esta pestana te brindamos ayuda Si tienes alguna duda envía un correo
-        al desarrollador.\n Su correo está en el tab de acerca de. También puedes modificar las
-        preferencias en la ventana de configuración que está dentro del slide o si prefieres enviar
-        un correo electrónico presionando el botón de abajo.
+    <string name="Ayuda">En esta pestaÃ±a te brindamos ayuda Si tienes alguna duda envÃ­a un correo
+        al desarrollador.\n Su correo estÃ¡ en el tab de acerca de. TambiÃ©n puedes modificar las
+        preferencias en la ventana de configuraciÃ³n que estÃ¡ dentro del slide o si prefieres enviar
+        un correo electrÃ³nico presionando el botÃ³n de abajo.
        </string>
     <!-- Ayuda -->
 
     <!-- TEXTOS GRANDES -->
-    <string name="list_descripcion_videos">Hola en esta sección podrás reproducir cada uno de los
-        videos que te ayudaran a comprender aún más las técnicas y la lógica de Ajax, te invitamos a
+    <string name="list_descripcion_videos">Hola en esta secciÃ³n podrÃ¡s reproducir cada uno de los
+        videos que te ayudarÃ¡n a comprender aÃºn mÃ¡s las tÃ©cnicas y la lÃ³gica de Ajax, te invitamos a
         que veas los videos, DIVIERTETE!!</string>
 
-    <string name="list_fotos_galeria">Hola en esta sección podrás encontrar las imagenes mas
+    <string name="list_fotos_galeria">Hola en esta secciÃ³n podrÃ¡s encontrar las imagenes mas
         importantes dentro de la Universidad UTNG, DIVIERTETE!!</string>
 
-    <string name="list_descripcion_audios">Hola en esta sección podrás reproducir audios en Soundcloud,
-       que es una aplicación donde puedes escuchar audios de todo tipo,
-       los cuales   que te ayudaran a comprender aún más las técnicas y la
-       lógica de Ajax, te invitamos a que escuches los audios, DIVIERTETE!!</string>
+    <string name="list_descripcion_audios">Hola en esta secciÃ³n podrÃ¡s reproducir audios en Soundcloud,
+       que es una aplicaciÃ³n donde puedes escuchar audios de todo tipo,
+       los cuales   que te ayudarÃ¡n a comprender aÃºn mÃ¡s las tÃ©cnicas y la
+       lÃ³gica de Ajax, te invitamos a que escuches los audios, DIVIERTETE!!</string>
 
     <!-- TEXTOS GRANDES -->
 
 
-    <string name="position">posicion</string>
+    <string name="position">posiciÃ³n</string>
     <string name="itm_quiz">Quiz</string>
     <string name="siguiente">Siguiente</string>
-    <string name="menu_settings">Menú</string>
-    <string name="capitulos">Capítulos</string>
+    <string name="menu_settings">MenÃº</string>
+    <string name="capitulos">CapÃ­tulos</string>
 
     <string name="abrir">Abrir</string>
-    <string name="omitir">omitir</string>
-    <string name="Bienvenida">Felicidades, acabas de registrarte, presiona el botón de inicio para ingresar al curso.</string>
-    <string name="privilegios">Bienvenido, presiona el botón de inicio para ingresar al curso.
-Si quieres tener acceso total a la aplicación
-        regístrate presionando el botón que está en la parte inferior.</string>
-    <string name="Privilegios_introduccion">Hola, Bienvenido, El término AJAX se presentó por primera
-        vez en el artículo Ajax publicado por Jesse James Garrett el 18 de febrero de 2005. Hasta
-        ese momento, no existía un término normalizado que hiciera referencia a un nuevo tipo de
-        aplicación web que estaba apareciendo.</string>
-    <string name="enviar_correo">Envía un correo al programador, puedes hacerlo desplegando la barra
-        lateral de la aplicación, selecciona la opción enviar un correo, escribe el correo y listo.</string>
+    <string name="omitir">Omitir</string>
+    <string name="Bienvenida">Felicidades, acabas de registrarte, presiona el botÃ³n de inicio para ingresar al curso.</string>
+    <string name="privilegios">Bienvenido, presiona el botÃ³n de inicio para ingresar al curso.
+Si quieres tener acceso total a la aplicaciÃ³n
+        regÃ­strate presionando el botÃ³n que estÃ¡ en la parte inferior.</string>
+    <string name="Privilegios_introduccion">Hola, bienvenido, el tÃ©rmino AJAX se presentÃ³ por primera
+        vez en el artÃ­culo Ajax publicado por Jesse James Garrett el 18 de febrero de 2005. Hasta
+        ese momento, no existÃ­a un tÃ©rmino normalizado que hiciera referencia a un nuevo tipo de
+        aplicaciÃ³n web que estaba apareciendo.</string>
+    <string name="enviar_correo">EnvÃ­a un correo al programador, puedes hacerlo desplegando la barra
+        lateral de la aplicaciÃ³n, selecciona la opciÃ³n enviar un correo, escribe el correo y listo.</string>
         <!-- TEXTOS GRANDES -->
 
     <!-- ARREGLOS -->
     <string-array name="audios">
-        <item>Audio de introducción a Ajax</item>
+        <item>Audio de introducciÃ³n a Ajax</item>
         <item>Audio de primeros pasos en Ajax</item>
-        <item>Audio de técnicas básicas con Ajax</item>
-        <item>Audio de técnicas avanzadas con java</item>
-        <item>Audio de JavaScript básico</item>
+        <item>Audio de tÃ©cnicas bÃ¡sicas con Ajax</item>
+        <item>Audio de tÃ©cnicas avanzadas con java</item>
+        <item>Audio de JavaScript bÃ¡sico</item>
     </string-array>
 
    //Capitulos
-    <string name="introduccion_ajax">El término AJAX se presentó por primera vez en el artículo
+    <string name="introduccion_ajax">El tÃ©rmino AJAX se presentÃ³ por primera vez en el artÃ­culo
         Ajax: A New Approach to Web Applications
         (http://www.adaptivepath.com/publications/essays/archives/000385.php)
         publicado por Jesse James Garrett el 18 de febrero de 2005. Hasta ese momento,
-        no existía un término normalizado que hiciera referencia a un nuevo tipo de aplicación web
-        que estaba apareciendo. En realidad, el término AJAX es un acrónimo de
-        Asynchronous JavaScript + XML, que se puede traducir como JavaScript asíncrono + XML.
-        El artículo define AJAX de la siguiente forma: “Ajax no es una tecnología en sí mismo.
-        En realidad, se trata de varias tecnologías independientes que se unen de formas nuevas y sorprendentes.”
-        Las tecnologías que forman AJAX son:
-        ▪ XHTML y CSS, para crear una presentación basada en estándares.
-        ▪ DOM, para la interacción y manipulación dinámica de la presentación.
-        ▪ XML, XSLT y JSON, para el intercambio y la manipulación de información.
-        ▪ XMLHttpRequest, para el intercambio asíncrono de información.
-        ▪ JavaScript, para unir todas las demás tecnologías.
+        no existÃ­a un tÃ©rmino normalizado que hiciera referencia a un nuevo tipo de aplicaciÃ³n web
+        que estaba apareciendo. En realidad, el tÃ©rmino AJAX es un acrÃ³nimo de
+        Asynchronous JavaScript + XML, que se puede traducir como JavaScript asÃ­ncrono + XML.
+        El artÃ­culo define AJAX de la siguiente forma: â€œAjax no es una tecnologÃ­a en sÃ­ mismo.
+        En realidad, se trata de varias tecnologÃ­as independientes que se unen de formas nuevas y sorprendentes.â€
+        Las tecnologÃ­as que forman AJAX son:
+        â–ª XHTML y CSS, para crear una presentaciÃ³n basada en estÃ¡ndares.
+        â–ª DOM, para la interacciÃ³n y manipulaciÃ³n dinÃ¡mica de la presentaciÃ³n.
+        â–ª XML, XSLT y JSON, para el intercambio y la manipulaciÃ³n de informaciÃ³n.
+        â–ª XMLHttpRequest, para el intercambio asÃ­ncrono de informaciÃ³n.
+        â–ª JavaScript, para unir todas las demÃ¡s tecnologÃ­as.
 
     </string>
 
     <string name="primerosPasosAjax">
-        La historia de AJAX está íntimamente relacionada con un objeto de programación llamado
-            XMLHttpRequest. El origen de este objeto se remonta al año 2000, con productos como
+        La historia de AJAX estÃ¡ Ã­ntimamente relacionada con un objeto de programaciÃ³n llamado
+            XMLHttpRequest. El origen de este objeto se remonta al aÃ±o 2000, con productos como
             Exchange 2000, Internet Explorer 5 y Outlook Web Access.\n
 
             \n
-            En este caso, una aplicación JavaScript descarga un archivo del servidor y muestra su
-            contenido sin necesidad de recargar la página.\n\n
+            En este caso, una aplicaciÃ³n JavaScript descarga un archivo del servidor y muestra su
+            contenido sin necesidad de recargar la pÃ¡gina.\n\n
             \n
 
               script type="text/javascript">\n
@@ -168,38 +168,38 @@ Si quieres tener acceso total a la aplicación
                      peticion_http = new XMLHttpRequest();\n
                    }\n
             \n
-            En el ejemplo anterior, cuando se carga la página se ejecuta el método JavaScript que
+            En el ejemplo anterior, cuando se carga la pÃ¡gina se ejecuta el mÃ©todo JavaScript que
             muestra el contenido de un archivo llamado holamundo.txt que se encuentra en el servidor.
-            La clave del código anterior es que la petición HTTP y la descarga de los contenidos del
-            archivo se realizan sin necesidad de recargar la página.\n
+            La clave del cÃ³digo anterior es que la peticiÃ³n HTTP y la descarga de los contenidos del
+            archivo se realizan sin necesidad de recargar la pÃ¡gina.\n
 
             \n
-            Los navegadores que siguen los estándares (Firefox, Safari, Opera, Internet Explorer 7 y 8)
-            implementan el objeto XMLHttpRequest de forma nativa, por lo que se puede obtener a través del
+            Los navegadores que siguen los estÃ¡ndares (Firefox, Safari, Opera, Internet Explorer 7 y 8)
+            implementan el objeto XMLHttpRequest de forma nativa, por lo que se puede obtener a travÃ©s del
             objeto window. Los navegadores obsoletos (Internet Explorer 6 y anteriores) implementan el
             objeto XMLHttpRequest como un objeto de tipo ActiveX.
-            Una vez obtenida la instancia del objeto XMLHttpRequest, se prepara la función que se encarga
+            Una vez obtenida la instancia del objeto XMLHttpRequest, se prepara la funciÃ³n que se encarga
             de procesar la respuesta del servidor. La propiedad onreadystatechange del objeto
-            XMLHttpRequest permite indicar esta función directamente incluyendo su código mediante una
-            función anónima o indicando una referencia a una función independiente. En el ejemplo anterior
-            se indica directamente el nombre de la función:\n
+            XMLHttpRequest permite indicar esta funciÃ³n directamente incluyendo su cÃ³digo mediante una
+            funciÃ³n anÃ³nima o indicando una referencia a una funciÃ³n independiente. En el ejemplo anterior
+            se indica directamente el nombre de la funciÃ³n:\n
 
             \n
             peticion_http.onreadystatechange = muestraContenido;
     </string>
     <string name="tecnicasBasicasAjax">
-         Algunas aplicaciones web disponen de varias listas desplegables, así como cajas de texto
-            donde el usuario puede autocompletar. Las técnicas que se utilizan para desarrollar
+         Algunas aplicaciones web disponen de varias listas desplegables, asÃ­ como cajas de texto
+            donde el usuario puede autocompletar. Las tÃ©cnicas que se utilizan para desarrollar
             estas actividades normalmente requieren de un conocimiento avanzado de Ajax.\n
 
             \n
             Algunas aplicaciones web multi-idioma disponen de la posibilidad de introducir
-            información en muchos idiomas diferentes. El principal problema de estas aplicaciones es
-            que el teclado físico que utiliza el usuario no siempre corresponde al idioma en el que
+            informaciÃ³n en muchos idiomas diferentes. El principal problema de estas aplicaciones es
+            que el teclado fÃ­sico que utiliza el usuario no siempre corresponde al idioma en el que
             se quieren introducir los contenidos.\n
 
             \n
-            La solución habitual de este problema consiste en mostrar un teclado virtual en la
+            La soluciÃ³n habitual de este problema consiste en mostrar un teclado virtual en la
             pantalla que muestre el valor correcto para cada tecla del idioma seleccionado por el
             usuario.\n
 
@@ -207,74 +207,74 @@ Si quieres tener acceso total a la aplicación
             Algunas veces, se presenta al usuario un cuadro de texto en el que tiene que introducir
             un valor que pertenece a un grupo muy grande de datos. Algunos casos habituales son:\n
             \n
-            una dirección de correo electrónico que pertenezca a la libreta de direcciones del
-            usuario, el nombre válido de un municipio de un país, el nombre de un empleado de una
+            una direcciÃ³n de correo electrÃ³nico que pertenezca a la libreta de direcciones del
+            usuario, el nombre vÃ¡lido de un municipio de un paÃ­s, el nombre de un empleado de una
             empresa grande, etc.
             \n
-            La solución obviamente sería poner un cuadro de texto donde el usuario escriba las
-            palabras iniciales de lo que desea buscar facilitando así al usuario el rango de posibilidades.
+            La soluciÃ³n obviamente serÃ­a poner un cuadro de texto donde el usuario escriba las
+            palabras iniciales de lo que desea buscar facilitando asÃ­ al usuario el rango de posibilidades.
 
 
     </string>
     <string name="tecnicasAvanzadasAjax">
         Las aplicaciones JavaScript ejecutadas en los navegadores tienen unas restricciones muy
-            estrictas en cuanto a su seguridad. Además de no poder acceder a recursos locales como
+            estrictas en cuanto a su seguridad. AdemÃ¡s de no poder acceder a recursos locales como
             archivos y directorios, los scripts solamente pueden realizar conexiones de red con el
-            mismo dominio al que pertenece la aplicación JavaScript.
+            mismo dominio al que pertenece la aplicaciÃ³n JavaScript.
 
             \n
-            La sindicación de contenidos mediante protocolos como RSS y Atom ha permitido que los
-            sitios web puedan compartir fácilmente sus noticias, artículos, entradas de
+            La sindicaciÃ³n de contenidos mediante protocolos como RSS y Atom ha permitido que los
+            sitios web puedan compartir fÃ¡cilmente sus noticias, artÃ­culos, entradas de
             blogs y muchos otros contenidos digitales. Aunque RSS es un conjunto de formatos y
-            protocolos, en su forma última es un archivo XML que incluye los contenidos que quiere
+            protocolos, en su forma Ãºltima es un archivo XML que incluye los contenidos que quiere
             compartir el servidor web. La sencillez del formato y la posibilidad de procesar archivos
             XML con JavaScript hacen que RSS sea ideal para desarrollar aplicaciones AJAX que traten
             con sus contenidos.
         \n
 
-        1) Cuando se cargue la página, se debe construir "el mapa de red" que muestra todos los servidores
-        que se van a monitorizar. Para construir este mapa, se proporciona la página web básica y un objeto
+        1) Cuando se cargue la pÃ¡gina, se debe construir "el mapa de red" que muestra todos los servidores
+        que se van a monitorizar. Para construir este mapa, se proporciona la pÃ¡gina web bÃ¡sica y un objeto
         llamado nodos, que contiene los datos correspondientes a los equipos que se quieren monitorizar.
-        Para mostrar cada nodo que se van a monitorizar, se crean dinámicamente elementos de tipo {div}
-        que muestran el nombre de cada nodo, su URL y una zona de datos en la que se mostrará más adelante
-        cierta información del nodo. A continuación, se muestra un ejemplo del posible código XHTML
+        Para mostrar cada nodo que se van a monitorizar, se crean dinÃ¡micamente elementos de tipo {div}
+        que muestran el nombre de cada nodo, su URL y una zona de datos en la que se mostrarÃ¡ mÃ¡s adelante
+        cierta informaciÃ³n del nodo. A continuaciÃ³n, se muestra un ejemplo del posible cÃ³digo XHTML
         que se puede utilizar:
 
     </string>
     <string name="javascriptBasico">
-        La sintaxis de un lenguaje de programación se define como el conjunto de reglas que deben
-            seguirse al escribir el código fuente de los programas para considerarse como correctos
-            para ese lenguaje de programación. La sintaxis de JavaScript es muy similar a la de otros
-            lenguajes como Java y C. Las normas básicas que definen la sintaxis de JavaScript son las siguientes:\n
+        La sintaxis de un lenguaje de programaciÃ³n se define como el conjunto de reglas que deben
+            seguirse al escribir el cÃ³digo fuente de los programas para considerarse como correctos
+            para ese lenguaje de programaciÃ³n. La sintaxis de JavaScript es muy similar a la de otros
+            lenguajes como Java y C. Las normas bÃ¡sicas que definen la sintaxis de JavaScript son las siguientes:\n
 
             \n
-            ▪ No se tienen en cuenta los espacios en blanco y las nuevas líneas: como sucede con
-            XHTML, el intérprete de JavaScript ignora cualquier espacio en blanco sobrante, por lo
-            que el código se puede ordenar de forma adecuada para su manejo (tabulando las líneas,
-            añadiendo espacios, creando nuevas líneas, etc.) \n
+            â–ª No se tienen en cuenta los espacios en blanco y las nuevas lÃ­neas: como sucede con
+            XHTML, el intÃ©rprete de JavaScript ignora cualquier espacio en blanco sobrante, por lo
+            que el cÃ³digo se puede ordenar de forma adecuada para su manejo (tabulando las lÃ­neas,
+            aÃ±adiendo espacios, creando nuevas lÃ­neas, etc.) \n
 
             \n
-            ▪ Se distinguen las mayúsculas y minúsculas: al igual que sucede con la sintaxis de las
-            etiquetas y elementos XHTML. Sin embargo, si en una página XHTML se utilizan indistintamente
-            mayúsculas y minúsculas, la página se visualiza correctamente y el único problema es que
-            la página no valida. Por el contrario, si en JavaScript se intercambian mayúsculas y
-            minúsculas, las aplicaciones no funcionan correctamente.\n
+            â–ª Se distinguen las mayÃºsculas y minÃºsculas: al igual que sucede con la sintaxis de las
+            etiquetas y elementos XHTML. Sin embargo, si en una pÃ¡gina XHTML se utilizan indistintamente
+            mayÃºsculas y minÃºsculas, la pÃ¡gina se visualiza correctamente y el Ãºnico problema es que
+            la pÃ¡gina no valida. Por el contrario, si en JavaScript se intercambian mayÃºsculas y
+            minÃºsculas, las aplicaciones no funcionan correctamente.\n
 
             \n
-            ▪ No se define el tipo de las variables: al definir una variable, no es necesario indicar
-            el tipo de dato que almacenará. De esta forma, una misma variable puede almacenar
-            diferentes tipos de datos durante la ejecución del programa.\n
+            â–ª No se define el tipo de las variables: al definir una variable, no es necesario indicar
+            el tipo de dato que almacenarÃ¡. De esta forma, una misma variable puede almacenar
+            diferentes tipos de datos durante la ejecuciÃ³n del programa.\n
 
-            JavaScript define dos tipos de comentarios: los de una sola línea y los que ocupan varias líneas.
-            Los comentarios de una sola línea se definen añadiendo dos barras oblicuas (//) al principio
-            de cada línea que forma el comentario:
-            // a continuación se muestra un mensaje
+            JavaScript define dos tipos de comentarios: los de una sola lÃ­nea y los que ocupan varias lÃ­neas.
+            Los comentarios de una sola lÃ­nea se definen aÃ±adiendo dos barras oblicuas (//) al principio
+            de cada lÃ­nea que forma el comentario:
+            // a continuaciÃ³n se muestra un mensaje
             alert("mensaje de prueba");\n
             \n
 
-            También se pueden incluir varios comentarios seguidos de una sola línea:
-            // a continuación se muestra un mensaje
-            // y después se muestra otro mensaje
+            TambiÃ©n se pueden incluir varios comentarios seguidos de una sola lÃ­nea:
+            // a continuaciÃ³n se muestra un mensaje
+            // y despuÃ©s se muestra otro mensaje
             alert("mensaje de prueba");\n
             \n
 
@@ -283,11 +283,18 @@ Si quieres tener acceso total a la aplicación
     <string name="reset">Reintentar</string>
     <string name="bienvenido">Bienvenido</string>
     <string name="nombre_usuario">Nombre Usuario</string>
-    <string name="contra">Contraseña</string>
+    <string name="contra">ContraseÃ±a</string>
     <string name="login">Login</string>
     <string name="registrar">Registrar</string>
     <string name="grafica">Grafica de avance y calificacion por tema</string>
     <string name="seleccionada">Seleccionada</string>
+    <string name="bienvenido_registrate">Bienvenido, Registrate.</string>
+    <string name="registrate">Registrarte</string>
+    <string name="enviar_resultado">Enviar resultado</string>
+    <string name="menu_principal">Menu Principal</string>
+    <string name="salir">Salir</string>
+    <string name="ver_video">Ver video</string>
+    <string name="ayuda">Ayuda</string>
 
 
 </resources>
