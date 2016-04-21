@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_usuario_id"
+        android:text="@string/bd_id"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_usuario_nombre"
+        android:text="@string/bd_nombre"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_usuario_correo"
+        android:text="@string/bd_correo"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_usuario_contraseña"
+        android:text="@string/bd_contrasena"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+</LinearLayout>

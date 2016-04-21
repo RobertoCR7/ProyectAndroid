@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorTabs">#FE9A2E</color>
+    <color name="colorAccent">#ff4a40</color>
+    <color name="letraSubtitulo">#4053ff</color>
+    <color name="colorFondo">#2BE4F2F2</color>
+    <color name="colorFondoIntro">#ff8c00</color>
+    <color name="colorBotones">#ff8c00</color>
+    <color name="items">#FE9A2E</color>
+    <color name="colorBlanco">#FFF</color>
+
+
+
+
+</resources>

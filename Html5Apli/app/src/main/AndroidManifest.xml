@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="utng.edu.utng.html5apli">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bienve"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".InicioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IntroduccionActivity" />
+        <activity android:name=".TemarioActivity" />
+        <activity android:name=".DesarrolladorActivity" />
+        <activity android:name=".TabsActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MenuConfiguracionActivity" />
+        <activity android:name=".LogeoActividad" />
+        <activity android:name=".RegistroActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".VisitaActivity" />
+        <activity android:name=".SplashScreenActivityBienbenida" />
+        <activity android:name=".AprendiendoActivity" />
+        <activity android:name=".grafica.GraphAChartEngineActivity" />
+        <activity android:name="org.achartengine.GraphicalActivity"/>
+        <activity android:name=".GmailActivity"></activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+    </application>
+
+</manifest>

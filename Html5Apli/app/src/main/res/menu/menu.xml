@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:kevin_app="http://schemas.android.com/apk/res-auto"
+    tools:context="utng.edu.mx.proyectoruby2.ListViewLoginActivity"
+    >
+    <item
+        android:id="@+id/itm_actionbar_pro"
+        android:title="Avance del Curso "
+        kevin_app:showAsAction="never"></item>
+    <item
+        android:id="@+id/itm_actionbar_menu_configuraciones_on"
+        android:title="Configuraciones"
+        kevin_app:showAsAction="never"></item>
+    <item
+        android:id="@+id/itm_actionbar_music"
+        android:title="Música de fondo"
+        kevin_app:showAsAction="never"></item>
+    <item
+        android:id="@+id/itm_grafica"
+        android:title="Mostrar Gráfica"
+        kevin_app:showAsAction="never"></item>
+    <item
+        android:id="@+id/itm_correo"
+        android:title="Enviar Certificado "
+        kevin_app:showAsAction="never"></item>
+    <item
+        android:id="@+id/itm_actionbar_menu_salir_on"
+        android:title="Salir"
+        kevin_app:showAsAction="never"></item>
+
+
+
+</menu>

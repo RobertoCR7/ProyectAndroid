@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kevin"
+        android:id="@+id/imv_kevin"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/letraSubtitulo"
+        android:textSize="10pt"
+        android:layout_gravity="center"
+        android:text="@string/name"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/developer_name"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letraSubtitulo"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:layout_gravity="center"
+        android:text="@string/university"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:text="@string/university_name"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letraSubtitulo"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:layout_gravity="center_vertical"
+        android:text="@string/academic_advisor"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:text="@string/name_advisor"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letraSubtitulo"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:layout_gravity="center_vertical"
+        android:text="@string/acerca_de"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:text="@string/el_gran_libro"
+        />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gupolinux"
+                android:id="@+id/imv_guapolinux"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="10pt"
+                android:layout_gravity="center_vertical"
+                android:text="@string/el_guapo_linux"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pildoras"
+                android:id="@+id/imv_pildoras"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="10pt"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="@string/pildoras"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/practiceprogram"
+                android:id="@+id/imv_practicando"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="10pt"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="@string/algoritmo_libre"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webs"
+                android:id="@+id/imv_webs"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="10pt"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="@string/webs_html"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
