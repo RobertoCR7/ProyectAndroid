@@ -13,7 +13,7 @@
     <string name="tab_video">Vídeo</string>
     <string name="tab_examen">Examen</string>
     <string name="ayuda">Ayuda</string>
-    <string name="introduccion">En este apartado te brindamos ayuda \n Recordandote que puedes navegar por \n la aplicacion con tan solo dar clic \n en las pestañas y asi dar con el \n contenido que se te puede mostrar, \n en la parte donde se te muestran los \n subtemas, te mostramos un menu donde \n aparece un video de introduccion al \n curso para que quede mas entendida \n la navegacion por el curso, recuerda \n -Debes de contar con tu cuenta para asi \n poder acceder.\n -Dar clic en los botones o immagenes para\n que te lleven a otra ventana\n -Los menus que se presentan cuenta con \n informacion importante.</string>
+    <string name="introduccion">En este apartado te brindamos ayuda \n Recordandote que puedes navegar por \n la aplicacioón con tan solo dar click \n en las pestañas y asi dar con el \n contenido que se te puede mostrar, \n en la parte donde se te muestran los \n subtemas, te mostramos un menu donde \n aparece un video de introducción al \n curso para que quede mas entendida \n la navegacion por el curso, recuerda \n -Debes de contar con tu cuenta para asi \n poder acceder.\n -Dar clic en los botones o immagenes para\n que te lleven a otra ventana\n -Los menus que se presentan cuenta con \n informacion importante.</string>
     <string name="Audio">Audios</string>
 
     <string name="intro">Introduccion: XML</string>
@@ -27,17 +27,17 @@
 
     <string name="Introduccion">XML se está convirtiendo en el formato de representación estándar para intercambio y verificación de datos, configuración, interacción RDBMS, invocación de procedimientos remotos y representación de procesos de transformación. En todos estos campos el lenguaje Java proporciona las interfaces y herramientas de programación necesarias para gobernar los mecanismos subyacentes. Proporciona la referencia de las API estándar y muestra ejemplos y técnicas que necesitan los programadores de Java con relativa experiencia para conocer y desarrollar las aplicaciones XML.</string>
     <string name="login">Login</string>
-    <string name="cuestionario">Entrar Cuestionario del Curso</string>
+    <string name="cuestionario">Entrar cuestionario del curso</string>
     <string name="informacion">Información XML</string>
-    <string name="manual">Login Manual-XML</string>
+    <string name="manual">Login manual-XML</string>
     <string name="registrar">Registrate!</string>
-    <string name="accede">Ya tienes cuenta! Accede!</string>
+    <string name="accede">Ya tienes cuenta, Accede,</string>
     <string name="stop">Stop</string>
     <string name="sonido_stop">Start</string>
     <string name="examen">Examen</string>
     <string name="temas_xml">Temas XML</string>
     <string name="registro">Registro</string>
-    <string name="menu_settings">kuisDos</string>
+    <string name="menu_settings">Examen2</string>
     <string name="menu_uno">Menu item uno</string>
     <string name="menu_dos">Menu item dos</string>
     <string name="menu_3">Menu item tres</string>
@@ -45,7 +45,6 @@
     <string name="cerrar">Cerrar</string>
     <string name="next">Next</string>
 
-    <string name="unoss">Informacionsdtr;lejgdgjtdfgsfgdio</string>
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
@@ -78,12 +77,7 @@
 
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
+
     </string-array>
     <string-array name="pref_sync_frequency_values">
         <item>15</item>
@@ -105,15 +99,15 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="info_desarrollador">•UNIVERSIDAD TECNOLOGICA DEL NORTE DE GUANAJUATO\n\n+
+    <string name="info_desarrollador">•UNIVERSIDAD TECNOLÓGICA DEL NORTE DE GUANAJUATO\n\n+
         •Roberto Efrain Nuñez Estrada\n
-        •Dolores Hidalgo Guanajuato\n
+        •Dolores Hidalgo, Guanajuato\n
         •Facebook: Roberto Nuñzz Estrada \n
-        •Calle: Galeana 1 A Rio Laja \n
+        •Calle: Galeana 1 A Río Laja \n
         •Tecnico en Sistemas Informaticos\n
         •Grupo:GSI-1151 \n\n
         •Visión \n
-        Informar Acerca de la utlizacion de XML para implementar tu conocimiento acerca de informacion relebante e importante\n\n
+        Informar Acerca de la utilizacion de XML para implementar tu conocimiento acerca de información relebante e importante\n\n
         https://es.wikipedia.org/wiki/JAXB cueva@lsi.uniovi.es www.di.uniovi.es/~cueva Juan Manuel Cueva Lovelle\n\n
 
         http://relaxng.org/ http://www.w3.org/XML/Schema</string>
@@ -194,7 +188,7 @@
                                 "estructura jerárquica.
     </string>
     <string name="subtemaSeis">
-                                Caracteres no permitidos
+                                Carácteres no permitidos
                                 limitaciones \n"
                                 CDATA\n"
                                 &quot; \n
@@ -413,7 +407,7 @@
 
 
     <string name="subtemaVeintitres">
-        A realizado todos los temas con exito realize el ultimo examen para terminar el curso XML gracias
+        A realizado todos los temas con exito realize el último  para terminar el curso XML gracias
 
     </string>
 
