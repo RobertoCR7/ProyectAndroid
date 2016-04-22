@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="@string/developer"
+        android:textSize="30dp"
+        android:textColor="@color/MyColor"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="156dp"
+        android:layout_height="142dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/developer"
+        android:textColor="@color/MyColor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/develop_uni"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/MyColor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/developer_creator"
+        android:textSize="20dp"
+        android:textColor="@color/MyColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/developer_name"
+        android:textSize="15dp"
+        android:textColor="@color/MyColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/developer_ver"
+        android:textSize="20dp"
+        android:textColor="@color/MyColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/deve_ver"
+        android:textSize="15dp"
+        android:textColor="@color/MyColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/developer_bibliography"
+        android:textSize="20dp"
+        android:textColor="@color/MyColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/developer_info"
+        android:textSize="15dp"
+        android:textColor="@color/MyColor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/developer_uni"
+        android:textSize="20dp"
+        android:textColor="@color/MyColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/name_school"
+        android:textSize="15dp"
+        android:textColor="@color/MyColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/developer_matter"
+        android:textSize="20dp"
+        android:textColor="@color/MyColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/name_matter"
+        android:textSize="15dp"
+        android:textColor="@color/MyColor"/>
+
+</LinearLayout>

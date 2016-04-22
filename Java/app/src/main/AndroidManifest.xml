@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="utng.edu.mx.java">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/log"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".quiz.QuizActivity" />
+        <activity android:name=".ExampleIndiceActivity" />
+        <activity android:name=".SeleccionIndice" />
+        <activity android:name=".DesarrolladorActivity" />
+        <activity android:name=".PantallaAyudaActivity" />
+        <activity android:name=".AudioInicioActivity" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Display" />
+        <activity android:name=".ContenidoOffActivity" />
+        <activity android:name=".OpcionesLogeoActivity" />
+        <activity android:name=".ContenidoOnLogeo" />
+        <activity android:name=".ContenidoOnObject" />
+        <activity android:name=".ContenidoOnClass" />
+        <activity android:name=".ContenidoOnMethod" />
+        <activity android:name=".ContenidoOnControl" />
+        <activity android:name=".ExamenFinal" />
+        <activity android:name=".VideoOnLoginActivity" />
+        <activity android:name=".quiz.ResultActivity" />
+        <activity android:name=".ConfiguracionMenuActivity" />
+        <activity android:name=".GraficaMenuActiviry" />
+        <activity android:name=".AudioActividad" />
+        <activity android:name=".ListaGameActivity"></activity>
+        <activity android:name=".GameActivity"></activity>
+
+        <activity android:name=".grafica.GraphAChartEngineActivity"></activity>
+        <activity android:name="org.achartengine.GraphicalActivity"></activity>
+
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+    </application>
+
+</manifest>

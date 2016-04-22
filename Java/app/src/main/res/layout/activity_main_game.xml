@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary" >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/adi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imv_adivina"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imv_adivina"
+        android:text="pregunta"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textColor="@color/MyColor"
+        android:id="@+id/txv_pregunta"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Comprobar"
+        android:id="@+id/btn_comprobar"
+        android:layout_below="@+id/txv_pregunta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/MyColor"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ly_contenedor"
+        android:layout_below="@+id/btn_comprobar"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

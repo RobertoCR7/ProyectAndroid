@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="utng.edu.mx.login.Display"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="300px"
+        android:src="@drawable/java_icon"
+        android:layout_gravity="center"
+        android:layout_weight="0.12" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/welcome"
+    android:textSize="25pt"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textColor="@color/MyColor"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/TVusername"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:gravity="center"
+        android:textSize="20pt"
+        android:layout_gravity="center"
+        android:textColor="@color/MyColor"
+        />
+
+    <Button
+        android:background="@drawable/mybutton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciemos"
+        android:id="@+id/btnSiguiente"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:layout_marginTop="30pt"
+        android:textColor="@color/MyColor"
+
+        />
+</LinearLayout>

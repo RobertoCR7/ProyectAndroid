@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="numero_preguntas">
+        <item>Nivel 1</item>
+        <item>Nivel 2</item>
+        <item>Nivel 3</item>
+        <item>Nivel 4</item>
+        <item>Nivel 5</item>
+        <item>Nivel 6</item>
+    </string-array>
+
+    <string-array name="pregunta">
+
+        <item>¿Palabra reservada para realizar una clase publica?</item>
+        <item> Completa la línea de código: \n
+            ---------------------------------- \n
+            \t \t public class HelloWorld { \n
+            \t \t \t \t public static void main (String [] args) { \n
+            \t \t \t \t \t ________.out.println(“Hello world”); \n
+            \t \t \t \t } \n
+            \t \t } \n
+            ---------------------------------
+
+        </item>
+        <item>Completa la línea de código: \n
+         ---------------------------------- \n
+            \t \t public class Calculos { \n
+            \t \t \t \t public ____ Suma(int a , int b){ \n
+            \t \t \t \t \treturn a + b; \n
+            \t \t } \n
+            ---------------------------------
+
+        </item>
+        <item>¿Que hace falta en la declaración del objeto ?
+        \t \t Persona persona  = new ___________;
+
+        </item>
+        <item>¿¿Qué palabra se utiliza para terminar un ciclo??</item>
+
+        <item>¿Que hace falta en esta sentencia ? \n
+            ---------------------------------- \n
+        \t \t Swich(operador){ \n
+         \t \t \t ______”*”: \n
+         \t \t System.out.println(“El operador es el *”); \n
+         \t \t break;
+        </item>
+    </string-array>
+    <string-array name="respuesta">
+        <item>public</item>
+        <item>System</item>
+        <item>int</item>
+        <item>persona()</item>
+        <item>break</item>
+        <item>case</item>
+    </string-array>
+</resources>

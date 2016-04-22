@@ -1,0 +1,537 @@
+<resources>
+    <string-array name="indices_temas">
+        <item> Objetivo </item>
+        <item>Destinatarios</item>
+        <item>¿Qué es Java?</item>
+        <item>¿Qué es un objeto?</item>
+        <item>¿Qué es una clase?</item>
+        <item>¿Qué es un Metodo?</item>
+        <item>Estructura de control</item>
+        <item>Examen Final</item>
+    </string-array>
+
+    <string-array name="indices_temas_off">
+        <item> Objetivo </item>
+        <item>Destinatarios</item>
+        <item>¿Qué es Java?</item>
+        <item>¿Qué es un objeto?</item>
+        <item>¿Qué es una clase?</item>
+        <item>¿Qué es un Metodo?</item>
+        <item>Estructura de control</item>
+    </string-array>
+
+
+    <string-array name="descripciones_contenido">
+        <item>
+            \n \n
+            Java es uno de los lenguajes de programación más utilizados en el mundo, enmarcado en el grupo de lenguajes orientados
+         a objetos. \n
+            Este curso permite aprender los fundamentos de la programación Java  \n y de la programación orientada a objetos.
+            \n \n \n \n
+        </item>
+        <item>
+            \n \n
+            Cualquier persona con interés en aprender fundamentos de programación Java con vistas al desarrollo de aplicaciones. Es recomendable, aunque no
+        imprescindible, que el alumno tenga conocimientos básicos de algoritmia y de algún otro lenguaje de programación.
+            \n \n \n \n
+        </item>
+        <item>
+            Java es un lenguaje de programación de propósito general, concurrente, orientado a objetos que fue diseñado específicamente \n
+    para tener tan pocas dependencias de implementación como fuera posible. Su intención es permitir que los desarrolladores de \n
+    aplicaciones escriban el programa una vez y lo ejecuten en cualquier dispositivo. \n
+
+            \n \n
+            Java es un lenguaje:
+            \n \n
+            · de objetos
+            \n
+            · independiente de la plataforma
+            \n \n
+            Algunas características notables:
+            \n \n
+            · robusto
+            \n
+            · gestiona la memoria automáticamente
+            \n
+            · no permite el uso de técnicas de programación inadecuadas
+            \n
+            · multithreading
+            \n
+            · cliente-servidor
+            \n
+            · mecanismos de seguridad incorporados
+            \n
+            · herramientas de documentación incorporadas.
+            \n \n \n
+        </item>
+        <item>
+            \n \n
+            Bueno, se puede decir que todo puede verse como un objeto. Pero seamos más claros. Un objeto, desde
+            nuestro punto de vista, puede verse como una pieza de software que cumple con ciertas características: \n \n
+            · encapsulamiento \n \n
+            · herencia \n \n
+            Un objeto se caracteriza por varios conceptos: \n \n
+           · Atributos: \n \n
+            Estos son los datos que caracterizan al objeto. Son variables que almacenan datos relacionados al estado de un objeto.
+            \n \n
+           · Métodos (usualmente llamados funciones de miembro):
+            \n \n
+            Los métodos de un objeto caracterizan su comportamiento, es decir,
+            son todas las acciones (denominadas operaciones) que el objeto puede realizar por sí mismo.
+             \n \n
+           · Identidad:
+            \n \n
+            El objeto tiene una identidad, que lo distingue de otros objetos, sin considerar su estado.
+            Por lo general, esta identidad se crea mediante un identificador que deriva naturalmente de un problema
+            (por ejemplo: un producto puede estar representado por un código, un automóvil, por un número de modelo, etc.).
+            \n \n \n \n
+        </item>
+        <item>
+            \n \n
+            Es una plantilla para la creación de objetos de datos según un modelo predefinido.
+            Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje.
+            \n
+            Cada clase es un modelo que define un conjunto de variables -el estado, y métodos apropiados para operar
+            con dichos datos -el comportamiento.
+            Cada objeto creado a partir de la clase se denomina instancia de la clase.
+            \n \n
+             La forma común de definir una clase, los atributos y métodos, así como las diferentes opciones con las
+            que se pueden crear y la instanciación de un objeto de dicha clase.
+            \n \n
+
+
+            En general, la forma usual de definir una clase es:
+            \n \n
+            [visibilidad][modificador] class
+
+            \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020  NombreClase[herencia][implementación]{
+            \n
+            \u0020 \u0020 (//definición de variables y métodos)
+            \n
+             \u0020 \u0020 \u0020 ...
+            \n
+            \u0020 \u0020 \u0020  }
+
+\n \n
+Dónde:
+\n \n
+La visibilidad es el ámbito en el que es conocida una clase, es decir, determina desde qué paquetes o clases es posible
+            crear objetos de dicha clase y trabajar con ellos.
+Con public la clase podrá ser vista desde cualquier otro paquete (o clase). Mientras que con package la clase solo
+            podrá ser vista dentro el mismo paquete. Es la opción por defecto si no se especifica nada.
+\n \n
+Se puede usar el modificador abstract para definir un tipo de clases de las que no se pueden crear objetos. Su utilidad
+            es que otras clases deriven o hereden (extends) de ella, proporcionándoles un marco o modelo a seguir y una
+            serie de métodos de utilidad general.
+Es posible tener métodos completamente definidos dentro de una clase abstract y además tener métodos abstract.
+
+\n \n
+Al igual que una clase, un interfaz podrá heredar (extends) de otro u otros (cosa que no pueden hacer las clases), sin más que
+            separarlos por comas. Del mismo modo, también podrá implementar (implements) a otro u otros.
+Los interfaces se suelen definir en ficheros con su nombre y solo podrán ser public o package (al igual que las clases).
+
+            \n \n
+        </item>
+        <item>
+            \n \n
+            Los métodos son funciones definidas dentro de una clase, y puede ser declarado
+            nuevamente public,package,private o protected, con el mismo significado que en el caso de los atributos.
+            \n \n
+            Los parámetros del método se pasan siempre por valor, es decir, aunque se modifiquen dentro del mismo, su valor no
+            cambiará fuera de él. Cuando se pasan referencias, ya sean arrays u objetos, la referencia tampoco podrá
+            cambiar, pero sus valores (los elementos del array o los atributos del objeto) si que podrán hacerlo.
+            Como se puede ver los parámetros de los métodos son optativos, de modo que si no tienen, basta con dejar los
+            paréntesis vacíos.
+\n \n
+            Los métodos también se pueden declarar con el modificador abstract, al igual que las clases. Su utilidad es definir
+            un modelo de método para las clases que hereden de aquella en la que estén definidos. Si una clase tiene un método
+            abstract, entonces la clase deberá ser abstract.
+\n \n
+            Los métodos tienen visibilidad directa de las variables miembro de la clase en la que están definidos, es decir,
+            pueden hacer referencia a ellas.
+            Dentro de los métodos se pueden declarar variables locales que tendrán como ámbito dicho método
+            (al finalizar las eliminará el recolector de basura).
+
+        \n \n
+        </item>
+        <item>
+            \n \n
+            Las estructuras de control en Java son básicamente las misma que en C, con excepción del goto, que no existe
+(al fin un lenguaje serio! )
+            \n \n
+if…[else]
+            \n \n
+La más común de todas, permite ejecutar una instrucción (o secuencia de instrucciones) si se da una condición
+dada (o, mediante la cláusula else, ejecutar otra secuencia en caso contrario).
+            \n \n
+  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 if (expresión_booleana) instrucción_si_true;
+            \n
+  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020   [else instrucción_si_false;]
+            \n \n
+o bien:
+            \n \n
+  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020   if (expresión_booleana) {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 instrucciones_si_true;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 else {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 instrucciones_si_false;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n \n
+Por ejemplo:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 public final String toString() {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 if (y menor a 0)
+return x+"-i"+(-y);
+else
+return +x+"+i"+y;
+}
+            \n \n
+Switch…case…brake…default
+            \n \n
+Permite ejecutar una serie de operaciones para el caso de que una variable tenga un valor entero dado. La
+ejecución saltea todos los case hasta que encuentra uno con el valor de la variable, y ejecuta desde allí hasta el
+final del case o hasta que encuentre un break , en cuyo caso salta al final del case. El default permite poner
+una serie de instrucciones que se ejecutan en caso de que la igualdad no se de para ninguno de los case.
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 switch (expresión_entera) {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 case (valor1): instrucciones_1;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 [break;]
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 case (valor2): instrucciones_2;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 [break;]
+            \n
+…..
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 case (valorN): instrucciones_N;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 [break;]
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 default: instrucciones_por_defecto;
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n \n
+Por ejemplo:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 switch (mes) {
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 case (2): if (bisiesto()) dias=29;
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 else dias=31;
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 break;
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 case (4):
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 case (6):
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 case (9):
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 case (11): dias = 30;
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 break;
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 default: dias = 31;
+                        \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n \n
+While
+            \n \n
+Permite ejecutar un grupo de instrucciones mientras se cumpla una condición dada:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 while (expresión_booleana) {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 instrucciones…
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n \n
+Por ejemplo:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 while ( linea != null) {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 linea = archivo.LeerLinea();
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 System.out.println(linea);
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n \n
+Do…while
+            \n \n
+Similar al anterior, sólo que la condición se evalúa al final del ciclo y no al principio:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 do {
+            \n \n
+instrucciones…
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 } while (expresión_booleana);
+            \n \n
+Por ejemplo:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 do {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 linea = archivo.LeerLinea();
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 if (linea != null) System.out.println(linea);
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 } while (linea != null);
+            \n \n
+For
+            \n \n
+También para ejecutar en forma repetida una serie de instrucciones; es un poco más complejo:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 for ( instrucciones_iniciales; condición_booleana;
+            \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 instruccion_repetitiva_x ) {
+            \n
+instrucciones…
+            \n
+            \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n \n
+Si bien las instrucciones pueden ser cualquiera (el bucle se repite mientras la condición sea verdadera), lo
+usual es utilizarlo para "contar" la cantidad de veces que se repiten las instrucciones; se podría indicar así:
+
+            \n \n
+
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 for ( contador = valor_inicial; contador menor a
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020             valor_final; contador++ ) {
+            \n
+instrucciones…
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n
+Por ejemplo:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 for ( i=0; i menor a 10; i++ ) {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 System.out.println( i );
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n
+o, para contar hacia atrás:
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 for ( i=10; I>0; I-- ) {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 System.out.println( i );
+            \n
+            \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n \n
+Break y continue
+            \n \n
+Estas instrucciones permiten saltar al final de una ejecución repetitiva (break) o al principio de la misma
+(continue).
+            \n
+Por ejemplo, en:
+            \n \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 import java.io.*;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 class Bucles {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 public static void main (String argv[ ]) {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 int i=0;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 for (i=1; i menor a 5; i++) {
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 System.out.println("antes "+i);
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 if (i==2) continue;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 if (i==3) break;
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 System.out.println("después "+i);
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 }
+            \n
+La salida es:
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 antes 1
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 después 1
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 antes 2
+            \n
+\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 antes 3
+            \n \n
+Por qué? "i" comienza en 1 (imprime "antes" y "después"); cuando pasa a 2, el continue salta al principio del
+bucle (no imprime el "después"). Finalmente, cuando "i" vale 3, el break da por terminado el bucle for.
+
+            Otras...
+            \n \n
+            Hay otras instrucciones que controlan el flujo del programa:
+            \n \n
+· synchronized (para ver junto con los threads)
+            \n
+· catch,
+            \n
+· throw,
+            \n
+· try,
+            \n
+· finally (para ver con las excepciones)
+            \n \n
+Ahora sí, podemos usar todo nuestro conocimiento sobre Java para ir creando algunas aplicaciones y de paso
+ir viendo las bibliotecas estándar...
+
+            \n \n
+</item>
+        <item>
+
+            Tu mama es hombre?
+        \n ºsi
+        \n ºno \n
+        </item>
+
+    </string-array>
+
+    <string name="app_name">Apprende Java</string>
+    <string name="clave">clave</string>
+    <string name="acceder">acceder</string>
+    <string name="cancelar">cancelar</string>
+    <string name="siguiente">siguiente</string>
+    <string name="nuevaCuenta">Crear cuenta</string>
+    <string name="password">Password</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="registroNuevo">Guardar</string>
+    <string name="desarrollador">Desarrollador</string>
+    <string name="new_user">Nuevo usuario</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="id">Id</string>
+    <string name="usuario">Usuario</string>
+    <string name="apellido">Apellido</string>
+    <string name="contraseña1">Contraseña</string>
+    <string name="email">E-mail</string>
+    <string name="guardar">Guardar</string>
+    <string name="registrados">Registrados</string>
+    <string name="welcome">Bienvenido:</string>
+    <string name="pass">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="enter">Entrar</string>
+    <string name="sing_up">Registrarse</string>
+    <string name="help_screen">Pantalla de ayuda personalizada</string>
+    <string name="name">Nombre</string>
+    <string name="pass_invalidates">Contraseña invalida</string>
+    <string name="passdifferent">Las Contraseñas no coinciden</string>
+    <string name="data_save">Datos guardados</string>
+    <string name="txvConten">Contenido</string>
+    <string name="txvTitle">Titulo</string>
+    <string name="obj">Objetivo</string>
+    <string name="addressee">Destinatarios</string>
+    <string name="exam_final">Examen Final</string>
+    <string name="text_orientation">Para obtener el curso completo es necesario registrarte.</string>
+    <string name="text_register">Registro</string>
+    <string name="previous">Previo</string>
+    <string name="mail">Correo Electrónico</string>
+    <string name="sig_user">Usuario</string>
+    <string name="sig_password">Contraseña</string>
+    <string name="sig_confirm_pass">Confirma contraseña</string>
+    <string name="sig_reg">Registrarse</string>
+    <string name="sig_return">Regresar</string>
+    <string name="developer">DESARROLLADOR</string>
+    <string name="develop_uni">Universidad Tecnológica del Norte de Guanajuato</string>
+    <string name="developer_creator">Alumno</string>
+    <string name="developer_name">Gustavo de Jesús Martínez Mojica</string>
+    <string name="developer_ver">Versión:</string>
+    <string name="deve_ver">1.0</string>
+    <string name="developer_bibliography">Bibliografía:</string>
+    <string name="developer_info">Java desde cero.pdf</string>
+    <string name="developer_uni">Universidad:</string>
+    <string name="name_school">UTNG</string>
+    <string name="developer_matter">Materia:</string>
+    <string name="name_matter">Desarrollo de aplicaciones III</string>
+    <string name="title_primary">Titulo</string>
+    <string name="conten">Contenido</string>
+    <string name="help">Ayuda y sugerencias</string>
+    <string name="bar_developer">Desarrollador</string>
+    <string name="exit">Salir</string>
+    <string name="elction">Elegido</string>
+    <string name="description">Descripciones</string>
+    <string name="election">posicion</string>
+    <string name="logeo">logeo</string>
+    <string name="logeOff">logeoU</string>
+    <string name="logeOut">logeo</string>
+    <string name="logeou">logeo</string>
+    <string name="log">logeo</string>
+    <string name="play">Iniciar quiz</string>
+    <string name="presentation_one">A continuación presentaras un pequeño examen para poder saber cuanto fue tu aprendizaje con este tema.</string>
+    <string name="next_ask">Siguiente pregunta</string>
+    <string name="menu">Menu</string>
+    <string name="configuration">Configuración</string>
+    <string name="soun_notification">Sonido de Notificaciones</string>
+    <string name="activar">Activar</string>
+    <string name="deactivated">Desactivar</string>
+    <string name="sound">Sonido</string>
+    <string name="lenguage">Idioma</string>
+    <string name="result">Resultado</string>
+    <string name="audio">Audio</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

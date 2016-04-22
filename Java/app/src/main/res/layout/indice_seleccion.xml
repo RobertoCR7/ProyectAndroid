@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="utng.edu.mx.java.SeleccionIndice"
+    android:background="@color/fondo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="245dp"
+        android:layout_height="163dp"
+        android:id="@+id/imv_java"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/titulo_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txvTitle"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/imv_java"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="30dp"
+        android:textColor="@color/MyColor"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txv_descripcion"
+        android:layout_below="@+id/titulo_on"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:text="@string/txvConten"
+        android:layout_gravity="center"
+        android:textColor="@color/MyColor"
+
+        />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="245dp"
+            android:layout_height="163dp"
+            android:id="@+id/img_on_what_object"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/title_on_object"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_primary"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@+id/img_on_what_object"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="30dp"
+            android:textColor="@color/MyColor"/>
+        <TextView
+            android:id="@+id/content_what_object"
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conten"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_below="@+id/title_on_object"
+            android:textColor="@color/MyColor"
+            />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:background="@drawable/play"
+            android:layout_below="@+id/content_what_object"
+            android:id="@+id/imv_watch_video_object"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imv_watch_video_object"
+            android:id="@+id/txv_watch_video_object"
+            android:layout_centerHorizontal="true"
+            android:text="@string/presentation_one"
+            android:textColor="@color/MyColor"
+            android:paddingTop="20dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/player"
+            android:layout_below="@id/txv_watch_video_object"
+            android:id="@+id/img_video_whjava"
+            android:hint="@string/play"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/MyColor"
+            android:onClick="Quiz"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

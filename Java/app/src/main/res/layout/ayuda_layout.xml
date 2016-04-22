@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:paddingLeft="10pt"
+    android:paddingRight="10pt"
+    android:paddingTop="5pt"
+    android:paddingBottom="10pt"
+    tools:context="utng.edu.mx.java.PantallaAyudaActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="@string/help_screen"
+        android:textSize="20dp"
+        android:textColor="@color/MyColor"/>
+
+    <ListView
+        android:id="@+id/lsv_indice"
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        ></ListView>
+
+</LinearLayout>

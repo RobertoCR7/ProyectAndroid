@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="245dp"
+        android:layout_height="163dp"
+        android:id="@+id/img_off_contenido"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/titulo_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_primary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/img_off_contenido"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="30dp"
+        android:textColor="@color/MyColor"
+        />
+    <TextView
+        android:id="@+id/id_contenido_off"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conten"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_below="@+id/titulo_off"
+        android:textColor="@color/MyColor"
+        />
+    </RelativeLayout>
+</ScrollView>

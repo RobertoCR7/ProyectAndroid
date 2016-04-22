@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+
+
+    >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/new_login"
+           android:scaleType="center"
+           android:id="@+id/img_usenew"
+           android:layout_marginTop="20dp"
+           />
+
+        />
+       <requestFocus></requestFocus>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TFname"
+        android:layout_below="@id/img_usenew"
+        android:hint="@string/name"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mybutton"
+        android:textColorHint="@color/MyColor"
+        android:textColor="@color/MyColor"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TFemail"
+        android:layout_below="@id/TFname"
+        android:hint="@string/mail"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mybutton"
+        android:textColorHint="@color/MyColor"
+        android:textColor="@color/MyColor"/>
+
+    <EditText
+        android:textColorHint="@color/MyColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TFuname"
+        android:layout_below="@id/TFemail"
+        android:hint="@string/sig_user"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/MyColor"
+        />
+
+    <EditText
+        android:textColorHint="@color/MyColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TFpass1"
+        android:layout_below="@id/TFuname"
+        android:hint="@string/sig_password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/MyColor"
+        />
+
+    <EditText
+        android:textColorHint="@color/MyColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TFpass2"
+        android:layout_below="@id/TFpass1"
+        android:hint="@string/sig_confirm_pass"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/MyColor"
+
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sig_reg"
+        android:id="@+id/Bsignupbutton"
+        android:onClick="onSignUpClick"
+        android:layout_below="@id/TFpass2"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/MyColor"
+        />
+
+       <Button
+           android:layout_width="120dp"
+           android:layout_height="wrap_content"
+           android:text="@string/sig_return"
+           android:id="@+id/Btn_regresar"
+           android:background="@drawable/mybutton"
+           android:layout_alignTop="@+id/Bsignupbutton"
+           android:layout_alignParentEnd="true"
+           android:textColor="@color/MyColor"/>
+
+   </RelativeLayout>
+</ScrollView>
