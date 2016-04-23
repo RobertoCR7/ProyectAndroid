@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="item_menu_principal">
+        <item>Módulo 1</item>
+        <item>Módulo 2</item>
+        <item>Módulo 3</item>
+        <item>Módulo 4</item>
+        <item>Examen final</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo1">
+        <item>Sobre Ruby</item>
+        <item>Medio ambiente de configuración</item>
+        <item>Sintaxis</item>
+        <item>Palabras reservadas</item>
+        <item>Variables</item>
+        <item>Operadores</item>
+        <item>Comentarios</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo2">
+        <item>Ciclos</item>
+        <item>Métodos</item>
+        <item>Bloques</item>
+        <item>Módulos</item>
+        <item>Mixins</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo3">
+        <item>Strings</item>
+        <item>Arreglos</item>
+        <item>Hashes</item>
+        <item>Fecha y hora</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo4">
+        <item>Rangos</item>
+        <item>Iterators</item>
+        <item>Directorios</item>
+        <item>Excepciones</item>
+        <item>Orientado a objetos</item>
+        <item>Expreciónes Regulares</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_examen_final">
+        <item>Deve mandar al el examen final</item>
+    </string-array>
+
+    <string-array name="spinner_audio">
+        <item>Con audio.</item>
+        <item>Sin audio.</item>
+        <item>Con audio y vibración.</item>
+    </string-array>
+
+
+</resources>

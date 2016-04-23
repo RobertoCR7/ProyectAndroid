@@ -1,0 +1,1252 @@
+<resources>
+    <string name="app_name">Ruby</string>
+    <string name="title_ruby">Ruby</string>
+    <string name="form_btn_mas_tarde">Mas Tarde</string>
+    <string name="form_btn_ingresar">Ingresar</string>
+    <string name="form_btn_crear_cuenta">Crear Cuenta</string>
+
+    <string name="login_valido">Ramon</string>
+    <string name="clave_valida">1234</string>
+    <string name="error_autenticar">usuario o password incorrectos</string>
+    <string name="datos_guardados_correctamente">"Los datos se guardaron con exito "</string>
+    <string name="btn_create_guardar">Guardar</string>
+    <string name="btn_create_cancelar">Cancelar</string>
+    <string name="title_login">Login</string>
+
+    <string name="title_create_login_registro">Registro</string>
+    <string name="usuario_create_login_registro">Usuario</string>
+    <string name="pass_create_login_registro">Contraseña</string>
+    <string name="correo_create_login_registro">Correo</string>
+    <string name="modules">Módulos</string>
+
+    <string name="tab_informacon">Información</string>
+    <string name="tab_video">Vídeo</string>
+    <string name="tab_examen">Examen</string>
+
+    <string name="escoge_medio_preferencia">Escoge el medio de preferencia :</string>
+    <string name="mensaje_bien_venido">Bien venido :</string>
+    <string name="mensaje_ocultar">Ocultar</string>
+    <string name="mensaje_ocultar_toast">Ocultado</string>
+    <string name="tiulo_progreso_menu_bar">Progreso</string>
+
+    <string name="ayuda_sugerencia_ayuda">Ayuda</string>
+    <string name="ayuda_sugerencia_recomendaciones">Recomendaciónes</string>
+    <string name="ayuda_sugerencia_recomendaciones_resp">
+        -Para un mejor uso de esta app se suguiere estar conectado a una red wifi.\n
+        -No conectarse por medio de datos ya que los cargos generados pueden ser grandes.</string>
+    <string name="ayuda_sugerencia_sugerencias">Sugerencias</string>
+    <string name="ayuda_sugerencia_sugerencias_para">Para :</string>
+    <string name="ayuda_sugerencia_sugerencias_correo">mon-ra16@hotmail.com</string>
+    <string name="ayuda_sugerencia_sugerencias_tema">Tema :</string>
+    <string name="ayuda_sugerencia_sugerencias_mensage">Mensage :</string>
+    <string name="ayuda_sugerencia_sugerencias_enviar">Enviar</string>
+
+    <string name="acerca_de_titulo_desarrollador">Desarrollador</string>
+    <string name="acerca_de_nom_des">Nombre:</string>
+    <string name="acerca_de_nom_des_rep">Juan Ramón Delgado Mendoza.</string>
+    <string name="acerca_de_corr_des">Correo:</string>
+    <string name="acerca_de_corr_des_rep">mon-ra16@hotmail.com</string>
+    <string name="acerca_de_titulo_asignatura">Asignatura</string>
+    <string name="acerca_de_nom_asig">Nombre:</string>
+    <string name="acerca_de_nom_asig_res">Desarrollo de aplicaciónes III.</string>
+    <string name="acerca_de_prof_asig">Profesor:</string>
+    <string name="acerca_de_prof_asig_res">Rodriguez Garcia Anastacio.</string>
+    <string name="acerca_de_titulo_universidad">Universidad</string>
+    <string name="acerca_de_nombre_uni">Nombre:</string>
+    <string name="acerca_de_nombre_uni_res">Universidad Tecnológica del Norte de Guanajuato.</string>
+    <string name="acerca_de_ubicacion_uni">Ubicación:</string>
+    <string name="acerca_de_ubicacion_uni_res">Dolores Hidalgo, Cuna de la independencia nacional.</string>
+
+    <string name="titulo_calificacion">Calificación</string>
+    <string name="calificacion_enviar">Enviar</string>
+    <string name="calificacion_resultado">Resultado :</string>
+
+    <string name="titulo_configuracion">Configuraciónes</string>
+    <string name="configuracion_titulo_notificaciones">Notificaciónes</string>
+    <string name="configuracion_activar_notificaciones">Activar</string>
+    <string name="configuracion_desactivar_notificaciones">Desactivar</string>
+    <string name="configuracion_titulo_audio">Audio</string>
+    <string name="configuracion_titulo_almacenamiento">Almacenamiento</string>
+    <string name="configuracion_interno_almacenamiento">Interno</string>
+    <string name="configuracion_externo_almacenamiento">Externo</string>
+    <string name="nota_tipo_almacenamiento">Nota: El almacenamiento solo se puede eleguir al momento de crear la cuenta</string>
+
+    <string name="usuario_informacion_titulo">Información</string>
+    <string name="usuario_informacion_nombre">Nomre: </string>
+    <string name="usuario_informacion_nombre_res">Juan Ramon Delgado mendoza</string>
+    <string name="usuario_informacion_correo">Correo: </string>
+    <string name="usuario_informacion_correo_res">rey-mon1995@hotmail.com</string>
+    <string name="usuario_informacion_puntos">Puntos: </string>
+    <string name="usuario_informacion_puntos_res">123 pt</string>
+
+    <string name="menu_bar_progreso_on">Progreso</string>
+    <string name="menu_bar_usuario_on">Información del usuario</string>
+    <string name="menu_bar_grafica_on">Gráfica de aprovechamiento</string>
+    <string name="menu_bar_configuracion_on">Configuraciónes</string>
+    <string name="menu_bar_calificar_app_on">Calificar app</string>
+    <string name="menu_bar_acerca_de_on">Acerca de</string>
+    <string name="menu_bar_ayuda_sugerencia_on">Ayuda y sugerencias</string>
+    <string name="menu_bar_salir_on">Salir</string>
+    <string name="menu_bar_juego">Pagina Dinamica</string>
+    <string name="menu_bar_acerca_de_off">Acerca de</string>
+    <string name="menu_bar_ayuda_sugerencia_off">Ayuda y sugerencias</string>
+    <string name="menu_bar_salir_off">Salir</string>
+    <string name="confirm_pass_create_login_registro">Confirma la contraseña</string>
+
+    <string name="title_menssage_error_uno">Atención!!</string>
+    <string name="title_menssage_error_dos">Atención, campos requeridos!!</string>
+    <string name="button_menssage_error">Aceptar</string>
+    <string name="menssage_error_pass_different">Las contraseñas no coinsiden</string>
+
+    <string name="cuestionario_comprobar">Comprobar</string>
+
+    <string name="calificaciones_examenes">Calificaciónes de los examenes</string>
+
+    <string name="html_tema_concluido_off">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                  <font color="#000000">
+                     has concluido con exito el tema 1 :<i> Sobre Ruby</i>. Para poder continuar con el curso te recomendamos que te registres.
+                  </font>
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+     <string name="html_curso_concluido_parte_uno">
+        <![CDATA[
+                     Has concluido con exito el curso de <i>Ruby</i> <b>
+        ]]>
+    </string>
+    <string name="html_curso_concluido_parte_dos">
+        <![CDATA[
+                     </b>. Para poder guardar tu calificación te recomendamos dar clic en el boton de ENVIAR.<br />
+        ]]>
+    </string>
+
+    <string name="html_uno_sobre_ruby">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>EL lenguaje de programación Ruby fue creado por el programador japones <b>Yukihiro "Matz" Matsumoto</b>, el lo presentó al público en 1995.<br />
+                 Ruby es un lenguaje dinámico y de código abierto enfocado en la simplicidad y productividad, además es una mescla entre lo mejor de diferentes
+                 lenguajes como: <i>Ada, Perl, SmalTalk, Phyton</i>.
+                 </p>
+                 <p>
+                 <b>Nota</b>: Ruby es un lenguaje de programación orientado a objectos.
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_medio_ambiente_configuracion">
+        <![CDATA[
+            <div>
+              <div>
+                <p>
+                 Ruby es un lenguaje multiplataforma, lo cual quiere decir que un programa creado en un maquina con <b><i>Windows</i></b>
+                 se puede correr de igual manera en una maquina <b><i>MAC</i></b>.<br />
+                </p>
+                <font color="#cc0000">
+                <h3>
+                 Instalación
+                </h3>
+                </font>
+                <p>
+                 La manera más sencilla de instalar Ruby es mediante el <b><i><u>RubyInstaller</u></i></b>, aceptando todo por defecto.
+                 Se recomienda descargar el instalador de Ruby <b>2.2.x</b> para tener un lenguaje estable.
+                 <br /><br />
+                 <font color="#5c6bc0"><big>1</big></font>:Se descargar el RubyInstallers desde la pagina: <i><u>http://rubyinstaller.org/downloads/</u></i>.<br />
+                 <font color="#5c6bc0"><big>2</big></font>:Se ejecuta el programa (en mi caso es <b><i>rubyinstaller-2.2.4.exe</i></b>).<br />
+                 <font color="#5c6bc0"><big>3</big></font>:Se elige el lenguaje que se manejara durante la instalación.<br />
+                 <font color="#5c6bc0"><big>4</big></font>:Se leé con atencion la licencia, y si uno esta de acuerdo la acepta.<br />
+                 <font color="#5c6bc0"><big>5</big></font>:Se palomean todas las opciones de intsalación, y se instala.<br /><br />
+                 Listo, usted ya a instalado Ruby, para confirmar la correcta instalación se puede teclear en el cmd <b><i>ruby -v</i></b>,
+                 y la terminal devera arrojas la version de Ruby instalada en el ordenador .
+                </p>
+                <p>
+                 <b>Nota</b>: Lo mencionado en este capitulo se maneja pansando en un ordenador con Windows.
+                </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_sintaxis">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                 La sintaxis de Ruby es relativamente sencilla y facil de aprender, pero un poco confusa si es que se compara con otro tipo de sintaxis como por ejemplo la del lenguaje <i>JAVA</i>,
+                 además ruby es un lenguaje sencible a las Mayusculas.<br />
+                 Un definicion y ejemplo de la sintaxis se muestraa continuación.
+                 <br /><br />
+                <font color="#5c6bc0"><b>Variables locales</b></font> : Pueden comenzar con cualquier letra minuscula o el caracter underscore ( _ ), despues
+                se puede utilizar cualquier variación (mayusculas, minusculas o numeros), además las palabra se pueden separar mediante el underscore.<br />
+                        <b>Ejemplo</b>: ( <i>variable</i> ) , ( <i>_variable12</i> ), ( <i>mi_variable</i> ).
+                <br />
+                <br />
+                <font color="#5c6bc0"><b>Variables globales</b></font> : Simpre devn comenzar con un signo de dinero ( $ ), despues
+                se puede utilizar cualquier variación (mayusculas, minusculas o numeros), además las palabra se pueden separar mediante el underscore.<br />
+                        <b>Ejemplo</b>: ( <i>$variable</i> ) , ( <i>$_Variable12</i> ), ( <i>$MI_VARIABLE</i> ).
+                <br />
+                <br />
+                <font color="#5c6bc0"><b>Variables de instancia</b></font> : Simpre devn comenzar con un signo de arroba ( @ ), despues
+                se puede utilizar cualquier variación (mayusculas, minusculas o numeros), además las palabra se pueden separar mediante el underscore.<br />
+                        <b>Ejemplo</b>: ( <i>@variable</i> ) , ( <i>@_Variable12</i> ), ( <i>@MI_VARIABLE</i> ).
+                <br />
+                <br />
+                <font color="#5c6bc0"><b>Variables de clase</b></font> : Simpre devn comenzar con dos signo de arroba ( @@ ), despues
+                se puede utilizar cualquier variación (mayusculas, minusculas o numeros), además las palabra se pueden separar mediante el underscore.<br />
+                        <b>Ejemplo</b>: ( <i>@@variable</i> ) , ( <i>@@_Variable12</i> ), ( <i>@@MI_VARIABLE</i> ).
+                <br />
+                <br />
+                <font color="#5c6bc0"><b>Constantes</b></font> : Simpre devn comenzar con la primera letra en mayuscula, despues
+                se puede utilizar cualquier variación (mayusculas, minusculas o numeros), además las palabra se pueden separar mediante el underscore.<br />
+                        <b>Ejemplo</b>: ( <i>Variable</i> ) , ( <i>Variable12</i> ), ( <i>MI_VARIABLE</i> ).
+                <br />
+                <br />
+                 </p>
+                 <p>
+                 <b>Nota</b>: En Ruby no existen puntos y comas ( ; ), ademas el nombre de las variables pueden terminar en numeros pero no pueden iniciar con ellos.
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_palabras_reservadas">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>En Ruby existen palabras reservadas como el cualquier otro lenguaje de programación, dichas palabras aparecen a continuación junto con una
+                 brebe defición de cada una.<br /><br />
+                 <font color="#5c6bc0"><b>alias</b></font> : Sirve para crear un nuevos nombres que se hacen referencia a un operador, método o variable global que ya exista.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>and</b></font> : Operador lógico, igual a && pero con menor precedencia.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>begin</b></font> :Palabra utilizada para marcar el comienzo de un comentario multilinea ( =begin ), se cierra con un end.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>break</b></font> : Finaliza un while o un until loop, o un método dentro de un bloque.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>case</b></font> :	Compara una expresión con una clausula when correspondiente.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>class</b></font> : Define una clase; se cierra con end.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>def</b></font> : Inicia la definición de un método; se cierra con end.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>defined?</b></font> :	Determina si un método, una variable o un bloque existe.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>do</b></font> : Comienza un bloque; se cierra con end.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>else</b></font> :	Ejecuta el código que continua si la condición previa no es true. Funciona con if, elsif, unless o case.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>elsif</b></font> : Ejecuta el código que continua si la condicional previa no es true. Funciona con if o elsif.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>end</b></font> : Finaliza un bloque de código.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>ensure</b></font> : Ejecuta la terminación de un bloque. Se usa detrás del ultimo rescue.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>false</b></font> : Lógico o Booleano que tiene el valor de false..
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>for</b></font> : Comienza un loop for. Se usa con in.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>if</b></font> : Ejecuta un bloque de código si la declaración condicional es true. Se cierra con end.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>in</b></font> : Usado con el loop for.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>module</b></font> : Define un modulo. Se cierra con end.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>next</b></font> : Salta al punto inmediatamente después de la evaluación del loop condicional.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>nil</b></font> : Vacio, no inicializado, invalido. No es igual a cero.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>not</b></font> : Operador lógico, igual como !.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>or </b></font> :	Operador lógico, igual a || pero con menor precedencia.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>redo</b></font> :	Salta después de un loop condicional.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>rescue</b></font> : Evalua una expresión después de una excepción es alzada. Usada después de ensure.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>retry</b></font> : Cuando es llamada fuera de rescue, repite una llamada a método. Dentro de rescue salta a un bloque superior.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>return</b></font> : Regresa un valor de un método o un bloque.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>self</b></font> : Objeto contemporáneo. Alude al objeto mismo.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>super</b></font> : Llamada a método del mismo nombre en la superclase.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>then</b></font> :	Separador usado con if, unless, when, case, y rescue.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>true</b></font> :	Lógico o Booleano que tiene el valor de true.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>undef</b></font> : Crea un método indefinido en la clase contemporánea.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>unless</b></font> : Ejecuta un bloque de código si la declaración condicional es false.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>until</b></font> : Ejecuta un bloque de código mientras la declaración condicional es false.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>when</b></font> : Inicia una clausula debajo de under.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>while</b></font> : Ejecuta un bloque de código mientras la declaración condicional es true.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>yield</b></font> : Ejecuta un bloque pasado a un método.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>_LINE_</b></font> : Numero de la linea contemporánea en el archivo de origen contemporáneo.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>_FILE_</b></font> : Nombre del archivo de origen contemporáneo.
+                 <br />
+                 </p>
+                 <p>
+                 Ruby tiene una gran ventaja, la cual consiste en que no contiene código oscuro (Todas sus palabras reservadas tienen un significado en el ingles, no son palabras inventadas.).
+                 El hecho de que todas sus palabras tengan un significado ayuda mucho a la comprención de codigo.
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_variables">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                 Las variables se declaran tomando en cuenta ciertas caracteristicas de la sintaxis de Ruby, como por ejemplo; las variables no pueden tener el nombre de alguna palabra reservada.<br />
+                 Los siguientes puntos se deben considerar al momento de crear una variable:<br /><br />
+                 <font color="#5c6bc0"><b>1</b></font> : Para asignar un valor a una variable se utiliza el signo igual ( <b>=</b> ).
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>2</b></font> : No se puede utilizar como nombre de una variable una palabra reservada.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>3</b></font> : Si se desea asignar un texto a una variable los delimitadores para el inicio y fin son
+                 (Doble comilla: <b> " </b> y comilla simple: <b> ' </b> ).
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>3</b></font> : Si se desea agregarle mas texto a una variable la cual ya contenga alguna cadena se utilizan dos signos de menor ( <b><<</b>  ),
+                 esos signos marcan el comienzo, despues de ellos viene la cadena a agregar con sus delimitadores o la palabra <b>END_STR</b>, la cual en este caso también sirve como delimitadora.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>4</b></font> : Si se desea asignar un valor númerico a una variable sólo se coloca el número sin delimitadore para inicio o fin.
+
+                 </p>
+                 <p>
+                 <strong>Nota</strong>: Las variables en Ruby no tienen tipo al momento de crearlas, se adaptan según el valor que se les asigna.
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_operadores">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                 Los operadores son elementos que nos permiten manipular de distintas maneras valor de variables, existen 3 tipos de operadores:( <b>Aritméticos</b>,
+                 <b>relacionales</b> y <b>lógicos</b> ).
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>Aritméticos</b></font>: Permiten realizar operaciones matemáticas.
+                 <br /><font color="#0a8f08"><big><b>**</b></big></font> : Exponencial.
+                 <br /><font color="#0a8f08"><big><b>*</b></big></font> : Multiplicación.
+                 <br /><font color="#0a8f08"><big><b>/</b></big></font> : División.
+                 <br /><font color="#0a8f08"><b>%</b></font> : Modulo.
+                 <br /><font color="#0a8f08"><big><b>+</b></big></font> : Suma.
+                 <br /><font color="#0a8f08"><big><b>-</b></big></font> : Resta.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>Relacionales</b></font>: Permiten realizar comparaciónes.
+                 <br /><font color="#0a8f08"><big><b> == </b></big></font> : Igual.
+                 <br /><font color="#0a8f08"><big><b> != </b></big></font> : Diferente.
+                 <br /><font color="#0a8f08"><big><b> < </b></big></font> : Menor.
+                 <br /><font color="#0a8f08"><big><b> > </b></big></font> : Mayor.
+                 <br /><font color="#0a8f08"><big><b> < = </b></big></font> : Menor igual.
+                 <br /><font color="#0a8f08"><big><b> > = </b></big></font> : Mayor igual.
+                 <br />
+                 <br />
+                 <font color="#5c6bc0"><b>Lógicos</b></font>: Permiten realizar comparaciónes, pero su resultado es esclusivamente un booleano ( <b>true</b> y <b>false</b> )
+                 <br /><font color="#0a8f08"><b>&&, and</b></font> : Y.
+                 <br /><font color="#0a8f08"><big><b>||</b></big>, <b>or</b></big></font> : Ó.
+                 <br /><font color="#0a8f08"><big><b>!</b></big></font> : No.
+                 <br />
+                 <br />
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_comentarios">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>Los comentarios son una gran ayuda para los programadores, son muy utiles cuando para explicar y documentar código. Ayuda cuando tiene varios proyectos y dejas
+                 comentarios en cada uno sobre sus caracteristicas y pendientes para no mescarlos, también cuando trabajas en equipo ya sea en la escuela o en el trabajo dejas comentarios
+                 para que tu compañero pueda comprender más el codigo y viceversa.<br />
+                 Existen dos tipos de comentarios ( <b>Comentarios multilinea</b> y <b>comentarios de una línea</b> ).
+
+                 <br /><br /><font color="#5c6bc0"><b>Comentarios multilinea</b></font>: Te permite comentar por bloque (Secciones de texto). Los signos delimitadores de este tipo de comentarios de
+                 ( <b>=begin</b> ) para el inicio y ( <b>=end</b> ) para terminar.
+
+                 <br /><br /><font color="#5c6bc0"><b>Comentarios de una línea</b></font>: Te permite comentar solo una linea. Se inicia el comentario mediante la almohadilla  ( <b>&#35;</b> ).
+                 </p>
+                 <p>
+                 <b>Nota</b>: El comentar multilinea solo puede iniciar si no le antecede nada en la línea al delimitador del inicio, y el comentar de una sola línea puede iniciar
+                 aunque le anteseda algo.
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_dos_ciclos">
+        <![CDATA[
+            <div>
+              <div>
+                <p>
+                Los ciclos o bucles se utilizan para ejecutar un bloque de codigo una cantidad limitada de veces o en algunas oportunidades
+                ilimitada. En caso de ser limitada, el ciclo al igual que el IF, UNLESS y CASE, toma una condicion, la cual sera la
+                que decidira si el ciclo debe parar o no.<br /><br/>
+                Es importante que la condicion de parada del ciclo este bien definida para el ciclo pare, en caso contrario quedara en un ciclo infinito.
+                </p>
+                <p>
+                <b>Ejemplo:</b><br />
+                Supongamos que estamos jugando 21 o Blackjack, en dicho juego hay un ciclo "infinito" en el cual el dealer entrega una carta a el
+                jugador, pero dicho ciclo para cuando el usuario dice que no quiere que le den mas cartas o cuando la sumatoria de los valores
+                de las cartas es mayor a 21.
+                <br /><br/>
+                En Ruby existe soporte a los ciclos tradicionales como son:<br />
+                --WHILE<br/>
+                --FOR<br/>
+                --UNTIL<br/>
+                --REPEAT<br/>
+                </p>
+                <br />
+                <br />
+                <p>
+                <b>WHILE</b><br />
+                El ciclo while ejecuta un bloque de codigo mientras la condicion retorne TRUE.<br /><br />
+                <font color="#5c6bc0">while</font> suma_de_cartas &#60;= 21 &#124;&#124; usuario_pida_otra_carta  <font color="#5c6bc0">do</font><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts <font color="#0a8f08">&#34;Tiene una carta nueva&#34;</font><br />
+                <font color="#5c6bc0">end</font>
+                </p>
+                <p>
+                <b>FOR</b><br />
+                El método <u>for</u> ejecuta un bloque de código por cada elemento dentro de un rango o un array (el rango y el array no son lo mismo)
+                <br />
+                <br />
+                <s><u>Código</u></s>
+                <br />
+                <font color="#5c6bc0">for</font> i <font color="#5c6bc0">in</font><font color="#ff7043"> 0..5</font> <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts <font color="#0a8f08">&#34;El valor de la variable es: &#35;&#123;i&#125;&#34;</font><br />
+                <font color="#5c6bc0">end</font>
+                <br />
+                <s><u>Resultado</u></s><br />
+                El valor de la variable es: <font color="#ff7043"> 0</font><br />
+                El valor de la variable es: <font color="#ff7043"> 1</font><br />
+                El valor de la variable es: <font color="#ff7043"> 2</font><br />
+                El valor de la variable es: <font color="#ff7043"> 3</font><br />
+                El valor de la variable es: <font color="#ff7043"> 4</font><br />
+                El valor de la variable es: <font color="#ff7043"> 5</font><br />
+                </p>
+                <p>
+                <b>UNTIL</b><br />
+                El until ejecuta un bloque de código hasta que se cumpla la condición, es decir, hasta que la condición retorne TRUE.
+                <br />
+                <br />
+                <s><u>Código</u></s>
+                <br />
+                iterator=<font color="#ff7043"> 0</font><br />
+                <font color="#5c6bc0">until </font> iterator &#62; <font color="#ff7043">5</font> <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts <font color="#0a8f08">&#34;el número es: &#35;&#123;iterador&#125;&#34;</font><br />
+                iterator+=1<br />
+                <font color="#5c6bc0">end</font>
+                <br />
+                <s><u>Resultado</u></s><br />
+                el número es: <font color="#ff7043"> 0</font><br />
+                el número es: <font color="#ff7043"> 1</font><br />
+                el número es: <font color="#ff7043"> 2</font><br />
+                el número es: <font color="#ff7043"> 3</font><br />
+                el número es: <font color="#ff7043"> 4</font><br />
+                el número es: <font color="#ff7043"> 5</font><br />
+                </p>
+
+                <p>
+                <b>REPEAT</b><br />
+                El repeat funciona de manera similar a el while pero la condición se ejecuta al final del bloque.
+                <br />
+                <br />
+                <s><u>Código</u></s>
+                <br />
+                iterator=<font color="#ff7043"> 0</font><br />
+                <font color="#5c6bc0">begin </font><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts <font color="#0a8f08">&#34;el número es: &#35;&#123;numero&#125;&#34;</font><br />
+                iterator+=1<br />
+                <font color="#5c6bc0">end</font>
+                <br />
+                <s><u>Resultado</u></s><br />
+                el número es: <font color="#ff7043"> 0</font><br />
+                el número es: <font color="#ff7043"> 1</font><br />
+                el número es: <font color="#ff7043"> 2</font><br />
+                el número es: <font color="#ff7043"> 3</font><br />
+                el número es: <font color="#ff7043"> 4</font><br />
+                el número es: <font color="#ff7043"> 5</font><br />
+                </p>
+
+
+                <p>
+                <b>NOTA:</b> ejemplo del uso de ciclo puede ser realizar operaciones matematicas o cuentas numericas. Donde una accion se debe ejecutar N cantidad de veces, donde N es un numero entero.
+                </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_dos_metodos">
+        <![CDATA[
+            <div>
+              <div>
+              <p>
+              En Ruby, todo lo que se manipula es un objeto, y el resultado de esas operaciones también son objetos. La única forma que tenemos de manipular los objetos, son los <s>métodos</s><br />
+              Si los objetos (como los strings, números,…) son los nombres, entonces los métodos son los verbos. Todo método necesita un objeto.
+              Es fácil decir qué objeto recibe el método: el que está a la izquierda del punto. Algunas veces, puede que no sea obvio.
+              Por ejemplo, cuando se usa <i>puts</i> y <i>gets</i>, ¿dónde están sus objetos? Nada más iniciarse el intérprete, estamos dentro de un objeto:
+              el objeto main. Por tanto, al usar <i>puts</i> y <i>gets</i>, estamos mandando el mensaje al objeto <i>main</i>.
+              </p>
+              <p>
+              Un bloque de instrucciones que define un método, empieza por la palabra def y acaba por la end. Los parámetros son la lista de
+              variables que van entre paréntesis. Aunque en Ruby, dichos paréntesis son opcionales: puts, p y gets son muy usados, y por ello que
+              el uso de paréntesis sea opcional. En Rails, se llama a los métodos sin paréntesis.<br />
+              <s><u>Ejemplo</u></s>
+                <br />
+                <font color="#5c6bc0">def </font>hello<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts <font color="#0a8f08">&#34;Hola juan&#34;</font><br />
+                <font color="#5c6bc0">end</font><br />
+                <br />
+                <font color="#0a8f08">&#35;uso del método</font><br />
+                hello
+                <br />
+                <br />
+                <s><u>Resultado</u></s><br />
+                Hola juan
+              </p>
+              <p>
+              <b>NOTA:</b><br />
+              Para saber dentro de qué objeto estamos se usa la variable <u>self</u><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts <font color="#5c6bc0">self</font><br />
+
+              </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+
+
+    <string name="html_dos_modulos">
+        <![CDATA[
+            <div>
+              <div>
+              <p>
+              los <i>módulos</i> son similares a las clases en que contienen una colección de métodos, constantes y otros módulos y definiciones. Pero a diferencia de las clases, no se pueden crear clases derivadas de los módulos.
+              <br />
+              los <i>módulos</i> actúan como librería, definiendo métodos cuyos nombres no interfieran con otros definidos en otros sitios. Además permiten
+              aumentar las funcionalidades de las clases: si una clase usa un módulo, los métodos de este módulo estarán disponibles en los
+              objetos que procedan de esta clase.
+              <br />
+              </p>
+              <p>
+              <s><u>Ejemplo de un módulo</u></s>
+                <br />
+                <font color="#5c6bc0">module </font>Trig<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PI = <font color="#ff7043">3.1416</font><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#5c6bc0">def </font></font>Trig.sin(x)<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0a8f08">&#35;.....</font><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#5c6bc0">end </font><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#5c6bc0">def </font></font>Trig.cos(x)<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0a8f08">&#35;.....</font><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#5c6bc0">end </font><br />
+                <font color="#5c6bc0">end</font><br />
+                <br />
+              </p>
+              <p>
+              <b>NOTA:</b><br />
+              La principal diferencia entre heredar de una clase y usar un módulo, es que puedes usar más de un módulo al mismo tiempo. Recordar,
+              que no se permitía tener más de una clase madre. Esto permite añadir numerosas funciones al código.
+              </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+
+    <string name="html_dos_bloques">
+        <![CDATA[
+            <div>
+              <div>
+              <p>Un bloque es una porción de codigo encerrada entre parentesis { } o entre do…end. Por lo tanto, un bloque es una forma de agrupar instrucciones, y solo puede aparecer despues de usar un metodo: el bloque empieza en la misma linea que usa el metodo. El codigo dentro del bloque no es ejectuado en el instante que el interprete de Ruby lo encuentra: Ruby se recordara del bloque (variables locales) y después entra en el metodo, ejecutando el bloque cuando es preciso.<br />
+			 <br />
+
+			 <br /><br /><font color="#5c6bc0"><b>Yield</b></font>: Te permite comentar por bloque (Secciones de texto). Los signos delimitadores de este tipo de comentarios de
+			 ( <b> =begin </b> ) para el inicio y ( <b> =end </b> ) para terminar.<br />
+
+			 <br />
+			  <font color="#5c6bc0">def </font>metodo<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts <font color="#0a8f08">&#34;Comienzo del metodo&#34;</font><br />
+               <font color="#5c6bc0">yield </font><br />
+                <font color="#5c6bc0">yield </font><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts <font color="#0a8f08">&#34;Final del metodo&#34;</font><br />
+               <font color="#5c6bc0">end </font><br />
+               <br />
+               metodo{ puts <font color="#0a8f08">&#34;Dentro del bloque&#34;</font>}<br />
+               <br />
+                <br />
+                 <i>La salida es:</i><br /><br />
+
+                  <font color="#0a8f08">&#34;Comienzo del metodo&#34;</font><br />
+                  <font color="#0a8f08">&#34;Dentro del bloque&#34; &#35; segundo yield</font><br />
+                  <font color="#0a8f08">&#34;Final del metodo&#34; &#35; primer yield</font><br />
+
+			 <br /><br /><font color="#5c6bc0"><b>Argumentos en los bloques</b></font>: En los bloques se pueden usar argumentos especificándolos dentro de dos barras verticales &#124; &#124; . Y si se usan, en el yield no podemos olvidar darles valor
+			 <br />
+
+                 <br />
+			 	<font color="#5c6bc0">def </font>metodo<br />
+                     <font color="#5c6bc0">yield </font>(<font color="#0a8f08">&#34;hola&#34;</font>, <font color="#ff7043">99</font>)<br />
+                <font color="#5c6bc0">end </font><br />
+
+                <br />
+                metodo{&#124;str,num&#124; puts str + " " + num.to&#95;s}  <br />&#35;hola 99
+                <br />
+                <br />
+                Un bloque de código devuelve un valor: el valor de la última expresión evaluada. Y este valor devuelto por yield, puede usarse dentro del método que invoca el bloque.
+                <br />
+
+
+			 <br /><br /><font color="#5c6bc0"><b>Los procs</b></font> Los bloques no son objetos, pero pueden convertirse en ellos gracias a la clase Proc. Los objetos tipo proc son bloques que se han unido a un conjuto de variables locales. Esto se hace gracias al método lambda del módulo Kernel.
+			 </p>
+			 <p>
+			 <b>Codigo</b>: prc = lambda { puts "Hola" }
+
+                     <br />
+                    prc.call &#35;llamamos al bloque<br />
+
+
+                       <br />
+                       &#35;otro ejemplo<br />
+                       toast = lambda do<br />
+                       puts "Gracias"<br />
+                       end<br />
+                       toast.call
+                       	<br />
+              La salida es:
+
+              <br />
+                       Hola<br />
+                       Gracias<br />
+                       ¿Para usar argumentos con lambda:<br />
+                       	<br />
+                        aBlock = lambda { &#124;x&#124; puts x }<br />
+                        aBlock.call  &#34;Hola Mundo&#33;<br />
+                        La salida es:<br />
+                        <br />
+                        Hola Mundo&#33;<br />
+                        Los procs son muy utiles por que: <br />
+                        <br />
+                         No puedes pasar metodos dentro de otros metodos (usarlos como argumentos) pero si puedes usar procs como argumentos. Los metodos no pueden devolver otros metodos&#59; pero sí pueden devolver un procs.<br />
+                         <br />
+                         &#35;uso de procs como argumentos
+                         <br />
+                         def metod1 proc1
+                          puts "Principio del metodo"
+  							<br />
+
+                         proc1.call
+                         puts "Final del metodo"
+                         end<br />
+
+                         hola = lambda do
+                         puts "Hola"<br />
+                         end<br />
+
+                         metod1 hola
+                         la salida es:<br />
+
+                         Principio del metodo<br />
+                         Hola
+                         Final del metodo<br />
+			 </p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+    <string name="html_dos_mix">
+        <![CDATA[
+            <div>
+              <div>
+<div>
+			 <p>Un Mixin es basicamente un modulo que se incluye en una clase . Cuando " mixin " de un modulo en una clase, la clase tendra acceso a los metodos del modulo. Los modulos son una forma de agrupar los metodos, clases y constantes. Modulos que dan dos beneficios principales .
+
+       Los modulos proporcionan un espacio de nombres y evitar conflictos de nombres.
+       Modulos implementan la instalacion mixin.
+       Modulos definen un espacio de nombres , una caja de texto en el que sus motodos y constantes pueden jugar sin tener que preocuparse de ser tomados por otros metodos constantes.<br />
+			 <br />
+
+			 <br /><br /><font color="#5c6bc0"><b>Syntax:</b></font><br />
+       <br />
+                         module Identifier<br />
+                         statement1<br />
+                         statement2<br />
+                         ...........<br />
+                         end <br />
+
+
+			 <br />
+			 <p>Las constantes del modulo se designan como constantes de clase , con una letra mayascula inicial. Las definiciones de metodos tienen un aspecto similar, tambien:<br />
+
+       metodos del modulo se definen como metodos de clase.<br />
+
+       Al igual que con los metodos de clase, se llama a un metodo del modulo precediendo su nombre con el nombre del modulo y un periodo, y se hace referencia a una constante usando el nombre del modulo y dos colones .</p>
+
+
+			 <br /><br /><font color="#5c6bc0"><b>Mixins en Ruby:</b></font>: En los bloques se pueden usar argumentos especificandolos dentro de dos barras verticales | |. Y si se usan, en el yield no podemos olvidar darles valor:
+      <p>Antes de ir a traves de esta seccion, se supone que tiene conocimiento de los conceptos orientados a objetos.
+      Cuando una clase puede heredar caracteristicas de mas de una clase padre, la clase se supone que muestra la herencia multiple.
+      Ruby no apoyar directamente la herencia multiple, pero Rubi modulos tienen otro uso maravilloso. De un golpe , que eliminan practicamente la necesidad de que la herencia multiple , proporcionando una instalación llamada mixin.
+      <br />
+      Mixins le dan una manera maravillosamente controlada de agregar funcionalidad a las clases. Sin embargo, su verdadero poder viene cuando el codigo en el mixin comienza a interactuar con el codigo de la clase que lo utiliza.<br />
+
+      Examinemos el siguiente codigo de ejemplo para obtener un entienden de mixin:<br />
+      </p>
+
+      <p>
+        module A<br />
+          def a1<br />
+          end<br />
+          def a2<br />
+        end<br />
+      end<br />
+        module B<br />
+          def b1<br />
+        end<br />
+          def b2<br />
+        end<br />
+      end<br />
+<br />
+      class Sample<br />
+          include A<br />
+          include B<br />
+          def s1<br />
+        end<br />
+      end<br />
+<br />
+      samp=Sample.new<br />
+          samp.a1<br />
+          samp.a2<br />
+          samp.b1<br />
+          samp.b2<br />
+          samp.s1<br />
+          <br />
+      </p>
+
+      <p>
+        Modulo A consiste en los metodos de A1 y A2. Modulo B se compone de los metodos de B1 y B2. La muestra incluye tanto los modulos de clase A y B. La Muestra de clase puede acceder a los cuatro metodos , a saber , A1 , A2, B1 , y B2 . Por lo tanto , se puede ver que la muestra de clase hereda de ambos los modulos . Por lo tanto , se puede decir que la Muestra de clases muestra la herencia multiple o una mixin .
+      </p>
+		  </div>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+
+
+    <string name="html_tres_strings">
+        <![CDATA[
+            <div>
+              <div>
+                <p>
+                Hay muchos métodos en la clase String como:
+                <br />
+                <br /><font color="#0a8f08"><b> reverse </b></font> : invierte los caracteres de un string.
+                 <br /><font color="#0a8f08"><b> length </b></font> : dice el número de caracteres de un string, incluyendo los espacios en blanco.
+                 <br /><font color="#0a8f08"><b> upcase </b></font> : pone todos los caracteres en mayúsculas.
+                 <br /><font color="#0a8f08"><b> downcase </b></font> : pone todos los caracteres en minúsculas.
+                 <br /><font color="#0a8f08"><b> swapcase = </b></font> : pone los caracteres mayúsculas en minúsculas y los minúsculas en mayúsculas.
+                 <br /><font color="#0a8f08"><b> capitalize = </b></font> : pone el primer caracter del string en mayúsculas, y los demás en minúsculas.
+                 <br /><font color="#0a8f08"><b> slice = </b></font> : da una parte de un string.
+                </p>
+                <p>
+                Los métodos <i>upcase, downcase, swapcase</i> y <i>capitalize</i> tienen su correspondiente método bang, que modifican el string
+                (<i>upcase &#33;, downcase &#33;, swapcase &#33;,</i> y <i>captalize &#33;</i>). Si no necesitas el string original, es bueno usarlo, por que ahorrarás memoria &#59; sobretodo si el string es largo.
+                </p>
+                <p>
+                Cada vez que se se asigna a una variable un string, se crea un nuevo objeto String. ¿Cómo es administrada la memoria en los strings? ¿Hay una porción separada para ellos? La clase String tiene más de 75 métodos. Leyendo la Guía de Uso de Ruby <b>(Ruby User&#44;s Guide)</b>, dice "no tenemos en cuenta la memoria ocupada por un string. Prescindimos de cualquier administración de memoria". Para saber todos los métodos que tiene un String:
+
+                <br /><font color="#0a8f08"><b> String.methods </b></font> : da una lista de todo los métodos que tiene la clase String.
+                 <br /><font color="#0a8f08"><b> String.methods.sort </b></font> : da una lista ordenada alfabéticamente de todos los métodos.
+                 <br /><font color="#0a8f08"><b> String.instance_methods.sort </b></font> : da una lista ordenada de todo los métodos de instancia (se explicará más adelante) que tiene un String.
+                 <br /><font color="#0a8f08"><b> String.instance_methods(false).sort </b></font> : muestra una lista ordenada de todos los métodos que pertanezcan exclusivamente a los Strings, pero no a las clases de las que desciende.
+                 <br /></p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_arreglos">
+        <![CDATA[
+            <div>
+		  <div>
+			 <p>Los arreglos, son estructuras que almacenan elementos de diferentes tipos, o al menos así son en Ruby, también puedes almacenar elementos de un solo tipo.
+              Los arreglos sirven para poder estructurar información y acceder a ella a través de un index, éste index es la posición que los elementos tienen dentro del
+			  arreglo, siendo el primero 0.Para no confundirnos tanto con pura teoría, veamos cómo crear un arreglo en Ruby, es muy sencillo:<br />
+			 Existen dos tipos de comentarios.<br />
+			 <b>nombres = []</b>
+
+			 <p>Como ves, un arreglo se define utilizando [] como delimitadores de lo que contiene el arreglo, también puedes hacerlo como instancia de la clase Array: <br />
+
+			<b>1 nombres = Array.new </b> <br />
+
+			<p><Ahora bien, si queremos iniciar el arreglo con ciertos valores adentro, es tan sencillo como lo siguiente:<br />
+
+			<b>1 lenguajes = ["Ruby", "Python", "PHP", "C", "JAVA"] </b> <br />
+
+			<p>El arreglo anterior tiene 5 elementos y como te mencionaba antes, es posible acceder a cada uno de ellos utilizando su posición, es muy importante que recuerdes que en los arreglos la posición inicial es la 0. Veamoslo en un ejemplo: <br />
+
+			<b> 1 lenguajes = ["Ruby", "Python", "PHP", "C", "JAVA"] </b><br />
+              <b>  2 puts "Estamos aprendiendo a programar arreglos en #{lenguajes[0]}" </b><br />
+
+			<p> Lo anterior, imprimirá que estamos aprendiendo arreglos en Ruby, puesto que accedimos a la posición 0 del arreglo que almacena la cadena Ruby.
+                 Como dije al principio, los arreglos pueden almacenar estructuras u objetos de cualquier tipo, incluso otros arreglos: <br />
+
+				 <b>1 ejemplo = ["Hola",1.1,2,[5,":D"]] </b><br />
+
+				 <p>Lo anterior es válido en Ruby, hasta ahora todo ha sido común así que salgamos un poco de lo cotidiano y veamos algo más al estilo Ruby, lo que te mostraré a continuación se trata del método %w y nos ayuda a crear arreglos de cadenas, de una manera más sencilla para nosotros los programadores: <br />
+				 <b>1 lenguajes = %w{Ruby Python JAVA C PHP} </b> <br />
+
+				 <p>Sin comillas y sin comas, genial ¿no? Como te mencionaba, el método anterior sólo sirve para crear arreglos de cadenas.
+
+				Lo anterior ha sido bastante útil, con ésto concluiremos éste artículo. Sin embargo, en el siguiente veremos operaciones con arreglos que harán lo aprendido aquí muchísimo más interesante.
+
+			 </p>
+		  </div>
+	   </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_hashes">
+        <![CDATA[
+            <div>
+                <div>
+			 <p>
+           Un hash es una colección de pares de valores clave como este : "e mpleado" = > "salario " . Es similar a una matriz , excepto que la indexación se
+           realiza a través de teclas arbitrarias de cualquier tipo de objeto , no un índice entero . El orden en el que se recorre un hash por cualquiera de
+		   las teclas o el valor puede parecer arbitraria y no será en general en el orden de inserción. Si se intenta acceder a un hash con una clave que no
+		   existe , el método devolverá nil .<br /> <br />
+			 <b>La creación de hashes :</b>
+
+			 <p>Al igual que con arrays , hay una variedad de maneras de crear hashes. Puede crear un hash vacío con el nuevo método de clase :<br />
+
+			<b>months = Hash.new</b> <br />
+
+			<p>
+			También puede utilizar nueva para crear un hash con un valor predeterminado, que es por lo demás es nada:<br />
+
+			<b>months = Hash.new( "month" )</b><br />
+             <b>or</b><br>
+             <b>months = Hash.new "month"</b> <br />
+			 </p>
+		  </div>
+	        </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_fecha_hora">
+        <![CDATA[
+                <div>
+		  <div>
+			 <p>
+			 La clase Time en Ruby tiene un extraordinario método para formatear su resultado, que es de gran utilidad a la hora de representar la hora de distintas formas. La clase
+			 <b>Time</b> de Ruby contiene un interface para manejar directamente las librerías escritas C sobre las horas.
+            <br /> <br />
+			<p>
+			El cero de los tiempos para Ruby, es el primer segundo GMT del 1 de Enero de 1970. Esto puede traer problemas a la hora de representar instantes anteriores a ese cero. La clase
+			<b>DateTime</b> es superior a <b>Time</b> para aplicaciones astronómicas o históricas; sin embargo, para las aplicaciones normales, con usar Time es suficiente.
+			<br />
+			t = Time.now<br />
+
+			 puts t.strftime(<font color="#5c6bc0">"%d/%m/%Y %H:%M:%S"</font>)<br />
+             <font color="#0a8f08">
+                # strftime - formatear tiempo (stringfy time) <br />
+                # %d - día (day) <br />
+                # %m - mes (month) <br />
+                # %Y - año (year) <br />
+                # %H - hora en formato 24 horas (hour) <br />
+                # %M - minuto <br />
+                # %S - segundo (second) <br />
+             </font>
+             <br />
+             puts t.strftime(<font color="#5c6bc0">"%A"</font>)<br />
+             puts t.strftime(<font color="#5c6bc0">"%B"</font>)<br />
+             <font color="#0a8f08">
+                # %A - día de la semana <br />
+               # %B - mes del año <br />
+             </font>
+             <br />
+             puts t.strftime(<font color="#5c6bc0">"son las %H:%M %Z"</font>)<br />
+            <font color="#0a8f08">
+                # %Z - zona horaria <br />
+             </font>
+
+			 </p>
+		  </div>
+	        </div>
+        ]]>
+    </string>
+
+
+
+    <string name="html_cuatro_rangos">
+        <![CDATA[
+            <div>
+            <div>
+			 <p>Los rangos son una sencilla representacion de un grupo o coleccion delimitada por un valor final. Son claramente intuitivos, pero sus usos y cualidades a veces no lo son. Los podemos declarar de la forma<br /><br />
+			 	nums = 0..9<br />
+                escala1 = 0..10<br />
+                escala2 = 0...10<br /><br />
+			 Existen  tipos de rangos ( <b>Rangos Abiertos y Cerrados</b> .
+
+			 <br /><br /><font color="#5c6bc0"><b>Rangos Abiertos y Rangos cerrados</b></font>: Un rango sera abierto si el valor final se incluye, por el contrario se llamara rango cerrado:<br />
+			 a1 = 1..5     # cerrado<br />
+   			 a2 = 1...5    # abierto<br />
+			 b1 = a1.to_a  # [1,2,3,4,5]<br />
+             b2 = a2.to_a  # [1,2,3,4]<br /><br />
+
+
+
+			 </p>
+			 <p>
+			 <b>Nota</b>: En Ruby los rangos no son almacenados como una lista: los rangos se almacenan como un objeto Range, y contiene referencias a dos objetos Fixnum (su limite superior e inferior). Se puede convertir un rango en un array ( array = lista, conjunto ordenado de elementos), mediante el metodo to_a.<br />
+
+             (1..10).to_a<br />
+
+             #obtenemos [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]<br /><br />
+             <b>metodos</b></b><br />
+             <b>Los rangos en ruby tienen diversos metodos:</b></b><br />
+             nums = -1...9</b><br />
+			 puts nums.include?(5)   # true</b></b><br />
+			 puts nums.min           # -1</b><br />
+			 puts nums.max           # 8</b><br />
+			 puts nums.reject {|i| i < 5} # [5, 6, 7, 8]</b>
+
+
+			 </p>
+		  </div>
+		    </div>
+        ]]>
+    </string>
+     <string name="html_cuatro_iteradores">
+        <![CDATA[
+            <div>
+                <div>
+			 <p>Un iterador es una funcion o metodo al que se le pasa como parametro un bloque y ejecuta el bloque hasta que se cumple una condicion
+				La sintasix es iterador bloque. En las instruciones del iterador nos dirán cual es la condición para que termine el iterador, si hay que pasar un parámetro al bloque y que significado tiene ese parametro<br /><br /><br />
+
+
+			  ( <b>El iterador each de un string, nos ejecuta el bloque por cada palabra(pasandole el caracter separador) que hay en el string y nos deja la palabra en el parámetro del bloque</b> <br /><br />
+			   <b>El iterador each_byte de un string, nos ejecuta el bloque por cada byte que hay en el string y nos deja el codigo ascii del byte en el parámetro del bloque</b><br /><br />
+			   <b> El iterador each de un rango, nos ejecuta el bloque por cada elemento del rango y nos deja el elemento del rango en el parámetro del bloque</b> .
+
+
+
+			 <br /><br /><font color="#5c6bc0"><b>Comentarios de una línea</b></font>: El iterador each de un rango, nos ejecuta el bloque por cada elemento del rango y nos deja el elemento del rango en el parámetro del bloque  ( <b>#</b> ).
+			 </p>
+			 <p>
+			 <b>Nota</b>: Los iteradores no son un concepto original de Ruby. Son comunes en otros lenguajes orientados a objetos. Tambien se utilizan en Lisp aunque no se les conoce como iteradores. Sin embargo este concepto de iterador es muy poco familiar para muchas personas por lo que se explorara con detalle.
+			 </p>
+		  </div>
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_directorios">
+        <![CDATA[
+            <div>
+                <div>
+			 <p>La rutas son las direcciones que nos indican cómo llegar a un archivo o directorio en el sistema. Para este capítulo aprenderemos una serie de conceptos básicos para manejarnos entre directorios con Ruby.<br />
+
+			A continuación estudiaremos una serie de comandos básicos para el manejo de rutas y directorios con Ruby.
+			<br />
+
+			 Existen dos tipos de  (<b>Rutas</b> y <b>Directorios</b> ).
+
+			 <br /><br /><font color="#5c6bc0"><b>Ruta actual pwd</b></font>: Para los que están familiarizados con comandos SHELL, seguramente reconocerán este método. pwd simplemente nos da la ruta del directorio actual donde estemos trabajando, aunque este concepto es bastante sencillo. Veamos un ejemplo para comprender mejor el concepto de ruta actual.
+
+
+			 <br /><br /><font color="#5c6bc0"><b>Cambiar de Directorio chdir</b></font>: simplemente nos permite movernos a un directorio siempre y cuando sepamos la ruta. Este método es similar al cd en SHELL. Veamos un ejemplo ( <b>#</b> ).
+			 </p>
+			 <p>
+			 <b>Nota</b>: Al igual que en sistemas operativos basados en Unix mkdir nos crea nuevos directorios o carpetas. Este método recibe como variable la ruta y el nombre de la nueva carpeta que estamos creando, veamos el siguiente ejemplo:
+			 </p>
+		  </div>
+
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_excepciones">
+        <![CDATA[
+            <div>
+                <p>
+                Las excepciones sirven para controlar varios tipos de errores que pueden suceder durante la ejecución de un programa. Cuando ocurre el error, con las excepciones se puede capturar para tratarlo en vez de terminar el programa por completo.
+                <br />
+
+                </p>
+                <p>
+                El tratamiento de excepciones se encapsula entre cláusulas <b>begin</b> y <b>end</b> de la siguiente forma:
+                <br />
+                <font color="#0a8f08">
+                begin <br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # codigo... <br />
+               rescue TIPO_EXCEPCION_1 <br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STDERR.puts "Ha ocurrido un problema de tipo 1" <br />
+               rescue TIPO_EXCEPCION_2 <br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STDERR.puts "Ha ocurrido un problema de tipo 2"<br />
+               else<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STDERR.puts "Ha ocurrido otro problema"<br />
+               ensure<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # se ejecuta siempre haya o no excepción<br />
+               end<br />
+             </font>
+                </p>
+                <p>
+                <font color="#5c6bc0"><b>Tipos de excepciones</b></font>:<br />
+                	-Exception<br />
+                	---fatal<br />
+                	---NoMemoryError<br />
+                	---ScriptError<br />
+                       <font color="#0a8f08">
+                	--------LoadError<br />
+                	--------NotImplementedError<br />
+                	--------SyntaxError<br />
+                	</font>
+                	---SignalException<br />
+                	<font color="#0a8f08">
+                	--------Interrupt<br />
+                	</font>
+                	---StandardError<br />
+                	<font color="#0a8f08">
+                	--------ArgumentError<br />
+                	--------IOError<br />
+                	--------IOError<br />
+                	-----------EOFError<br />
+                	--------IndexError<br />
+                	--------LocalJumpError<br />
+                	--------NameError<br />
+                	-----------NoMethodError<br />
+                	--------RangeError<br />
+                	-----------FloatDomainError<br />
+                	--------RegexpError<br />
+                	--------RuntimeError<br />
+                	--------SecurityError<br />
+                	--------SystemCallError<br />
+                	-----------Errorno::__ (ENOENT, etc.) (system-dependent)<br />
+                	--------ThreadError<br />
+                	--------TypeError<br />
+                	--------ZeroDivisionError<br />
+                	</font>
+                	---SystemExit<br />
+                	---SystemStackError<br />
+                </p>
+                <p>
+                <b>NOTA:</b> Podemos lanzar excepciones propias usando la palabra raise:<br />
+                <font color="#0a8f08">&nbsp;&nbsp;&nbsp;&nbsp;<i>raise "error 1"</i> </font>
+                </p>
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_orientado_objetos">
+        <![CDATA[
+            <div>
+                <div>
+			 <p>Desde hace tiempo el estilo de programación funcional (que se usa por ejemplo en el lenguaje C) es usado para programar. En este tipo de programación, hay que centrarse en los pasos para realizar la tarea, y nos olvidamos de como se manejan los datos.
+
+			Sin embargo, en la programación orientada a objetos, los objetos son los agentes, el universo de tu programa: se presta atención a la estructura de los datos. Cuando se diseña una clase, se piensa en los objetos que serán creados por esa clase: en las cosas que podrá hacer ese objeto, y las características que lo definen.
+
+			Un objeto es un contenedor de datos, que a su vez controla el acceso a dichos datos. Asociados a los objetos está una serie de variables que lo definen: sus atributos. Y también un conjunto de funciones que crean un interfaz para interactuar con el objeto: son los métodos.<br />
+
+
+			 <br /><br /><font color="#5c6bc0"><b>Constructores literales</b></font>: Significa que se puede usar una notación especial, en vez de usar new para crear un nuevo objeto de esa clase. Las clases que un constructor literal puede crear, están en la siguiente tabla: cada vez que usas uno de estos constructores, creas un nuevo objeto .Un método recién creado no es un espacio en blanco: un objeto recién creado, puede responder un montón de mensajes. Para ver la lista de esos mensajes o métodos de forma ordenada (.sort):</b>
+
+
+			<b> puts d.methods.sort</b>
+
+
+			 </p>
+			 <p>
+			 <b>Nota</b>: Una clase es usada para construir un objeto. Una clase es como un molde para objetos. Y un objeto, una instancia de la clase. Por ejemplo, se puede usar la clase Button para hacer docenas de botones, cada botón con su propio color, tamaño, forma
+			 </p>
+		  </div>
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_expreciones_regulares">
+        <![CDATA[
+            <div>
+                <div>
+                <p>
+                Las expresiones regulares, aunque crípticas, son una poderosa herramienta para trabajar con texto. Son usadas para reconocer patrones y procesar texto. Una
+                <b> expresión regular </b>es una forma de especificar un patrón de caracteres, que será buscado en un string. <br /></p>
+                <p>
+                En Ruby, se crean las expresiones regulares entre <b>//</b>: son objetos del tipo <sub>Regexp</sub> y pueden ser manipuladas como tales:
+                <br />
+                //.<font color="#5c6bc0">class</font> <font color="#0a8f08">#  Regexp</font>
+                </p>
+                <p>
+                <b>Tipo de Expreciones:</b>
+
+                <br /><font color="#0a8f08"><big><b> . </b></big></font> : Cualquier carácter.
+                 <br /><font color="#0a8f08"><big><b> [ ] </b></big></font> : Especificación por rango. P.ej: [a-z], una letra de la a, a la z.
+                 <br /><font color="#0a8f08"><b> &#92w </b></font> : Letra o número; es lo mismo que [0-9A-Za-z].
+                 <br /><font color="#0a8f08"><b> &#92W </b></font> : Cualquier carácter que no sea letra o número.
+                 <br /><font color="#0a8f08"><b> &#92s = </b></font> : Carácter de espacio; es lo mismo que [ \t\n\r\f].
+                 <br /><font color="#0a8f08"><b> &#92S = </b></font> : Cualquier carácter que no sea de espacio.
+                 <br /><font color="#0a8f08"><b> &#92d = </b></font> : Número; lo mismo que [0-9].
+                 <br /><font color="#0a8f08"><b> &#92D = </b></font> : Cualquier carácter que no sea un número.
+                 <br /><font color="#0a8f08"><b> &#92b = </b></font> : Límite de palabra, si NO está dentro de un rango.
+                 <br /><font color="#0a8f08"><b> &#92B = </b></font> : No límite de palabra.
+                 <br /><font color="#0a8f08"><big><b> + = </b></big></font> : Una o más repeticiones de lo que le precede.
+                 <br /><font color="#0a8f08"><big><b> $ = </b></big></font> : Fin de la línea.
+                 <br /><font color="#0a8f08"><b> {m,n} = </b></font> : Como menos m, y como mucho n repeticiones de lo que le precede.
+                 <br /><font color="#0a8f08"><big><b> ? = </b></big></font> : Al menos una repetición de lo que le precede; lo mismo que {0,1}.
+                 <br /><font color="#0a8f08"><big><b> ( ) = </b></big></font> : Agrupar expresiones.
+                 <br /><font color="#0a8f08"><big><b> || = </b></big></font> : Operador lógico O, busca lo de antes o lo después.
+                </p>
+                <p>
+                <b>NOTA:</b>La forma más simple de encontrar si una expresión (también funciona con strings) está dentro de un string, es usar el método <b>match</b> o el operador = ~:
+                </p>
+		        </div>
+		    </div>
+        ]]>
+    </string>
+
+
+
+
+    <string name="title_activity_settings">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>

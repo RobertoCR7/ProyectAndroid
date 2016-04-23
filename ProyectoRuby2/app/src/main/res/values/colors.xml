@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="rojo">#cc0000</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="fondo">#546e7a</color>
+    <color name="items">#e84e40</color>
+    <color name="trans_rojo">#80cc0000</color>
+    <color name="trans_negro">#80000000</color>
+    <color name="trans">#00000000</color>
+</resources>

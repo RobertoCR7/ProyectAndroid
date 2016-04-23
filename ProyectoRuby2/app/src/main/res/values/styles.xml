@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppThemeRuby" parent="_AppThemeRuby"></style>
+
+    <style name="_AppThemeRuby" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/rojo</item>
+        <item name="colorPrimaryDark">#B71C1C</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemBackground">@drawable/mi_item_menu</item>
+    </style>
+
+</resources>
