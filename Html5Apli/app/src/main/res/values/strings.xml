@@ -26,16 +26,28 @@
     <string name="nuevo">Nuevo</string>
     <string name="agregar">Agregar</string>
     <string name="title_activity_gps">GPS</string>
-    <string name="intro_uno">HTML5 es la actualización de HTML, el lenguaje en el que es creada la web. HTML5 también es un termino de marketing para agrupar las nuevas tecnologías de desarrollo de aplicaciones web: HTML5, CSS3 y nuevas capacidades de Javascript</string>
-    <string name="intro_dos">La versión anterior y más usada de HTML, HTML4, carece de características necesarias para la creación de aplicaciones modernas basadas en un navegador. El uso fuerte de Javascript ha ayudado a mejorar esto, gracias a frameworks como jQuery, jQuery UI, Sproutcore, entre otros.</string>
-    <string name="intro_tres">Flash en especial ha sido usado en reemplazo de HTML para desarrollar web apps que superaran las habilidades de un navegador: Audio, video, webcams, micrófonos, datos binarios, animaciones vectoriales, componentes de interfaz complejos, entre muchas otras cosas. Ahora HTML5 es capaz de hacer esto sin necesidad de plugins y con una gran compatibilidad entre navegadores.</string>
-    <string name="intro_cuatro">IMPORTANTE: En este momento no todos los navegadores soportan HTML5 y la mayoría de sus funciones se encuentran actualmente en estado de desarrollo. Recomendamos leer los capítulos y ejecutar los códigos con las últimas versiones de Google Chrome y Firefox. Google Chrome ya implementa muchas de las características de HTML5 y además es una buena plataforma para pruebas. Por otro lado, Firefox es uno de los mejores navegadores para desarrolladores y también provee total soporte para HTML5. Sea cual fuere el navegador elegido, siempre tenga en mente que un buen desarrollador instala y prueba sus códigos en cada programa disponible en el mercado. Ejecute los códigos provistos en este libro en cada uno de los navegadores disponibles. Para descargar las últimas versiones, visite los siguientes enlaces: · www.google.com/chrome · www.apple.com/safari/download www.mozilla.com windows.microsoft.com www.opera.com</string>
-    <string name="idioma_ingles">Ingles</string>
+    <string name="intro_uno">HTML5 es la actualización de HTML, el lenguaje en el que es creada la web.
+        HTML5 también es un término de marketing para agrupar las nuevas tecnologías de desarrollo de
+        aplicaciones web: HTML5, CSS3 y nuevas capacidades de Javascript</string>
+    <string name="intro_dos">La versión anterior y más usada de HTML, HTML4, carece de características
+        necesarias para la creación de aplicaciones modernas basadas en un navegador. El uso fuerte de
+        Javascript ha ayudado a mejorar esto, gracias a frameworks como jQuery, jQuery UI, Sproutcore, entre otros.</string>
+    <string name="intro_tres">Flash en especial ha sido usado en reemplazo de HTML para desarrollar web
+        apps que superaran las habilidades de un navegador: Audio, video, webcams, micrófonos, datos
+        binarios, animaciones vectoriales, componentes de interfaz complejos, entre muchas otras cosas.
+        Ahora HTML5 es capaz de hacer esto sin necesidad de plugins y con una gran compatibilidad entre navegadores.</string>
+    <string name="intro_cuatro">IMPORTANTE: En este momento no todos los navegadores soportan HTML5 y
+        la mayoría de sus funciones se encuentran actualmente en estado de desarrollo. Recomendamos leer
+        los capítulos y ejecutar los códigos con las últimas versiones de Google Chrome y Firefox. Google
+        Chrome ya implementa muchas de las características de HTML5 y además es una buena plataforma para pruebas.
+        Por otro lado, Firefox es uno de los mejores navegadores para desarrolladores y también provee total
+        soporte para HTML5. Sea cual fuere el navegador elegido, siempre tenga en mente que un buen desarrollador
+        instala y prueba sus códigos en cada programa disponible en el mercado. Ejecute los códigos provistos
+        en este libro en cada uno de los navegadores disponibles. Para descargar las últimas versiones, visite
+        los siguientes enlaces: · www.google.com/chrome · www.apple.com/safari/download www.mozilla.com
+        windows.microsoft.com www.opera.com</string>
     <string name="idioma_español">Español</string>
-    <string name="idioma_aleman">Aleman</string>
-    <string name="color_blanco">Blanco</string>
-    <string name="color_negro">Negro</string>
-    <string name="color_rojo">Rojo</string>
+
     <string name="ayuda_nota">Nota:</string>
     <string name="ayuda_enviar">Enviar</string>
     <string name="bd_id">id</string>
@@ -145,7 +157,6 @@
         </body>\n
         </html>\n\n
     ]]>
-
         Otro importante elemento que va dentro de la cabecera del documento es <![CDATA[<link> ]]> . Este elemento
     es usado para incorporar estilos, códigos Javascript, imágenes o iconos desde archivos externos.
     Uno de los usos más comunes para es la incorporación de archivos con estilos CSS:\n\n
@@ -206,123 +217,124 @@
 
 
     <string name="info_lista_elementos">
-        <!--...--> Define un comentario. Cualquier información que seponga dentro de las etiquetas
+       Define un comentario. Cualquier información que seponga dentro de las etiquetas
         <!-- y --> dentro del cuerpo de la página, será ignorados por el navegador.\n\n
-        <![CDATA[
-        <!DOCTYPE>]]> Define el tipo de documento.\n\n
-        <![CDATA[ <abbr> Define una abreviación.\n\n
-        <address> Define información de contacto del propietario del documento.\n\n
-        <area> Esta etiqueta define un área dentro de un mapa de imagen.\n\n
-        <article>* Define una composición independiente dentro de un documento, página, aplicación o
-        web, que puede ser distribuida independientemente o reutilizada.\n\n
-        <aside>* Define contenido secundario al contenido de la página.\n\n
-        <audio>* Se utiliza para representar contenido de audio en los documentos. Añadido en HTML5,
-        puede contener diferentes fuentes de audio, representadas utilizando el atributo "src"
-        o el elemento <source>.\n\n
-        <b> Este elemento indica que el texto englobado tiene que ser mostrado en negrita.\n\n
-        <base> Define cuál es la URL absoluta para todos aquellos enlaces que sean relativos en la página.\n\n
-        <bdi>* Aisla una parte del texto que puede tener un formato diferente del texto principal.\n\n
-        <bdo> 	Este elemento es utilizado para sobreescribir la dirección del texto.\n\n
-        <blockquote> Este elemento se utiliza para designar una cita de texto larga. Normalmente, se
-        puede reconocer porque está identado.\n\n
-        <body>  Este elemento es utilizado para definir el cuerpo del documento.\n\n
-        <br> Define un salto de  línea.\n\n
-        <canvas>* Utilizada para dibujar gráficos, mediante scripts. (normalmente JavaScript).\n\n
-        <caption> Defines el título de una tabla.\n\n
-        <cite>	Especifica una cita o referecia a otro lugar.\n\n
-        <code>	Indica que el texto englobado es código de programación.\n\n
-        <col>	Define una columna dentro de una tabla y se utiliza para agrupar y alinear.\n\n
-        <colgroup>	Especifica un grupo de una o más columnas de una tabla para darles formato.\n\n
-        <command>*	Define un botón comando al que el usuario puede llamar.\n\n
-        <datalist>*	Especifica una lista de opciones predefinidas para una caja de texto input.\n\n
-        <dd>	Define una descripción de un item en una lista de definición.\n\n
-        <del>	Define texto que ha sido eliminado de un documento.\n\n
-        <details>*	Define detalles adicionales que el usuario puede ver o esconder.\n\n
-        <dfn>	Define un término de una definición.\n\n
-        <dialog>*	Define una caja de diálogo o ventana.\n\n
-        <div>	Define una sección en un documento.\n\n
-        <dl>	Define una lista de definición.\n\n
-        <dt>	Define un término (un item) dentro de una lista de definición.\n\n
-        <em>	Define énfasis en un texto.\n\n
-        <embed>*	Se utiliza para declarar un contenedor para una aplicación externa (no- HTML).\n\n
-        <fieldset>	Agrupa elementos relacionados en un formulario.\n\n
-        <figcaption>*	Define un título para un elemento <figure>.\n\n
-        <figure>*	Especifica contenido independiente.\n\n
-        <footer>*	Define un footer para un documento o sección.\n\n
-        <form>	Define un formulario HTML para datos del usuario.\n\n
-        <h1> -<h6>	Define encabezados en HTML.\n\n
-        <head>	Define información sobre el documento.\n\n
-        <header>*	Define un encabezado para un documento o sección.\n\n
-        <hgroup>	Agrupa elementos del encabezado (<h1> -<h6>).\n\n
-        <hr>	Define un cambio temático en el contenido.\n\n
-        <html>	Define la raiz de un documento HTML.\n\n
-        <i>	Este elemento se usa para representar un texto con un estilo de fuente en itálica.\n\n
-        <iframe>	Define un documento HTML dentro de otro documento HTML.\n\n
-        <img>	Define una imagen.\n\n
-        <input>	Este elemento se utiliza para ingresar datos por parte del usuario.\n\n
-        <ins>	Define el texto que ha sido insertado dentro del documento.\n\n
-        <kbd>	Este elemento se utiliza para avisar al usuario que tiene que introducir datos por teclado.\n\n
-        <keygen>*	Define un campo generador de claves en formularios.\n\n
-        <label>	Define una etiqueta para un elemento <input>.\n\n
-        <legend>	Este elemento define un título para un elemento <fieldset>, <figure> o <details>.\n\n
-        <li>	Define un item de una lista.\n\n
-        <link>	Este elemento define la relación entre el documento y un recurso externo (normalmente utilizado con hojas de estilo).\n\n
-        <main>*	Especifica el contenido principal del documento.\n\n
-        <map>	Define un mapa de imagen en el lado del cliente.\n\n
-        <mark>*	Define un texto resaltado en el documento.\n\n
-        <menu>	Define un menu.\n\n
-        <meta>	Define metadata de un documento HTML.\n\n
-        <meter>*	Define una medida escalar dentro de un rango determinado.\n\n
-        <nav>*	Define links de navegación.\n\n
-        <noscript>	Especifica un contenido alternativo para navegadores que no soportan scripts.\n\n
-        <object>	Define un objeto embebido-\n\n
-        <ol>	Este elemento especifica una lista ordenada.\n\n
-        <optgroup>	Especifica un grupo de opciones en una lista desplegable.\n\n
-        <option>	Este elemento define una opción en una lista desplegable.\n\n
-        <output>*	Especifica el resultado de un cálculo.\n\n
-        <p>	Especifica un párrafo.\n\n
-        <param>	Este elemento especifica un parámetro para un objeto.\n\n
-        <pre>	Define un texto con formato previo.\n\n
-        <progress>*	Representa el progreso de una tarea.\n\n
-        <q>	Define una cita de texto corta(en una línea).\n\n
-        <rp>*	Define que mostrar en los navegadores que no soportan anotaciones ruby.\n\n
-        <rt>*	Este elemento define la pronunciación de caracteres (para tipografía del este asiático).\n\n
-        <ruby>*	Define una anotación ruby (para tipografía del este asiático).\n\n
-        <s>	Esta etiqueta define texto con un estilo de fuente tachado.\n\n
-        <samp>	Muestra un mensaje de un programa o script.\n\n
-        <script>	Define un script dentro del documento.\n\n
-        <section>*	Define una sección en un documento.\n\n
-        <select>	Muestra varias opciones al usuario y permite que elija entre ellas una o más en una lista desplegable.\n\n
-        <small>	Se utiliza para presentar un texto con un estilo de fuente pequeña.\n\n
-        <source>*	Define las fuentes para los elementos multimedia como video y audio.\n\n
-        <span>	Agrupa varios elementos en línea seguidos dentro de un mismo bloque, para después
-        darles formato con la hoja de estilo.\n\n
-        <strong>	Se utiliza para representar texto importante.\n\n
-        <style>	Este elemento define el estilo del documento.\n\n
-        <sub>	Representa un subíndice.\n\n
-        <summary>*	Define un encabezado para el elemento <details>.\n\n
-        <sup>	Representa un superíndice.\n\n
-        <table>	Define una tabla.\n\n
-        <tbody>	Agrupa el contenido del body de una tabla.\n\n
-        <td>	Define una célda de una tabla.\n\n
-        <textarea>	Este elemento especifica una área para escribir texto.\n\n
-        <tfoot>	Agrupa el contenido del footer de una tabla.\n\n
-        <th>	Representa la celda del encabezado de una tabla.\n\n
-        <thead>	Agrupa el contenido del encabezado de una tabla.\n\n
-        <time>*	Define la fecha y hora.\n\n
-        <title>	Define el título de un documento.\n\n
-        <tr>	Define una fila dentro de una tabla.\n\n
-        <track>*	Define determinadas características para las pistas de texto de elementos
-        multimedia como; vídeos o audios.<u>	Define texto con un estilo de fuente subrayado.\n\n
-        <ul>	Define una lista no ordenada.\n\n
-        <var>	Define una variable.\n\n
-        <video>*	Define un video o película.\n\n
-        <wbr>*	Define donde un texto se puede romper para cambios de línea.\n\n
-        ]]>
-            </string>
+    <![CDATA[
+    <!DOCTYPE>]]> Define el tipo de documento.\n\n
+    <![CDATA[ <abbr> Define una abreviación.\n\n
+    <address> Define información de contacto del propietario del documento.\n\n
+    <area> Esta etiqueta define un área dentro de un mapa de imagen.\n\n
+    <article>* Define una composición independiente dentro de un documento, página, aplicación o
+    web, que puede ser distribuida independientemente o reutilizada.\n\n
+    <aside>* Define contenido secundario al contenido de la página.\n\n
+    <audio>* Se utiliza para representar contenido de audio en los documentos. Añadido en HTML5,
+    puede contener diferentes fuentes de audio, representadas utilizando el atributo "src"
+    o el elemento <source>.\n\n
+    <b> Este elemento indica que el texto englobado tiene que ser mostrado en negrita.\n\n
+    <base> Define cuál es la URL absoluta para todos aquellos enlaces que sean relativos en la página.\n\n
+    <bdi>* Aísla una parte del texto que puede tener un formato diferente del texto principal.\n\n
+    <bdo>  Este elemento es utilizado para sobre escribir la dirección del texto.\n\n
+    <blockquote> Este elemento se utiliza para designar una cita de texto larga. Normalmente, se
+    puede reconocer porque está identificado.\n\n
+    <body>  Este elemento es utilizado para definir el cuerpo del documento.\n\n
+    <br> Define un salto de  línea.\n\n
+    <canvas>* Utilizada para dibujar gráficos, mediante scripts. (normalmente JavaScript).\n\n
+    <caption> Defines el título de una tabla.\n\n
+    <cite> Especifica una cita o referencia a otro lugar.\n\n
+    <code> Indica que el texto englobado es código de programación.\n\n
+    <col>  Define una columna dentro de una tabla y se utiliza para agrupar y alinear.\n\n
+    <colgroup> Especifica un grupo de una o más columnas de una tabla para darles formato.\n\n
+    <command>* Define un botón comando al que el usuario puede llamar.\n\n
+    <datalist>*    Especifica una lista de opciones predefinidas para una caja de texto input.\n\n
+    <dd>   Define una descripción de un item en una lista de definición.\n\n
+    <del>  Define texto que ha sido eliminado de un documento.\n\n
+    <details>* Define detalles adicionales que el usuario puede ver o esconder.\n\n
+    <dfn>  Define un término de una definición.\n\n
+    <dialog>*  Define una caja de diálogo o ventana.\n\n
+    <div>  Define una sección en un documento.\n\n
+    <dl>   Define una lista de definición.\n\n
+    <dt>   Define un término (un item) dentro de una lista de definición.\n\n
+    <em>   Define énfasis en un texto.\n\n
+    <embed>*   Se utiliza para declarar un contenedor para una aplicación externa (no- HTML).\n\n
+    <fieldset> Agrupa elementos relacionados en un formulario.\n\n
+    <figcaption>*  Define un título para un elemento <figure>.\n\n
+    <figure>*  Especifica contenido independiente.\n\n
+    <footer>*  Define un footer para un documento o sección.\n\n
+    <form> Define un formulario HTML para datos del usuario.\n\n
+    <h1> -<h6> Define encabezados en HTML.\n\n
+    <head> Define información sobre el documento.\n\n
+    <header>*  Define un encabezado para un documento o sección.\n\n
+    <hgroup>   Agrupa elementos del encabezado (<h1> -<h6>).\n\n
+    <hr>   Define un cambio temático en el contenido.\n\n
+    <html> Define la raíz de un documento HTML.\n\n
+    <i>    Este elemento se usa para representar un texto con un estilo de fuente en itálica.\n\n
+    <iframe>   Define un documento HTML dentro de otro documento HTML.\n\n
+    <img>  Define una imagen.\n\n
+    <input>    Este elemento se utiliza para ingresar datos por parte del usuario.\n\n
+    <ins>  Define el texto que ha sido insertado dentro del documento.\n\n
+    <kbd>  Este elemento se utiliza para avisar al usuario que tiene que introducir datos por teclado.\n\n
+    <keygen>*  Define un campo generador de claves en formularios.\n\n
+    <label>    Define una etiqueta para un elemento <input>.\n\n
+    <legend>   Este elemento define un título para un elemento <fieldset>, <figure> o <details>.\n\n
+    <li>   Define un item de una lista.\n\n
+    <link> Este elemento define la relación entre el documento y un recurso externo (normalmente utilizado con hojas de estilo).\n\n
+    <main>*    Especifica el contenido principal del documento.\n\n
+    <map>  Define un mapa de imagen en el lado del cliente.\n\n
+    <mark>*    Define un texto resaltado en el documento.\n\n
+    <menu> Define un menú.\n\n
+    <meta> Define meta data de un documento HTML.\n\n
+    <meter>*   Define una medida escalar dentro de un rango determinado.\n\n
+    <nav>* Define links de navegación.\n\n
+    <noscript> Especifica un contenido alternativo para navegadores que no soportan scripts.\n\n
+    <object>   Define un objeto embebido-\n\n
+    <ol>   Este elemento especifica una lista ordenada.\n\n
+    <optgroup> Especifica un grupo de opciones en una lista desplegable.\n\n
+    <option>   Este elemento define una opción en una lista desplegable.\n\n
+    <output>*  Especifica el resultado de un cálculo.\n\n
+    <p>    Especifica un párrafo.\n\n
+    <param>    Este elemento especifica un parámetro para un objeto.\n\n
+    <pre>  Define un texto con formato previo.\n\n
+    <progress>*    Representa el progreso de una tarea.\n\n
+    <q>    Define una cita de texto corta(en una línea).\n\n
+    <rp>*  Define que mostrar en los navegadores que no soportan anotaciones ruby.\n\n
+    <rt>*  Este elemento define la pronunciación de caracteres (para tipografía del este asiático).\n\n
+    <ruby>*    Define una anotación ruby (para tipografía del este asiático).\n\n
+    <s>    Esta etiqueta define texto con un estilo de fuente tachado.\n\n
+    <samp> Muestra un mensaje de un programa o script.\n\n
+    <script>   Define un script dentro del documento.\n\n
+    <section>* Define una sección en un documento.\n\n
+    <select>   Muestra varias opciones al usuario y permite que elija entre ellas una o más en una lista desplegable.\n\n
+    <small>    Se utiliza para presentar un texto con un estilo de fuente pequeña.\n\n
+    <source>*  Define las fuentes para los elementos multimedia como video y audio.\n\n
+    <span> Agrupa varios elementos en línea seguidos dentro de un mismo bloque, para después
+    darles formato con la hoja de estilo.\n\n
+    <strong>   Se utiliza para representar texto importante.\n\n
+    <style>    Este elemento define el estilo del documento.\n\n
+    <sub>  Representa un subíndice.\n\n
+    <summary>* Define un encabezado para el elemento <details>.\n\n
+    <sup>  Representa un superíndice.\n\n
+    <table>    Define una tabla.\n\n
+    <tbody>    Agrupa el contenido del body de una tabla.\n\n
+    <td>   Define una celda de una tabla.\n\n
+    <textarea> Este elemento especifica una área para escribir texto.\n\n
+    <tfoot>    Agrupa el contenido del footer de una tabla.\n\n
+    <th>   Representa la celda del encabezado de una tabla.\n\n
+    <thead>    Agrupa el contenido del encabezado de una tabla.\n\n
+    <time>*    Define la fecha y hora.\n\n
+    <title>    Define el título de un documento.\n\n
+    <tr>   Define una fila dentro de una tabla.\n\n
+    <track>*   Define determinadas características para las pistas de texto de elementos
+    multimedia como; vídeos o audios.<u>   Define texto con un estilo de fuente subrayado.\n\n
+    <ul>   Define una lista no ordenada.\n\n
+    <var>  Define una variable.\n\n
+    <video>*   Define un video o película.\n\n
+    <wbr>* Define donde un texto se puede romper para cambios de línea.\n\n
+    ]]>
+        </string>
 
 
-    <string name="menu_settings">Menu</string>
+
+    <string name="menu_settings">Menú</string>
     <string name="str_next">Siguiente</string>
     <string name="correo_elec">Correro Electrónico</string>
     <string name="nombre_registro">Nombre</string>
@@ -334,7 +346,19 @@
     <string name="entra">Entrar</string>
     <string name="usuario_logeo">Usuario</string>
     <string name="contrasenia_log">Contraseña</string>
-    <string name="visita_previa"><![CDATA[HTML son las siglas de HyperText Markup Language o traducido de forma literal: Lenguaje de Marcas de HyperTexto. HTML5, como se puede deducir de su nombre, es la 5 revisión el estándar creado en 1991 por Tim Berners-Lee y que contenía originalmente 22 elementos. La versión definitiva de HTML5 se publicó en Octubre de 2014. HTML es el que permite que un navegador sepa lo que esta leyendo y como debe mostrarlo al usuario. De esta forma, los navegadores saben donde deben mostrar el texto, donde va una imagen o donde hay un enlace. Para escribir páginas web en HTML utilizarás etiquetas rodeadas por los simbolos <,> por ejemplo <head>. Estos elementos tienen dos propiedades básicas: atributos y contenido. La mayoría de elementos necesitan además, una etiqueta de cierre. Para ello, te bastará con un simple editor de texto plano como por ejemplo Gedit y guardar tus documentos con la extensión .html. De momento, no te preocupes mucho por el código, es un lenguaje muy sencillo y en próximos artículos te enseñare a dominarlo para que puedas empezar a hacer tus pinitos en este mundo. También tengo previsto un taller parecido al de wordpress donde crearemos una copia de esta web en HTML y partiendo desde cero.]]></string>
+    <string name="visita_previa"><![CDATA[HTML son las siglas de HyperText Markup Language o traducido de forma literal:
+     Lenguaje de Marcas de HyperTexto. HTML5, como se puede deducir de su nombre, es la 5 revisión el estándar creado en
+     1991 por Tim Berners-Lee y que contenía originalmente 22 elementos. La versión definitiva de HTML5 se publicó en
+     Octubre de 2014. HTML es el que permite que un navegador sepa lo que está leyendo y como debe mostrarlo al usuario.
+     De esta forma, los navegadores saben dónde deben mostrar el texto, donde va una imagen o donde hay un enlace.
+     Para escribir páginas web en HTML utilizarás etiquetas rodeadas por los símbolos <,> por ejemplo <head>.
+     Estos elementos tienen dos propiedades básicas: atributos y contenido. La mayoría de elementos necesitan además,
+     una etiqueta de cierre. Para ello, te bastará con un simple editor de texto plano como por ejemplo Gedit y
+     guardar tus documentos con la extensión html. De momento, no te preocupes mucho por el código, es un lenguaje
+     muy sencillo y en próximos artículos te enseñare a dominarlo para que puedas empezar a hacer tus pinitos en
+     este mundo. También tengo previsto un taller parecido al de wordpress donde crearemos una copia de esta web
+     en HTML y partiendo desde cero.]]></string>
+
     <string name="acerca_de">Créditos:</string>
     <string name="title_activity_settings">Settings</string>
 
@@ -344,9 +368,7 @@
     <string name="pref_header_general">General</string>
 
     <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
 
     <string name="pref_title_display_name">Display name</string>
     <string name="pref_default_display_name">John Smith</string>
@@ -402,7 +424,7 @@
      siempre ofreció diferentes formas de construir y organizar la información dentro del cuerpo de un documento.
       Uno de los primeros elementos provistos para este propósito fue <table>. Las tablas permitían a los
       diseñadores acomodar datos, texto, imágenes y herramientas dentro de filas y columnas de celdas, incluso
-      sin que hayan sido concebidas para este proposito.]]></string>
+      sin que hayan sido concebidas para este propósito.]]></string>
     <string name="estructuraUno"><![CDATA[El elemento <div> comenzó a dominar la escena. Con el surgimiento
     de webs más interactivas y la integración de HTML, CSS y Javascript, el uso de <div> se volvió una práctica
     común. Pero este elemento, así como <table>, no provee demasiada información acerca de las parte del cuerpo
@@ -415,8 +437,8 @@
     <string name="estructura4">En la parte superior, descripto como Cabecera, se encuentra el espacio donde
         usualmente se ubica el logo, título, subtítulos y una corta descripción del sitio web o la página.\n\n
         Debajo de la cabecera, podemos ver la Barra de Navegación, en la que casi cualquier desarrollador
-        ofrece un menu o lista de links para poder navegar por el sitio web.\n\n
-        La sección de Información Principal,podría tener por ejemplo, una lista de artículos, descripciones
+        ofrece un menú o lista de links para poder navegar por el sitio web.\n\n
+        La sección de Información Principal, podría tener por ejemplo, una lista de artículos, descripciones
         de productos, entradas de blog y cualquier otra información importante.\n\n
         La Barra Lateral podría tener por ejemplo, una lista de links apuntando a cada uno de estos items.\n\n
         Abajo del todo, tenemos una barra llamada Barra Institucional. Se llama así porque

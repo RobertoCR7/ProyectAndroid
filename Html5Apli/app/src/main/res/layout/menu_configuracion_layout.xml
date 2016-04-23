@@ -16,18 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10pt"
         >
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/idioma_ingles"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/idioma_español"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/idioma_aleman"/>
+      
     </RadioGroup>
     <TextView
         android:layout_width="wrap_content"
@@ -41,18 +30,6 @@
         android:textColor="@color/letraSubtitulo"
         android:layout_margin="10pt"
         >
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/color_blanco"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/color_negro"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/color_rojo"/>
     </RadioGroup>
     <TextView
         android:layout_width="wrap_content"
